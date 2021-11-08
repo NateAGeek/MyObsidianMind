@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "a6531c51e797efbd",
+    "id": "a03c6888eaaf2322",
     "type": "split",
     "children": [
       {
-        "id": "c70399fe448b2acf",
+        "id": "1c9778266b161c36",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Biology/Book Studies/Molecular Cell Biology - W.H. Freeman/Book Overview.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -54,6 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
+            "file": "Biology/Book Studies/Molecular Cell Biology - W.H. Freeman/Book Overview.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -67,6 +71,14 @@
     ],
     "currentTab": 0
   },
-  "active": "c70399fe448b2acf",
-  "lastOpenFiles": []
+  "active": "1c9778266b161c36",
+  "lastOpenFiles": [
+    "Biology/Book Studies/Molecular Cell Biology - W.H. Freeman/Book Overview.md",
+    "Biology/Biology Overview.md",
+    "Untitled.md",
+    "Home.md",
+    "Biology/Untitled.md",
+    "Biology/Biology.md",
+    "Biology.md"
+  ]
 }
