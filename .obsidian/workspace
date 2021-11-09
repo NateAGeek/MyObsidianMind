@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Biology/Book Studies/Molecular Cell Biology - W.H. Freeman/Book Overview.md",
+            "file": "Biology/Molecular Biology/Prokaryotic/Untitled.md",
             "mode": "source"
           }
         }
@@ -57,7 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Biology/Book Studies/Molecular Cell Biology - W.H. Freeman/Book Overview.md",
+            "file": "Biology/Molecular Biology/Prokaryotic/Untitled.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -73,12 +73,15 @@
   },
   "active": "1c9778266b161c36",
   "lastOpenFiles": [
+    "Biology/Molecular Biology/Prokaryotic/Untitled.md",
+    "Biology/Molecular Biology/Eukaryotic/Untitled.md",
+    "Biology/Molecular Biology/Archaea/Untitled.md",
+    "Biology/Molecular Biology/Untitled.md",
+    "Biology/Atomic Theory/Untitled.md",
     "Biology/Book Studies/Molecular Cell Biology - W.H. Freeman/Book Overview.md",
     "Biology/Biology Overview.md",
-    "Untitled.md",
     "Home.md",
     "Biology/Untitled.md",
-    "Biology/Biology.md",
-    "Biology.md"
+    "Biology/Biology.md"
   ]
 }
