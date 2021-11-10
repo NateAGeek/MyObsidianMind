@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Biology/Biology Overview.md",
+            "file": "Biology/Molecular Biology/Eukaryotic/Untitled.md",
             "mode": "source"
           }
         }
@@ -18,83 +18,70 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7d5dbd7ae8658aa6",
-    "type": "split",
+    "id": "c577a20ae1ffd791",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "0da5a9175dbf1a79",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "5d49401c3040b9fe",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "6e9a4267bc8623aa",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "22a38b5ef4efc169",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "ff52b4afbd8fc52e",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "254c688d1f4a648b",
-    "type": "split",
+    "id": "362aae888ec605df",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "d3e8fa28612e668f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a2fe4355b4dec4bd",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Biology/Biology Overview.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
+        "id": "7092527eb042408e",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Biology/Molecular Biology/Eukaryotic/Untitled.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "1c9778266b161c36",
   "lastOpenFiles": [
-    "Biology/Biology Overview.md",
+    "Biology/Molecular Biology/Eukaryotic/Untitled.md",
+    "Biology/Molecular Biology/Untitled.md",
     "Biology/Book Studies/Molecular Cell Biology - W.H. Freeman/Book Overview.md",
     "Biology/Molecular Biology/Prokaryotic/Untitled.md",
-    "Untitled.md",
+    "Biology/Molecular Biology/Archaea/Untitled.md",
+    "Biology/Atomic Theory/Untitled.md",
+    "Biology/Biology Overview.md",
     "Home.md",
     "Biology/Untitled.md",
-    "Biology/Biology.md",
-    "Biology.md"
+    "Biology/Biology.md"
   ]
 }
