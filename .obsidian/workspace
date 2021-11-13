@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Biology/Molecular Biology/Eukaryotic/Untitled.md",
+            "file": "Mathematics/Derivatives.md",
             "mode": "source"
           }
         }
@@ -57,7 +57,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Biology/Molecular Biology/Eukaryotic/Untitled.md",
+            "file": "Mathematics/Derivatives.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -73,6 +73,8 @@
   },
   "active": "1c9778266b161c36",
   "lastOpenFiles": [
+    "Mathematics/Derivatives.md",
+    "Physics/Physics Overview.md",
     "Biology/Molecular Biology/Eukaryotic/Untitled.md",
     "Biology/Molecular Biology/Untitled.md",
     "Biology/Book Studies/Molecular Cell Biology - W.H. Freeman/Book Overview.md",
@@ -80,8 +82,6 @@
     "Biology/Molecular Biology/Archaea/Untitled.md",
     "Biology/Atomic Theory/Untitled.md",
     "Biology/Biology Overview.md",
-    "Home.md",
-    "Biology/Untitled.md",
-    "Biology/Biology.md"
+    "Home.md"
   ]
 }
