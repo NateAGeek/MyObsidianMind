@@ -1,4 +1,7 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Biology"
+  "attachmentFolderPath": "Biology",
+  "spellcheck": true,
+  "useTab": false,
+  "vimMode": false
 }

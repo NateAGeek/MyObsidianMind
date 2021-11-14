@@ -1,0 +1,41 @@
+{
+  "highlighterStyle": "realistic",
+  "highlighters": [
+    {
+      "color": "Pink",
+      "value": "#FFB8EBA6"
+    },
+    {
+      "color": "Red",
+      "value": "#FF5582A6"
+    },
+    {
+      "color": "Orange",
+      "value": "#FFB86CA6"
+    },
+    {
+      "color": "Yellow",
+      "value": "#FFF3A3A6"
+    },
+    {
+      "color": "Green",
+      "value": "#BBFABBA6"
+    },
+    {
+      "color": "Cyan",
+      "value": "#ABF7F7A6"
+    },
+    {
+      "color": "Blue",
+      "value": "#ADCCFFA6"
+    },
+    {
+      "color": "Purple",
+      "value": "#D2B3FFA6"
+    },
+    {
+      "color": "Grey",
+      "value": "#CACFD9A6"
+    }
+  ]
+}

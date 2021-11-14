@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1c9778266b161c36",
+        "id": "21e7634d5a3331b8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Mathematics/Derivatives.md",
+            "file": "Biology/Eukaryotic.md",
             "mode": "source"
           }
         }
@@ -18,70 +18,135 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c577a20ae1ffd791",
-    "type": "mobile-drawer",
+    "id": "7d5dbd7ae8658aa6",
+    "type": "split",
     "children": [
       {
-        "id": "22a38b5ef4efc169",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
+        "id": "0953b0e3525c2eed",
+        "type": "tabs",
+        "dimension": 33.75241779497099,
+        "children": [
+          {
+            "id": "78c3d5fa753300bc",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Biology/Eukaryotic.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3003280743387919,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
       },
       {
-        "id": "ff52b4afbd8fc52e",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "0da5a9175dbf1a79",
+        "type": "tabs",
+        "dimension": 66.247582205029,
+        "children": [
+          {
+            "id": "5d49401c3040b9fe",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6e9a4267bc8623aa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 386
   },
   "right": {
-    "id": "362aae888ec605df",
-    "type": "mobile-drawer",
+    "id": "254c688d1f4a648b",
+    "type": "split",
     "children": [
       {
-        "id": "7092527eb042408e",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Mathematics/Derivatives.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "d3e8fa28612e668f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2fe4355b4dec4bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Biology/Eukaryotic.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "d538b84545a6f9dd",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
-  "active": "1c9778266b161c36",
+  "active": "21e7634d5a3331b8",
   "lastOpenFiles": [
-    "Mathematics/Derivatives.md",
-    "Physics/Physics Overview.md",
-    "Biology/Molecular Biology/Eukaryotic/Untitled.md",
+    "Biology/Eukaryotic.md",
+    "Biology/000 Books and Resources/Molecular Cell Biology - W.H. Freeman/001 Molecules, Cells, and Model Organisms.md",
+    "Biology/Proteins.md",
+    "Biology/Nucleic Acids.md",
+    "Biology/DNA (Deoxyribonucleic Acid).md",
+    "Biology/000 Books and Resources/Molecular Cell Biology - W.H. Freeman/000 Book Overview.md",
+    "Biology/000 Books and Resources/Principles of Neural Science - Eric Kendal/000 Book Overview.md",
+    "Biology/Prokaryotic.md",
     "Biology/Molecular Biology/Untitled.md",
-    "Biology/Book Studies/Molecular Cell Biology - W.H. Freeman/Book Overview.md",
-    "Biology/Molecular Biology/Prokaryotic/Untitled.md",
-    "Biology/Molecular Biology/Archaea/Untitled.md",
-    "Biology/Atomic Theory/Untitled.md",
-    "Biology/Biology Overview.md",
-    "Home.md"
+    "Biology/Archaea.md"
   ]
 }
