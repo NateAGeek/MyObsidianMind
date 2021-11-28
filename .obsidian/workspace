@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "21e7634d5a3331b8",
+        "id": "073ee6e748674c20",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Biology/Eukaryotic.md",
+            "file": "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
             "mode": "source"
           }
         }
@@ -32,7 +32,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Biology/Eukaryotic.md",
+                "file": "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Biology/Eukaryotic.md",
+                "file": "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,19 +134,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "21e7634d5a3331b8",
+  "active": "073ee6e748674c20",
   "lastOpenFiles": [
-    "Biology/Eukaryotic.md",
-    "Biology/000 Books and Resources/Molecular Cell Biology - W.H. Freeman/001 Molecules, Cells, and Model Organisms.md",
-    "Biology/Proteins.md",
-    "Biology/Nucleic Acids.md",
-    "Biology/DNA (Deoxyribonucleic Acid).md",
-    "Biology/000 Books and Resources/Molecular Cell Biology - W.H. Freeman/000 Book Overview.md",
-    "Biology/000 Books and Resources/Principles of Neural Science - Eric Kendal/000 Book Overview.md",
-    "Biology/Prokaryotic.md",
-    "Biology/Molecular Biology/Untitled.md",
-    "Biology/Archaea.md"
+    "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
+    "Biology/Adenosine Diphosphate (ADP).md",
+    "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/Molecular Cell Biology Book.md",
+    "Biology/Adenosine Triphosphate (ATP).md",
+    "Biology/Biology Overview.md",
+    "Biology/Nucleolus.md",
+    "Biology/Endoplasmic Reticulam.md",
+    "mRNA (Messager Ribonucleic Acid).md",
+    "Nucleotides.md",
+    "Autophagy.md"
   ]
 }
