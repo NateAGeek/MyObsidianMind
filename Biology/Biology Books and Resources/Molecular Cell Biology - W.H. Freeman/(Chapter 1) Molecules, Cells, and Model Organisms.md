@@ -41,7 +41,7 @@ Heredity: is the process of transferring genetically determined charactureistics
 
 [[Ribozymes]]: are [[RNA (Ribonucleic Acid)]] enzymes that catalyze chemical reactions.
 
-<span style="color: #BBFABB; font-weight: bold;">Transcription Factors</span>: are sequences of [[DNA (Deoxyribonucleic Acid)]] that activate proteins to translate or covert the sequences into [[RNA (Ribonucleic Acid)]].
+[[Transcription Factors]]: are sequences of [[DNA (Deoxyribonucleic Acid)]] that activate proteins to translate or covert the sequences into [[RNA (Ribonucleic Acid)]].
 
 [[Cytosol]]: fluid that contains [[Organelles]] within the [[Cytoplasm]].s
 
