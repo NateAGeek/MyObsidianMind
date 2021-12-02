@@ -37,12 +37,22 @@
 - 1728, virus word was created 
 - early scientists discovered that they could filter them out, and that they can only effect hosts
 - 1939 until we found out viruses are not liquids but rather particles. This was due to Electricron microscope 
-- 
+- eclipse period: does not see any replication of virus until it bam explodes and generates virus
+- hierarchical classification of viruses
+    - Kingdome
+    - Phylum
+    - Class
+    - Order (virales)
+    - Family (viridea)
+    - Genus (virus)
+    - Species 
+
 
 
 Useful References to Review:
 doi:10.1038/nrg1674
 https://OurWorldInData.org/causes-of-death
+Ictvonline.org
 
 Tags
-#BulletNotes #Biology 
+#BulletNotes #Biology #NeedsLinks
