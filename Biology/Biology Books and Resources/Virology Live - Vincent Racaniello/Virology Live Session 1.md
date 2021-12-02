@@ -26,11 +26,23 @@
 - Mimivirus: Really big viruses
 - Pandoravirus: Are very laurge DNA based viruses
 - Pithovirus: is the biggest virus
-- Viruses are not like binary fission, they simply
-  
-
+- Viruses are not like binary fission, they simply massively divide after full on replication(usually exploding or killing the infected cell)
+- Good question? Did viruses come before cells? They probably were there before
+- Viruses are millions, possibly billions, of years old
+- Viruses might have originated in mureins life
+- varialation, originated in China to vaccinate people. China would take puss from a old victim and give other people to develop immunity. 
+- Leeuwenhoek made first microscope 
+- Pasteur started to apply them
+- Koch came up with the idea that microorganisms can get people sick
+- 1728, virus word was created 
+- early scientists discovered that they could filter them out, and that they can only effect hosts
+- 1939 until we found out viruses are not liquids but rather particles. This was due to Electricron microscope 
+- 
 
 
 Useful References to Review:
 doi:10.1038/nrg1674
 https://OurWorldInData.org/causes-of-death
+
+Tags
+#BulletNotes #Biology 
