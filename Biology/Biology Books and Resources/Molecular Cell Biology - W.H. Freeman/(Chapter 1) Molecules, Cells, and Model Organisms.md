@@ -59,9 +59,9 @@ Heredity: is the process of transferring genetically determined charactureistics
 
 [[Heterochromatin]]: are dense concatenation of [[DNA (Deoxyribonucleic Acid)]] that can not be transcribed into [[RNA (Ribonucleic Acid)]].
 
-[[Endoplasmic Reticulum]]: Are closed flatten membranes that helps in the synthesis of [[Lipids]], secreted proteins, and other membrane proteins. ^65dc25
+[[Endoplasmic Reticulum]]: Are closed flatten [[Membrane|membranes]] that helps in the synthesis of [[Lipids]], secreted proteins, and other membrane proteins. ^65dc25
 
-<span style="color: #BBFABB; font-weight: bold;">Cisternae</span>: are flatten membrane sacs within the [[Endoplasmic Reticulam]].
+<span style="color: #BBFABB; font-weight: bold;">Cisternae</span>: are flatten [[Membrane|membrane]] sacs within the [[Endoplasmic Reticulam]].
 
 [[Smooth Endoplasmic Reticulum]]: is smooth due to the lack of [[Ribosome|Ribosomes]]. It is typical site where lipids and phosphates is synthesis.
 
