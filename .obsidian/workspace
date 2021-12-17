@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 1.md",
-            "mode": "preview"
+            "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
+            "mode": "source"
           }
         }
       }
@@ -32,7 +32,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 1.md",
+                "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356
+    "width": 320
   },
   "right": {
     "id": "254c688d1f4a648b",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 1.md",
+                "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,15 +139,15 @@
   },
   "active": "b080a7f0bbf77f27",
   "lastOpenFiles": [
+    "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
+    "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
     "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 1.md",
     "Biology/_Assets/Overview of Affected Human DNA with Virus DNA.png",
-    "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
     "Endosome.md",
     "Golgi Complex.md",
     "Rough Endoplasmic Reticulum.md",
     "Endoplasmic Reticulum.md",
     "Smooth Endoplasmic Reticulum.md",
-    "Lysosome.md",
-    "Heterochromatin.md"
+    "Lysosome.md"
   ]
 }
