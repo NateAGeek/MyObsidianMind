@@ -12,4 +12,9 @@
 - continuous cell lines: basically immortal cells and are cancerous 
 - Incubation happens at 37C and there is about 5% cubic carbon dioxide in the air for buffers
 - Buffers are usually used to control deposits from cells to keep the alive. For example cells will deposit citric acid to maintain homeostasis. If a petre dish would to accumulate all the citric acid then the cell culture would die due to high acidity. Buffers prevent the high acidity and save the cells
+- You can use Plaques to isolate Virus, by pipeppetig a viral region in a plaque(you can purify it by doing it multiple times)
+- Some viruses can't be form on plaques, endpoint dilution assay
+- Dilution assay is a series of virus piped into growing array of dilluted viruses. You then find the row with most diliuted to 50% and get the TCID score
+- Particle/PFU is the ratio used to determine how infectious a virus is to their particles produced. Some are very infectious and others are not. Many particles are broken and mutated and damaged. Can very per cell type and animal
+- Look at Plauqe assay on his yt channel
 - 
