@@ -10,7 +10,8 @@
           "type": "markdown",
           "state": {
             "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
-            "mode": "preview"
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -56,7 +57,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 0.22688170504197702,
-                  "close": true
+                  "close": false
                 }
               }
             }

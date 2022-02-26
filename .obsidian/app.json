@@ -3,5 +3,7 @@
   "attachmentFolderPath": "Biology/_Assets",
   "spellcheck": true,
   "useTab": false,
-  "vimMode": false
+  "vimMode": false,
+  "legacyEditor": false,
+  "livePreview": true
 }
