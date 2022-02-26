@@ -1,7 +1,6 @@
 # Content
 
 ## Bullet Notes
-
 - The infection Cycle
   - Everything that happens from the virus going into the cell and exploding out
 - susceptible cell is when the cell has a receptor for the virus to bind and insert itself into the cell
@@ -37,7 +36,14 @@
 - Dilution assay is a series of virus piped into growing array of dilluted viruses. You then find the row with most diliuted to 50% and get the TCID score
 - Particle/PFU is the ratio used to determine how infectious a virus is to their particles produced. Some are very infectious and others are not. Many particles are broken and mutated and damaged. Can very per cell type and animal
 - Look at Plauqe assay on his yt channel
+- moi is a way to determine different so many ways an assay gets a virus
+- hemagglutination: is the measure of virus that is on a blood cells. They will over stick and create a sheet. Know as HH Titar 
+- Assay for Enzyme in cells
+- Antibody base assay. ELISA is a antibody with indicator to detect antibodies of viral enzymes
+- ELISA is used for lateral flow essay. Antibodies pick up viral target by antibody and then those will be captured the the antibody on the positive line.
+- genome sequencing 
+- Phylogenetic Trees is a method that compares sequences and then creates a tree that determines what is most similar to others
+- Polymerase Chain Reaction: denature the dna, and then put in dna primers on them and grow them again to detect the dna
 
-### Referance
-
+### Reference
 dio: 10.1038/s41586
