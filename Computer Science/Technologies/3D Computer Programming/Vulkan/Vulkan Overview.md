@@ -1,0 +1,1 @@
+Vulkan is a highly customizable implementation of interfacing with the GPU directly via code. It provides more flexibility than OpenGL or DirectX due to the ability to program and setup buffers more directly. It is really not a "3D" library like OpenGL or DirectX rather it is more of a general library for interacting with the GPU. 
