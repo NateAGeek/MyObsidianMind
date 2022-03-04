@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
-            "mode": "preview",
+            "file": "Computer Science/Technologies/Technologies.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -33,7 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
+                "file": "Computer Science/Technologies/Technologies.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
+                "file": "Computer Science/Technologies/Technologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +140,7 @@
   },
   "active": "0c3f2ce19de8494b",
   "lastOpenFiles": [
+    "Computer Science/Technologies/Technologies.md",
     "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
     "conflict-files-obsidian-git.md",
     "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
@@ -148,7 +149,6 @@
     "Endosome.md",
     "Golgi Complex.md",
     "Rough Endoplasmic Reticulum.md",
-    "Endoplasmic Reticulum.md",
-    "Smooth Endoplasmic Reticulum.md"
+    "Endoplasmic Reticulum.md"
   ]
 }
