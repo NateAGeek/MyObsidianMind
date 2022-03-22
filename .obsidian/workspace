@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Computer Science/Languages/Rust/STD.md",
+            "file": "Computer Science/Languages/Rust/std.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Languages/Rust/STD.md",
+                "file": "Computer Science/Languages/Rust/std.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Languages/Rust/STD.md",
+                "file": "Computer Science/Languages/Rust/std.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
   },
   "active": "0c3f2ce19de8494b",
   "lastOpenFiles": [
-    "Computer Science/Languages/Rust/STD.md",
+    "Computer Science/Languages/Rust/std.md",
     "Computer Science/Languages/Rust/Overview.md",
     "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
     "conflict-files-obsidian-git.md",
