@@ -1,0 +1,2 @@
+# Overview
+Are a series of [Framebuffers], that usually exist in graphics memory, that are swapped around to display on the screen. The Swapchain defines a few framebuffers that the pipeline will feed into and then those subsequent framebuffers, usually color, channels will be drawn to the screen.
