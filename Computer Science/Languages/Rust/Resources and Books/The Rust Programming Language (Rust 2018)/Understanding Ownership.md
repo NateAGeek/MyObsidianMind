@@ -3,6 +3,8 @@ Rust has a different style of memory management than C or C++. C tends to allow 
 
 Rust primary approach is to allow the user to define their variables and keep track of their ownership and scope. The ownership and scope of the variable allows the for the rust compiler to correctly determine when to allocate and deallocate variables when the scope or ownership is no longer in use. 
 
+## Scope
+
 Scope is fairly straight forward and is comparable to other languages. Variables are scoped to blocks and blocks are defined with `{}`. 
 ```rust
 {
@@ -17,3 +19,4 @@ Scope is fairly straight forward and is comparable to other languages. Variables
 }
 ```
 
+# Owner
