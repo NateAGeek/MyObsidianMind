@@ -1,0 +1,1 @@
+Basically defines how threads over a large series of data will be cap only to the performance of the algo at some point... cool thing... curious how it works at quantum complexity 

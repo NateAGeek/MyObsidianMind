@@ -3,6 +3,8 @@ Rust has a different style of memory management than C or C++. C tends to allow 
 
 Rust primary approach is to allow the user to define their variables and keep track of their ownership and scope. The ownership and scope of the variable allows the for the rust compiler to correctly determine when to allocate and deallocate variables when the scope or ownership is no longer in use. 
 
+When it comes to allocation of data, Rust follows a practice of trying to store data on the stack. However, when data is required to be stored on the heap(usually due to dynamically needing allocation) then a pointer(address to value on heap) is stored rather than raw value on stack.
+
 ## Scope
 
 Scope is fairly straight forward and is comparable to other languages. Variables are scoped to blocks and blocks are defined with `{}`. 
@@ -20,3 +22,4 @@ Scope is fairly straight forward and is comparable to other languages. Variables
 ```
 
 # Owner
+Ownership is a concept that is fundamental to Rust and understanding how values are passed.
