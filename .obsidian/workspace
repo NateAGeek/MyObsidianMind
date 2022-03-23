@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
-            "mode": "source"
+            "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 3.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -18,136 +19,70 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7d5dbd7ae8658aa6",
-    "type": "split",
+    "id": "9511bd9bf5b72df9",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "0953b0e3525c2eed",
-        "type": "tabs",
-        "dimension": 33.75241779497099,
-        "children": [
-          {
-            "id": "78c3d5fa753300bc",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.22688170504197702,
-                  "close": true
-                }
-              }
-            }
-          }
-        ]
+        "id": "aa0bad797fa15d61",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
       },
       {
-        "id": "0da5a9175dbf1a79",
-        "type": "tabs",
-        "dimension": 66.247582205029,
-        "children": [
-          {
-            "id": "5d49401c3040b9fe",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "6e9a4267bc8623aa",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "3ddcebd675eb4800",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 320
+    "currentTab": 0
   },
   "right": {
-    "id": "254c688d1f4a648b",
-    "type": "split",
+    "id": "71a8a61ef99246e0",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "d3e8fa28612e668f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "a2fe4355b4dec4bd",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "d538b84545a6f9dd",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
+        "id": "9a9db1f2aecfcdf0",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 3.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "0c3f2ce19de8494b",
   "lastOpenFiles": [
+    "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 3.md",
     "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
+    "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 1.md",
+    "Biology/Fibroblasts.md",
     "conflict-files-obsidian-git.md",
     "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
-    "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 1.md",
     "Biology/_Assets/Overview of Affected Human DNA with Virus DNA.png",
     "Endosome.md",
     "Golgi Complex.md",
-    "Rough Endoplasmic Reticulum.md",
-    "Endoplasmic Reticulum.md",
-    "Smooth Endoplasmic Reticulum.md"
+    "Rough Endoplasmic Reticulum.md"
   ]
 }

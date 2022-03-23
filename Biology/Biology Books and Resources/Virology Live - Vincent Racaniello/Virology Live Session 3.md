@@ -1,0 +1,31 @@
+## Bullet Notes
+- Radio active nucldic  acids can allow you to tag DNA of viruses
+- DNA typically contains the genetic info for all the encoding of the virus proteins
+- There are seven kinds of viral genome classifications 
+    - all need to make mRNA that can be transcribed by host ribosomes
+    - The Baltimore Scheme - not a taxagenome, meaning it does not have a direct lineiage of vitals classification 
+    - Type One: Double stranded DNA
+    - Type Two: Single stranded DNA
+    - Type Three: double stranded RNA
+    - Type four: +RNA that goes into a -RNA intermediate 
+    - Type Five: -RNA
+    - Type Six: +RNA that gets transcripts to -DNA via reverse transcriptase 
+    - Type Seven: Double Strand DNA
+    - All these processes should be converted into mRNA
+    - + complements a - strand of DNA or RNA
+    - Not all + RNA is ribosome ready
+    - Titles (Look back at this as it needs more details...)
+        - dsDNA
+        - Grappled dsDNA
+        - ssDNA
+        - dsRNA
+        - ss (+) RNA
+        - ss (-) RNA
+        - ss (+) RNA with DNA intermediate 
+- Viral genome are structured diverse 
+    - Circular 
+    - Linear
+    - Gapped
+    - Single
+    - Ambisense 
+- 
