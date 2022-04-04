@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 3.md",
+            "file": "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 438
   },
   "right": {
     "id": "36edca8a983dfec5",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 3.md",
+                "file": "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "0c3f2ce19de8494b",
   "lastOpenFiles": [
+    "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
     "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 3.md",
     "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
     "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 1.md",
@@ -97,7 +98,6 @@
     "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
     "Biology/_Assets/Overview of Affected Human DNA with Virus DNA.png",
     "Endosome.md",
-    "Golgi Complex.md",
-    "Rough Endoplasmic Reticulum.md"
+    "Golgi Complex.md"
   ]
 }
