@@ -19,58 +19,73 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9511bd9bf5b72df9",
-    "type": "mobile-drawer",
+    "id": "a528b64e06df6e3e",
+    "type": "split",
     "children": [
       {
-        "id": "aa0bad797fa15d61",
-        "type": "leaf",
-        "state": {
-          "type": "file-explorer",
-          "state": {}
-        }
-      },
-      {
-        "id": "3ddcebd675eb4800",
-        "type": "leaf",
-        "state": {
-          "type": "search",
-          "state": {
-            "query": "",
-            "matchingCase": false,
-            "explainSearch": false,
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical"
+        "id": "27d015b7fe31d878",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d53cc05aa55488b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "856a2d9e74ec9664",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300
   },
   "right": {
-    "id": "71a8a61ef99246e0",
-    "type": "mobile-drawer",
+    "id": "36edca8a983dfec5",
+    "type": "split",
     "children": [
       {
-        "id": "9a9db1f2aecfcdf0",
-        "type": "leaf",
-        "state": {
-          "type": "backlink",
-          "state": {
-            "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 3.md",
-            "collapseAll": false,
-            "extraContext": false,
-            "sortOrder": "alphabetical",
-            "showSearch": false,
-            "searchQuery": "",
-            "backlinkCollapsed": false,
-            "unlinkedCollapsed": true
+        "id": "3f2ef9678805c69d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e4d818c0ad71bfd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        }
+        ]
       }
     ],
-    "currentTab": 0
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
   },
   "active": "0c3f2ce19de8494b",
   "lastOpenFiles": [
