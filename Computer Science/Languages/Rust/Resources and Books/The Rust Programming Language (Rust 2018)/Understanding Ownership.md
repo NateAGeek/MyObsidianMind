@@ -23,4 +23,51 @@ Ownership is a concept that is fundamental to Rust and understanding how values 
 
 !examples
 
-# Copy
+# Clone & Copy
+In context of Ownership the Clone and Copy are important structure implementations built into the [Rust std]. Deriving these implementations onto a structure allows the implementer to state how data should be copy or cloned.
+
+Copying data is a implicit bit wise operation, that direct bit copy of the underlying structure. Also note that if Copy is derived, then Clone must also due to Clone being a supertrait to Copy.
+```rust
+#[derive(Debug, Copy, Clone)] //Need to have clone too, since Clone is a supertrait of Copy
+struct Foo {
+  cat: i32
+}
+
+{
+  let x = Foo {
+    cat: 42
+  };
+  let y = x; // Makes a copy of x into y, and both referances are valid, nothing is "barrowed" rather a copy is done.
+
+  println!("x = {:?};", x); // Both will have cat property set to 42
+  println!("y = {:?};", y);
+}
+```
+
+Clone allows for better specification, explicit, control on how data should be copied from structure. Allows for altering or preprocessing of the data before a new instance of the struct is created.
+```rust
+#[derive(Debug, Copy)] //Need to have clone too, since Clone is a supertrait of Copy
+struct Foo {
+  cat: i32
+}
+
+impl Clone for Foo {
+  fn clone(&self) -> Self {
+    Foo {
+      cat: self.cat * 2 + 4
+    }
+  }
+}
+
+{
+  let x = Foo {
+    cat: 42
+  };
+  let y = x; // Makes a copy of x into y, and both referances are 
+  let z = y.clone();
+    
+  println!("x = {:?};", x); // Both will have cat property set to 42
+  println!("y = {:?};", y);
+  println!("z = {:?};", z); // This will have {cat: 88} since the clone altered it
+}
+```
