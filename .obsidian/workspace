@@ -7,8 +7,12 @@
         "id": "eefc8c3ed1977c89",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -29,6 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -107,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,6 +141,7 @@
   "active": "eefc8c3ed1977c89",
   "lastOpenFiles": [
     "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
+    "Computer Science/Languages/Rust/Overview.md",
     "Computer Science/Technologies/3D Computer Programming/Swapchain.md",
     "Computer Science/Technologies/3D Computer Programming/Vulkan/Untitled.md",
     "Computer Science/Technologies/3D Computer Programming/Vulkan/Vulkan Instance.md",
@@ -142,7 +149,6 @@
     "Computer Science/Technologies/3D Computer Programming/Vulkan/Vulkan Overview.md",
     "Computer Science/Technologies/Technologies.md",
     "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
-    "conflict-files-obsidian-git.md",
-    "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
