@@ -1,7 +1,7 @@
 # Overview
 Rust has a different style of memory management than C or C++. C tends to allow you to allocate memory via malloc and free, allowing the user to define when memory is allocated and deallocated. C++ tends to use smart allocation that is garbage collected when available.
 Rust primary approach is to allow the user to define their variables and keep track of their ownership and scope. The ownership and scope of the variable allows the for the rust compiler to correctly determine when to allocate and deallocate variables when the scope or ownership is no longer in use. 
-When it comes to allocation of data, Rust follows a practice of trying to store data on the stack. However, when data is required to be stored on the heap(usually due to dynamically needing allocation) then a pointer(address to value on heap) is stored rather than raw value on stack.
+When it comes to allocation of data, Rust follows a practice of trying to store data on the stack. However, when data is required to be stored on the heap(usually due to dynamically needing allocation) than a pointer(address to value on heap) is stored rather than raw value on stack.
 
 ## Scope
 Scope is fairly straight forward and is comparable to other languages. Variables are scoped to blocks and blocks are defined with `{}`. 
@@ -17,8 +17,7 @@ Scope is fairly straight forward and is comparable to other languages. Variables
  // both rust_variable/_two are now not being used, they are dropped by the rust compiler
 }
 ```
-# Owner
-
+# Ownership
 Ownership is a concept that is fundamental to Rust and understanding how values from the heap are passed and handled. Values have an ownership, and that ownership changes if there is a reference exchange between variables or functions. When there is a change of ownership the original owner becomes invalid and loses refer ability to the heap value. The new owner then has control of the heap value and its reference. When the ownership of the heap value is not longer needed, out of scope, the value is dropped.
 
 !examples
