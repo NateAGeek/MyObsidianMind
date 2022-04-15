@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0c3f2ce19de8494b",
+        "id": "eefc8c3ed1977c89",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -33,7 +29,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +132,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0c3f2ce19de8494b",
+  "active": "eefc8c3ed1977c89",
   "lastOpenFiles": [
     "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
     "Computer Science/Technologies/3D Computer Programming/Swapchain.md",
