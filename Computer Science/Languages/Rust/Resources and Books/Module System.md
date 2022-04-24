@@ -1,0 +1,1 @@
+Modules are not explicitly stated or created by the Rust compiler. You need to define them using the `mod` keyword, mods allow the definition of namespaces or ability to import from other files.  This `mod`  keyword will allows the ability to define the module tree to form.

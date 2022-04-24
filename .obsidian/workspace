@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
+            "file": "Computer Science/Languages/Rust/Resources and Books/Module System.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
+                "file": "Computer Science/Languages/Rust/Resources and Books/Module System.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
+                "file": "Computer Science/Languages/Rust/Resources and Books/Module System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +140,7 @@
   },
   "active": "eefc8c3ed1977c89",
   "lastOpenFiles": [
+    "Computer Science/Languages/Rust/Resources and Books/Module System.md",
     "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
     "Computer Science/Languages/Rust/Overview.md",
     "Computer Science/Languages/Rust/STD.md",
@@ -148,7 +149,6 @@
     "Computer Science/Technologies/3D Computer Programming/Vulkan/Vulkan Instance.md",
     "Computer Science/Technologies/3D Computer Programming/Vulkan/Vulkan Queue.md",
     "Computer Science/Technologies/3D Computer Programming/Vulkan/Vulkan Overview.md",
-    "Computer Science/Technologies/Technologies.md",
-    "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md"
+    "Computer Science/Technologies/Technologies.md"
   ]
 }
