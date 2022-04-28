@@ -5,5 +5,10 @@ Macros are meta-programming that generates code during compile time. This taking
 Macro rules is a macro that allows you to define patterns as inputs and then generate code as output. You are basically matching on patterns and outputting code blocks
 Syntax review: https://doc.rust-lang.org/rust-by-example/macros/syntax.html
 
+## proc_macro Crate
+
+## cargo-expand
+A really nice tool that will expand macros
+
 # References
 The Little Book of Rust Macros http://danielkeep.github.io/tlborm/book/README.html
