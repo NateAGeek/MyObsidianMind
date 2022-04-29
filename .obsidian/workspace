@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Computer Science/Languages/Rust/Macros.md",
+            "file": "Computer Science/Languages/Rust/Conditional.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Languages/Rust/Macros.md",
+                "file": "Computer Science/Languages/Rust/Conditional.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Languages/Rust/Macros.md",
+                "file": "Computer Science/Languages/Rust/Conditional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +140,7 @@
   },
   "active": "eefc8c3ed1977c89",
   "lastOpenFiles": [
+    "Computer Science/Languages/Rust/Conditional.md",
     "Computer Science/Languages/Rust/Macros.md",
     "Computer Science/Languages/Rust/Testing.md",
     "Computer Science/Languages/Rust/STD - Slab.md",
@@ -148,7 +149,6 @@
     "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Common Programming Concepts.md",
     "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
     "Computer Science/Languages/Rust/Module System.md",
-    "Computer Science/Languages/Rust/Overview.md",
-    "Computer Science/Technologies/3D Computer Programming/Swapchain.md"
+    "Computer Science/Languages/Rust/Overview.md"
   ]
 }
