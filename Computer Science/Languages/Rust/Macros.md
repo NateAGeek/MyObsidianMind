@@ -1,5 +1,5 @@
 # Overview
-Macros are meta-programming that generates code during compile time. This taking input of some pattern and producing code that fits the requirements.  Note that all macros need to utilized valid Rust syntax(ident, types, delimiters, and signs).
+Macros are meta-programming that generates code during compile time. This taking input of some pattern and producing code that fits the requirements.  Note that all macros need to utilized valid Rust syntax(ident, types, delimiters, and signs). Macros can also be in macros, whow...
 
 ## macro_rules!
 Macro rules is a macro that allows you to define patterns as inputs and then generate code as output. You are basically matching on patterns and outputting code blocks
