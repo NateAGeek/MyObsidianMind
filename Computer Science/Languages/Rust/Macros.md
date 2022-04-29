@@ -13,7 +13,8 @@ https://doc.rust-lang.org/reference/macros-by-example.html
 macro_rules support different fragments, kinda like types of inputs, for their expressions.
 https://doc.rust-lang.org/reference/macros-by-example.html#metavariables
 
-## proc_macro Crate
+## proc_macro
+Take in a series of TokenStreams, a ATS tree, or operations that a struct or impl is going to run. Then we need to returned an altered TokenStreams on how we want generate this code.
 
 ## cargo-expand
 A really nice tool that will expand macros
