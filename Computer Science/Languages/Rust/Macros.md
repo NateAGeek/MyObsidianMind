@@ -15,8 +15,11 @@ https://doc.rust-lang.org/reference/macros-by-example.html#metavariables
 
 ## proc_macro
 Take in a series of TokenStreams, a ATS tree, or operations that a struct or impl is going to run. Then we need to returned an altered TokenStreams on how we want generate this code.
-**Syn**
-Is a really useful library that helps break out TokenStreams into a more manageable tree structure.
+    **Syn**
+    Is a really useful library that helps break out TokenStreams into a more manageable tree structure.
+    Also, "extra-traits" feature helps with printing debugging info
+    **Quote**
+    Converts code into a TokenStream, so you can mix it with syn to write rust code.
 
 ## cargo-expand
 A really nice tool that will expand macros
