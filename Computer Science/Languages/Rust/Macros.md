@@ -19,7 +19,7 @@ Take in a series of TokenStreams, a ATS tree, or operations that a struct or imp
     Is a really useful library that helps break out TokenStreams into a more manageable tree structure.
     Also, "extra-traits" feature helps with printing debugging info
     **Quote**
-    Converts code into a TokenStream, so you can mix it with syn to write rust code.
+    Converts code into a TokenStream, so you can mix it with syn to write rust code. So, we can also write out regular rust code, in a templated like format, and it will generate the correct TokenStream required for that code we generated. The template system, basically, is you can have access to variables defined via the `#` .
 
 ## cargo-expand
 A really nice tool that will expand macros
