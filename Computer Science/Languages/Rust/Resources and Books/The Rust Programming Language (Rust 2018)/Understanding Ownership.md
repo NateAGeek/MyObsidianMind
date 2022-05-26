@@ -25,7 +25,7 @@ Ownership is a concept that is fundamental to Rust and understanding how values 
 # Clone & Copy
 In context of Ownership the Clone and Copy are important structure implementations built into the [Rust std]. Deriving these implementations onto a structure allows the implementer to state how data should be copy or cloned.
 
-Copying data is a implicit bit wise operation, that direct bit copy of the underlying structure. Also note that if Copy is derived, then Clone must also due to Clone being a supertrait to Copy.
+Copying data is a implicit bit wise operation, that direct bit copy of the underlying structure. Also note that if Copy is derived, then Clone must also due to Clone being a super trait to Copy.
 ```rust
 #[derive(Debug, Copy, Clone)] //Need to have clone too, since Clone is a supertrait of Copy
 struct Foo {
