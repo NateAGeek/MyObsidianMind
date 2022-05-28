@@ -28,4 +28,14 @@
     - Gapped
     - Single
     - Ambisense 
-- 
+- Information Encoded In Viral Genome
+    - Protein Synthesis 
+    - Replication viral genkmes
+    - packaging if genome
+    - Regulation for replication 
+    - Host defenses
+    - Spread possibilities for multiple hosts
+    - **What are not**
+        - No virus contains the complete protein synthesis 
+        - Proteins that involve membrane biosynthesis 
+        - *might change, who knows*
