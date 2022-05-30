@@ -7,7 +7,7 @@
         "id": "bd7f39b3afcc0db7",
         "type": "leaf",
         "state": {
-          "type": "empty",
+          "type": "graph",
           "state": {}
         }
       }
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320
+    "width": 560
   },
   "right": {
     "id": "254c688d1f4a648b",
@@ -134,15 +134,15 @@
   },
   "active": "bd7f39b3afcc0db7",
   "lastOpenFiles": [
-    "Biology/Viruses.md",
-    "Biology/Viruses/Herpes Simplex 2.md",
-    "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
-    "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 3.md",
-    "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
-    "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 1.md",
-    "Biology/DNA (Deoxyribonucleic Acid).md",
     "Biology/Viruses/Herpes Simplex 2 Resources and Notes/Structure of the herpes simplex virus type 2 C-capsid with capsid-vertex-specific component.md",
-    "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md",
-    "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Patterns and Matching.md"
+    "Biology/_Assets/Overview of Affected Human DNA with Virus DNA.png",
+    "Biology/Viruses/Adenovirus Resources and Notes/Adenoviral Vectors for Gene Therapy, Second Edition.md",
+    "Biology/Viruses/Adenovirus.md",
+    "Biology/Viruses/Monkey Pox.md",
+    "Biology/Viruses/HIV.md",
+    "Biology/Viruses/Herpes Simplex 2.md",
+    "Biology/Viruses.md",
+    "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
+    "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 3.md"
   ]
 }
