@@ -39,3 +39,15 @@
         - No virus contains the complete protein synthesis 
         - Proteins that involve membrane biosynthesis 
         - *might change, who knows*
+    - RNA is not stable, so RNA viruses are small base pairs, can't support large encodings like DNA viruses 
+    - Satilite Virus: are viruses that utilize other viruses to replicate.
+-  Gapped dsDNA viruses
+    - Look at video and do more research 
+    - But basically it is a half double stranded DNA sequence with a protein 
+    - It relies on dsDNA repair to be transcribed to mRNA
+    - Some of the mRNA gets transcribed back into DNA to then go into the newly reproduced virus 
+    - Seems to be part of the heladviridae family of viruses, like Hep C
+- ssDNA
+    - Can be circle or linear bounded
+    - Todo: add picture for linear
+- 
