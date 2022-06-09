@@ -7,8 +7,12 @@
         "id": "bd7f39b3afcc0db7",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Computer Science/Languages/Rust/Rust Module System.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -29,6 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Computer Science/Languages/Rust/Rust Module System.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -107,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Science/Languages/Rust/Rust Module System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,15 +140,15 @@
   },
   "active": "bd7f39b3afcc0db7",
   "lastOpenFiles": [
+    "Computer Science/Languages/Rust/Rust Module System.md",
+    "Computer Science/Languages/Rust/Rust Macros.md",
+    "Computer Science/Languages/Rust/Rust Language.md",
+    "Computer Science/Languages/Rust/Crates/Clippy Crate.md",
     "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 1.md",
     "Biology/Biology Books and Resources/Molecular Cell Biology - W.H. Freeman/(Chapter 1) Molecules, Cells, and Model Organisms.md",
     "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 3.md",
     "Biology/Biology Books and Resources/Virology Live - Vincent Racaniello/Virology Live Session 2.md",
     "Biology/Physical Anatomy/Respiratory System.md",
-    "Biology/Viruses/Herpes Simplex 1.md",
-    "Biology/Viruses/Bacteriophages.md",
-    "Differentials.md",
-    "Biology/Viruses/Herpes Simplex 2 Resources and Notes/Structure of the herpes simplex virus type 2 C-capsid with capsid-vertex-specific component.md",
-    "Biology/_Assets/Overview of Affected Human DNA with Virus DNA.png"
+    "Biology/Viruses/Herpes Simplex 1.md"
   ]
 }

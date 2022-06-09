@@ -1,0 +1,3 @@
+Modules are not explicitly stated or created by the Rust compiler. You need to define them using the `mod` keyword, mods allow the definition of namespaces or ability to import from other files.  This `mod`  keyword will allows the ability to define the module tree to form.
+
+Modules files are only accessed via the `use` keyword. You have to `use mod_example` to load in the items from mod_example. Also, the rust language will look for the following `mod_example.rs`, `mod_example/mod.rs` , or `mod_example/libs.rs`(TODO need to confirm that last one...)
