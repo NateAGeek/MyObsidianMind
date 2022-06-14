@@ -50,4 +50,15 @@
 - ssDNA
     - Can be circle or linear bounded
     - Todo: add picture for linear
+- RNA viruses dominate the Eukaryotic Cells and not as much in bacteria 
+    - Need to encode it's RNA Polymerase and carry it in the capsid for dsRNA
+    - ssRNA that gets read by ... todo
+    - HIV AND HTLV first are ssRNA that get translated to -ssDNA that then gets interfrated into the hosts DNA
+    - -ssRNA -> +RNA into proteins or more -ssRNA
+    - -ssRNA can do a lot of mix and match to rapidly mutate with cross info, reassortment
+- RNA can fold in itself and base pair to crest structures that have functions 
+- DNA can fold into structures 
+- RNA can only be decoded by their supplies RNA polymerase 
+- Mutation are the addition, subtraction, or rearranging of amino acids 
+- Transfection: extract dna into bacteria as plasmids and then mutate those proteins and analysis of the results
 - 
