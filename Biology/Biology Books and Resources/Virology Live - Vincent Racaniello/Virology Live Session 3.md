@@ -61,4 +61,3 @@
 - RNA can only be decoded by their supplies RNA polymerase 
 - Mutation are the addition, subtraction, or rearranging of amino acids 
 - Transfection: extract dna into bacteria as plasmids and then mutate those proteins and analysis of the results
-- 
