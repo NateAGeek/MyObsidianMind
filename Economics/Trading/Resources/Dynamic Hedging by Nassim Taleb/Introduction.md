@@ -6,3 +6,4 @@ To replicate the payoff of an option, typically rapid rebalancing of [[Option Ga
 
 ## Look into
 [[Functional Central Limit Theorem]]
+[[Trading Convexity]]
