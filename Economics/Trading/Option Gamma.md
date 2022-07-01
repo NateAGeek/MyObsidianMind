@@ -1,0 +1,2 @@
+# Overview
+Is the rate of change of the [[Option Delta]] per 1-pt move, the first derivate of [[Option Delta]], in the underlying asset. So, if the underlying asset moved up in value, the delta will change in relation to the [[Option Gamma]], then the [[Option Gamma]] would need to be recalculated to reflect the new rate of change of [[Option Delta]].
