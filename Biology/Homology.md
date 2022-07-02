@@ -2,7 +2,7 @@
 # Homology
 Are the basis of [[DNA (Deoxyribonucleic Acid)]] comparison of similarities and differences, comparative biology. These can occur due to species ancestry or due to convergent evolution requirements for similar protein structures. The primary terms used to describe comparisons are: Homologs, Orthologs, and Paralogs
 # Homologs
-Homologs are the sequences that contain the most similarly. These can occur due to species 
+Homologs are the sequences that contain the most similarly. These occur due to species ancestry.
 
 
 
