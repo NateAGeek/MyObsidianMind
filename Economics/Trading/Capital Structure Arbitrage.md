@@ -1,0 +1,1 @@
+Is the miss calculation of equity and debt securities. Buying debt of the company to make a return while shorting the equity.
