@@ -13,6 +13,11 @@ A **nonlinear derivative** is a derivative that does not have a linear convergen
 **[[../../Option Theta|Theta]]:** The options change to the passing of time
 **[[../../Option Rho|Rho]]:** Sensitivity to option price to interest rates/divs
 
+**Derivative Convexity**
+There are many different convexity structures when it comes to derivatives. They all have different structures to represent their payoff models.
+
+![[../../../../NotebookAssets/Pasted image 20220711135713.png]]
+The method for determining is with the [[../../../../Mathematics/Jensen's Inequality|Jensen's Inequality]] to show convexity across the derivative price to underlying asset. 
 
 
 
