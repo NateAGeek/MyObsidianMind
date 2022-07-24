@@ -23,4 +23,6 @@ The method for determining is with the [[../../../../Mathematics/Jensen's Inequa
 
 **Time-dependent Linear Derivatives**: Are instruments separated from their assets over time. 
 
+**Contamination Principle**: It shows why options have convexity. 
+
 
