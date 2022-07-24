@@ -19,6 +19,6 @@ There are many different convexity structures when it comes to derivatives. They
 ![[../../../../NotebookAssets/Pasted image 20220711135713.png]]
 The method for determining is with the [[../../../../Mathematics/Jensen's Inequality|Jensen's Inequality]] to show convexity across the derivative price to underlying asset. 
 
-**Synthetic Security**: Are a weighted collection of two or more instruments. An example of a synthetic security is the S&P 500. S&P 500 is a collection of the "top" 500 companies that cumulatively represent a weighted value of those 500 companies. 
+**Synthetic Security**: Are a weighted collection of two or more instruments. An example of a synthetic security is the S&P 500. S&P 500 is a collection of the "top" 500 companies that cumulatively represent a weighted value of those 500 companies. 0
 
 
