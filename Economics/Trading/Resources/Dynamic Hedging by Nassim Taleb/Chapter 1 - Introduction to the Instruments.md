@@ -21,8 +21,12 @@ The method for determining is with the [[../../../../Mathematics/Jensen's Inequa
 
 **Synthetic Security**: Are a weighted collection of two or more instruments. An example of a synthetic security is the S&P 500. S&P 500 is a collection of the "top" 500 companies that cumulatively represent a weighted value of those 500 companies.
 
-**Time-dependent Linear Derivatives**: Are instruments separated from their assets over time. 
+**Time-dependent Linear Derivatives**: Are instruments separated from their assets over time. Some primary examples include:
+    - **Forwards**: Are agreements to swap proceeds in the future for owning the derivative.
+    - **Floating Rate Agreements (FRAs), Eurodollars**: Are for simplicity forward-forwards. They are the proceeds difference of owning a forward derivate that start at _t_ and end at _t_ + 1. Basically it is a speculative agreement on a rate of interest that allows one party to pay the difference on the interest rate. 
+    - **Swaps**: Are detailed orientated agreements of exchanging conditional values per event occurrence. Like a swap rate for insurance that an asset to remain solvent over a period of time.
 
-**Contamination Principle**: It shows why options have convexity. 
+**Contamination Principle**: It shows why options have convexity. As the possibility of payoff nears, the price of a worthless contract gains value; and this relation with time creates a convexity of pricing of an "worthless" contract to gain value.
 
 
+FRA Resource: https://www.investopedia.com/terms/f/fra.asp
