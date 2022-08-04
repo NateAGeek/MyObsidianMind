@@ -1,0 +1,1 @@
+Green threads are virtual threads that do not need to run on actual threads. It is simulated to create the ability to do threads on systems that support it or not.
