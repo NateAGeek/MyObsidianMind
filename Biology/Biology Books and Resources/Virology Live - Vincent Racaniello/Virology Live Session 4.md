@@ -1,0 +1,9 @@
+Virus Structure
+- Subunit: are single polypeptides that are folded into a single unit
+- Structural Unit: this is the unit of collection of subunits that will build a the capsid. Subunit or unit could be the same
+- Capsid are made of structural units that surround the genome
+- Evenlopes can surround the capsid, that could be surrounding the capsid. This is from the host cell derived. Lipid bilayer. Viruses can not make their own lipids
+- Nucliocapsid are surrounding sub structure that are assembled within the structure, that are surrounded by an evenlop 
+- Virus Capsids need to be Metastable, stable state to move and transport but need to become unstable for entry. There is an energy that the virus can be stable at, then when require, maybe via a receptor bond, the virus comes apart
+- Capsids are held together by hydrogen binds and ionic bonds, none covalent
+- 
