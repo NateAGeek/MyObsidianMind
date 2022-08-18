@@ -6,4 +6,7 @@ The jab utilizes the elbow extension and forearm rotation, to corkscrew the forc
 
 TODO: Find better research on the tricep activation and the forearm rotation.
 
+### Mid Body Mechanics
+The mid body's job is to transfer the Torque 
+
 #### Notes of common mistakes
