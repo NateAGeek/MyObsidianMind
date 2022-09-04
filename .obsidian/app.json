@@ -1,10 +1,14 @@
 {
   "alwaysUpdateLinks": true,
-  "attachmentFolderPath": "Biology/_Assets",
+  "attachmentFolderPath": "NotebookAssets",
   "spellcheck": true,
   "useTab": false,
   "vimMode": false,
   "legacyEditor": false,
   "livePreview": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "NotebookAssets/"
+  ],
+  "newLinkFormat": "relative"
 }
