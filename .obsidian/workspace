@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Computer Science/Languages/Rust/Rust RefCell.md",
+            "file": "Computer Science/Languages/Rust/Rust move.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Languages/Rust/Rust RefCell.md",
+                "file": "Computer Science/Languages/Rust/Rust move.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Languages/Rust/Rust RefCell.md",
+                "file": "Computer Science/Languages/Rust/Rust move.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,15 +140,15 @@
   },
   "active": "c5f5f76c784240ed",
   "lastOpenFiles": [
-    "Computer Science/Languages/Rust/Rust Arc.md",
+    "Computer Science/Languages/Rust/Rust Mutex.md",
     "Computer Science/Languages/Rust/Rust RefCell.md",
+    "Computer Science/Languages/Rust/Rust Arc.md",
     "Computer Science/Languages/Rust/Rust Error Handling.md",
     "Computer Science/Languages/Rust/Iterators.md",
     "conflict-files-obsidian-git.md",
     "Computer Science/Languages/Rust/Enums.md",
     "Mathematics/Differentals.md",
     "Computer Science/Languages/Rust/Resources and Books/cheats.rs/Untitled.md",
-    "Untitled.md",
-    "Computer Science/Languages/Rust/Conditional.md"
+    "Untitled.md"
   ]
 }

@@ -1,0 +1,2 @@
+# Overview
+Rust Mutex's are used to lock threaded required data safely. This allows one thread to request data or update data. Another thread then could request the to update the data and wait until mutex lock is available, and will suspend the thread.
