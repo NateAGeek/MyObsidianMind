@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "eefc8c3ed1977c89",
+        "id": "c5f5f76c784240ed",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Computer Science/Languages/Rust/Iterators.md",
+            "file": "Computer Science/Languages/Rust/Rust RefCell.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Languages/Rust/Iterators.md",
+                "file": "Computer Science/Languages/Rust/Rust RefCell.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Languages/Rust/Iterators.md",
+                "file": "Computer Science/Languages/Rust/Rust RefCell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,17 +138,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "eefc8c3ed1977c89",
+  "active": "c5f5f76c784240ed",
   "lastOpenFiles": [
+    "Computer Science/Languages/Rust/Rust Arc.md",
+    "Computer Science/Languages/Rust/Rust RefCell.md",
+    "Computer Science/Languages/Rust/Rust Error Handling.md",
     "Computer Science/Languages/Rust/Iterators.md",
+    "conflict-files-obsidian-git.md",
     "Computer Science/Languages/Rust/Enums.md",
     "Mathematics/Differentals.md",
     "Computer Science/Languages/Rust/Resources and Books/cheats.rs/Untitled.md",
     "Untitled.md",
-    "Computer Science/Languages/Rust/Conditional.md",
-    "Computer Science/Languages/Rust/Testing.md",
-    "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Patterns and Matching.md",
-    "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Common Programming Concepts.md",
-    "Computer Science/Languages/Rust/Resources and Books/The Rust Programming Language (Rust 2018)/Understanding Ownership.md"
+    "Computer Science/Languages/Rust/Conditional.md"
   ]
 }
