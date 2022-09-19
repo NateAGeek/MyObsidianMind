@@ -6,4 +6,9 @@ Virus Structure
 - Nucliocapsid are surrounding sub structure that are assembled within the structure, that are surrounded by an evenlop 
 - Virus Capsids need to be Metastable, stable state to move and transport but need to become unstable for entry. There is an energy that the virus can be stable at, then when require, maybe via a receptor bond, the virus comes apart
 - Capsids are held together by hydrogen binds and ionic bonds, none covalent
+- Kimara, protein data bank, can visualize proteins or virus
+- Virus Particles (3)
+    - Helical: cylindrical 
+    - Icosahedral: interconnecting hedral
+    - Complex: cop out, just complex connections
 - 

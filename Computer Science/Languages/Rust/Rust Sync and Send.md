@@ -8,3 +8,4 @@ Executors are runtimes that can run async/await futures. They are used to implem
 
 ## Runtimes
 [[Crates/Tokio Crate|Tokio]] is a runtime that appears to be the most popular. It allows rust to run async functions and provides some async implementations of std.
+There is also [[asyn-std]] that is another runtime. It is very similar to Tokio, and kinda is a spin off from some devs. But does not seem to be as updated, but it is "stable".
