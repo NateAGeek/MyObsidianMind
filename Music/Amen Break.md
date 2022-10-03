@@ -1,0 +1,2 @@
+# Overview
+The Amen Break is a drum pattern by Gregory Cylvester Colman. It is used almost all over the place and really set the grounds for a lot of break type beats.![Amen Break Parts](https://i0.wp.com/www.ethanhein.com/wp/wp-content/uploads/2011/09/Amen-Break-in-TUBS-format.png?resize=680%2C799)
