@@ -11,4 +11,17 @@ Virus Structure
     - Helical: cylindrical 
     - Icosahedral: interconnecting hedral
     - Complex: cop out, just complex connections
+- HBV and HPV Are vaccines are virus like the virus capsids that replace in the virus and neutralize it?(TODO review the vaccine structure)
+- Vectors: areas of attacks from viruses
+- Helical viruses are typically enveloped
+- Helical viruses can be Rod like or Flexuos
+- All capsize have precise number of proteins. Typically a multiple of 60.
+- Spherical viruses come in many sizes
+- Icosahedral Symmetry
+- Icosahedron are 20 face equilateral
+- Allows for the formation of a closed cell. This is why viruses likes to use them. Because it maximizes the subunit space with only multiple of 60 identical subunits needed. Very stable ver convenient.
+- Bigger viruses don't change the size of their subunit. They add more subunits
+- T number is used to describe size of viruses relative to subunits.
+- T * 60 = number of subunits 
+- Capsids arrange randomly . Usually in a factory region of the cell
 - 
