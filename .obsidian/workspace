@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Biology/Neuroscience/Neuroscience Books and Resources/Spatial and temporal scales of dopamine transmission.md",
+            "file": "Social Sciences/Resources/The Economic Other/Chapter 2 Inquality in the Social Mind.md",
             "mode": "source",
             "source": false
           }
@@ -33,7 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Biology/Neuroscience/Neuroscience Books and Resources/Spatial and temporal scales of dopamine transmission.md",
+                "file": "Social Sciences/Resources/The Economic Other/Chapter 2 Inquality in the Social Mind.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Biology/Neuroscience/Neuroscience Books and Resources/Spatial and temporal scales of dopamine transmission.md",
+                "file": "Social Sciences/Resources/The Economic Other/Chapter 2 Inquality in the Social Mind.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,15 +140,15 @@
   },
   "active": "c5f5f76c784240ed",
   "lastOpenFiles": [
+    "Social Sciences/Resources/The Economic Other/Chapter 1 The Politics of Social Comparison.md",
+    "Biology/Neuroscience/Neuroscience Books and Resources/Spatial and temporal scales of dopamine transmission.md",
     "Biology/Neuroscience/Midbrain or Mesencephalon.md",
     "Biology/Neuroscience/Glial Cells.md",
-    "Biology/Neuroscience/Neuroscience Books and Resources/Spatial and temporal scales of dopamine transmission.md",
     "Biology/Embryogenesis.md",
     "Biology/Neuroscience/Neurons.md",
     "Biology/Neuroscience/Neurotransmitters.md",
     "NotebookAssets/liu2021.pdf",
     "Computer Science/Languages/Rust/Rust move.md",
-    "Computer Science/Languages/Rust/Rust Mutex.md",
-    "Computer Science/Languages/Rust/Rust RefCell.md"
+    "Computer Science/Languages/Rust/Rust Mutex.md"
   ]
 }
