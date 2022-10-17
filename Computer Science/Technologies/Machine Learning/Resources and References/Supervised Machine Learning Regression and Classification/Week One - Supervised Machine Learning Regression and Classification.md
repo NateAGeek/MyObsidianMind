@@ -1,7 +1,7 @@
 What is Machine Learning:
 - Machine Learning Algorithms
     - [[Supervised Learning]]
-    - [[Unsupervised Learning]]
+    - [[../../Unsupervised Learning]]
     - [[Recommender Systems]]
     - [[Reinforcement Learning]]
 
@@ -12,4 +12,6 @@ Are algorithms that take inputs and attempt to produce the correct output label,
 
 **[[Classification]]**: Is the fixed value expected given an input. Basically categorizing data to fixed labels, and those can be non-numeric.
 
-##[[Unsupervised Learning]]]
+## [[../../Unsupervised Learning | Unsupervised Learning]]
+
+
