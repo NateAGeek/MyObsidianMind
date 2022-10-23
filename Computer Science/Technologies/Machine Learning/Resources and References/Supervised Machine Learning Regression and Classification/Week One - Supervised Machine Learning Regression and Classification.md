@@ -27,4 +27,16 @@ Are algorithms that take inputs and attempt discover patterns within the data. T
 ## (Section Two) Regression Model
 
 [[Training Set]]: is the set of data that is used to train the model and its performance. 
-    The input of the training set is know as x, input variable, or feature.
+    - The input of the training set is know as x, input variable, or feature.
+    - For the resulting output of the supervised model, it is denoted as y, output variable, or target variable.
+    - m stands for the number of training examples
+    - (x, y) represents a training example
+    - Specific Training Sample: (x<sup>(i)</sup>, y<sup>(i)</sup>), where the i represents the index of the training set.
+Models typically follow the following design
+```mermaid
+flowchart TD;
+    ls[Learning Set] --> ta[Learing Algorithm];
+    ta --> f[Function/Hypothesis/model]
+    input[x or Feature] --> f --> output[ŷ or estimate target]
+    
+```
