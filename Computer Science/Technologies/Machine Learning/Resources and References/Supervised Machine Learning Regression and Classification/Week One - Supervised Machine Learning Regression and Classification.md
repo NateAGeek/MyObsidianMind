@@ -18,16 +18,13 @@ Are algorithms that take inputs and attempt to produce the correct output label,
 ## [[../../Unsupervised Learning | Unsupervised Learning]]
 Are algorithms that take inputs and attempt discover patterns within the data. They are not algorithms that are meant to produces a single result given input. However, rather help define sets and patterns in data. 
 
-[[Clustering]]
-Is used to find relational regions of data within a dataset to discover similarities across data. This can be dimensional where we can identify similar relations.
+[[Clustering]]: Is used to find relational regions of data within a dataset to discover similarities across data. This can be dimensional where we can identify similar relations.
 
-[[Anomaly Detection]]
-This algorithm technique is used to discover unusual data points.
+[[Anomaly Detection]]: This algorithm technique is used to discover unusual data points.
 
-[[Dimensionality Reduction]]
-Compressing data, while loosing minimal amount of data.
+[[Dimensionality Reduction]]: Compressing data, while loosing minimal amount of data.
 
 ## (Section Two) Regression Model
 
+[[Training Set]]: is the set of data that is used to train the model and its performance. 
 
-\\\\\\\\\\\\\
