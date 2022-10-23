@@ -5,5 +5,9 @@
     * [[General Social Survey]] or the GSS is a survey that has been asked to the American public since 1978. It uses a 7 point scale to see how the public views if wealth distribution and if Americans feel equal/should the government intervene.
     * [[Gini Coefficient]] is a standard coefficient used to determine income inequality
     * Support for the three policy types(welfare, Social Security, and education) has been really staggering and zigzags in regards for wealth distribution(Gini Coefficient) and desired support(maintaining same regions). 
-        * _Funny thing to note Welfare seems to stay really low in support, and ironically could be a source of cross-class comparison. People looking down on the ones who did not make it and subsequently feel they do not deserve support..__
+        * *Funny thing to note Welfare seems to stay really low in support, and ironically could be a source of cross-class comparison. People looking down on the ones who did not make it and subsequently feel they do not deserve support.*
+    * The underlying discussion on how America Dream is something of a damaging idea. How the expectation of hard work will pay off, but is counterintuitive over the ideals of capitalism.
+        * *I understand the argument, but I do think it is also a matter of investment of hard work. Society has changed, the book does reference this, but with that change comes with the responsibility of the people's market to adapt.*
+        * *I do think there is also some responsibility to be empathetic to the issue lack of resources not allowing adaptation, and I do hold a government responsible for that "lack of" responsible.*
+    * Metrics of success in society is financially driven. There could be differences in ideology of how the public views inequality that damages the perspective of why people are not equal.
     * 

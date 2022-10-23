@@ -1,2 +1,0 @@
-- The underlying discussion on how America Dream is something of a damaging idea. How the expectation of hard work will pay off, but is counterintuitive over the ideals of capitalism. Also, metrics of success in society is financially driven. There could be differences in ideology of how the public views inequality that damages the perspective of why people are not equal.
-- 
