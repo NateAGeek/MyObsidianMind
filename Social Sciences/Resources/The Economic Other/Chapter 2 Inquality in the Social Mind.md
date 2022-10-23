@@ -2,8 +2,8 @@
     * Since the [[Great Depression]], America's working class seemed to have suffer quite dramatically in regards of growth. Compared the the 1 percent, whom have seen their wealth distribution double(form 10% of economic wealth to 20%). 
     * Only the top 10% of Americans, post [[Great Depression]], were able to keep pace with economic growth.
 * Current measures of economical separation
-    * [[../../General Social Survey]] or the GSS is a survey that has been asked to the American public since 1978. It uses a 7 point scale to see how the public views if wealth distribution and if Americans feel equal/should the government intervene.
-    * [[../../Gini Coefficient]] is a standard coefficient used to determine income inequality
+    * [[../../General Social Survey|General Social Survey]] or the GSS is a survey that has been asked to the American public since 1978. It uses a 7 point scale to see how the public views if wealth distribution and if Americans feel equal/should the government intervene.
+    * [[../../Gini Coefficient|Gini Coefficient]] is a standard coefficient used to determine income inequality
     * Support for the three policy types(welfare, Social Security, and education) has been really staggering and zigzags in regards for wealth distribution(Gini Coefficient) and desired support(maintaining same regions). 
         * *Funny thing to note Welfare seems to stay really low in support, and ironically could be a source of cross-class comparison. People looking down on the ones who did not make it and subsequently feel they do not deserve support.*
     * The underlying discussion on how America Dream is something of a damaging idea. How the expectation of hard work will pay off, but is counterintuitive over the ideals of capitalism.
@@ -13,9 +13,18 @@
 * To Compare is Human
     * Section discusses the complexities of human comparison. How it starts in relative infancy into adulthood.
     * We are relational creatures and such we are constantly comparing to find where we stand in relation to others. This could be inquiring about eduction, status, and economical worth.
-    * There is also a metric for motivating use to compare each other and ourselves. Focusing on [[../../Social Comparison Theory]] by [[../../Leon Festinger]] we can see the social and psychological effects of comparison.
+    * There is also a metric for motivating use to compare each other and ourselves. Focusing on [[../../Social Comparison Theory|Social Comparison Theory]] by [[../../Leon Festinger|Leon Festinger]] we can see the social and psychological effects of comparison.
 * Sour Milk and Cream: How Do Americans Respond to Cross-Class Comparison
     * The ideas of social and rights are perceived to be underlying backbone of the American system, to their words very "[[../../../Humanities/Jean-Jacques Rousseau|Rousseauean]]" of a belief.
     * However, the system is too large to properly allow individuals to realize that global state, the state of "[[../../../Humanities/Jean-Jacques Rousseau|Rousseauean]]". So, we end up relying on Cross-Class and localize Social Comparison to align our beliefs of self value in relation to the global American System.
     * Reiterates the gold, sliver, and bronze analogy. How we utilize that system to relatively justify our relation to others.
 * Public Opinion
+    * Sociotropic: is the ideal of weighing personal achievement and social relations
+    * The concepts of public opinion is still locked in with the cross-class comparison model.
+    * There are statements of how people are more incline to want to redistribution whom are suck in the bronze mindset. As they can only publicly compare themselves to ones whom are better off. 
+    * When the public social opinion is of actions are depriving them of the higher class resources and opportunities, protest it typically the action. 
+    * When it is the public opinion there is a bit of a higher comparison than their personal pcoket value, money. It seems that public wants to drive change for sake of general class vs individuality. 
+    * There is also the belief that people on the lower end of status have less to loose and more to gain when comparing to the upper class. Hence there is more of a drive for redistribution from the government.
+* How Much Cross-Class Comparison Happens in America
+    * There is some current social situations in public that allow for the ability of social comparisons. For example first class plane passengers not wanting to interact with lower class. 
+* Declineing Oppertunity for Upward Comparision
