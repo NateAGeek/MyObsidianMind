@@ -1,5 +1,5 @@
 
-## Section One
+## (Section One) Supervised vs. Unsupervised Machine Learning
 
 What is Machine Learning:
 - Machine Learning Algorithms
@@ -26,3 +26,8 @@ This algorithm technique is used to discover unusual data points.
 
 [[Dimensionality Reduction]]
 Compressing data, while loosing minimal amount of data.
+
+## (Section Two) Regression Model
+
+
+\\\\\\\\\\\\\
