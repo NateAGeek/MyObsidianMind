@@ -27,4 +27,4 @@ Are algorithms that take inputs and attempt discover patterns within the data. T
 ## (Section Two) Regression Model
 
 [[Training Set]]: is the set of data that is used to train the model and its performance. 
-
+    The input of the training set is know as x, input variable, or feature.
