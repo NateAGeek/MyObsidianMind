@@ -2,9 +2,6 @@
 .obsidian/*
 .obsidian/workspace
 
-# OR only to exclude workspace cache
-.obsidian/workspace/*
-
 # Exclude plugins
 .obsidian/plugins/*
 

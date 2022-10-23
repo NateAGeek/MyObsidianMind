@@ -5,4 +5,3 @@
     - The hypothetical situation that the book proposes is that social wealth inequality would drive up more support for government. Leading to an uproar in distribution. Thus more pressure on government would push the unequal society upwards. However, the books notes that this is not the case and people do not push.
     - There is the opinion that because Americans do not support government. Then they must be ignorant to the political structure and influence, aka lack knowledge. Or they accept the social separation as a means of ideology or personal beliefs of an American Dream.
     - The book is trying to explore more social structures that shapes Americas responses to inequality. The the contrary tries to focus on individualism of like race, gender, and class.
-- 

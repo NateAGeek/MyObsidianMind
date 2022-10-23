@@ -1,0 +1,1 @@
+A man that is known for pioneering the theories of [[Cognitive Dissonance]] and [[Social Comparison Theory]]. 
