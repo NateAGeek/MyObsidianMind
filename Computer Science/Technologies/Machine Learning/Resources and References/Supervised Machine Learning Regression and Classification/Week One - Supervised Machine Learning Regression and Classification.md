@@ -40,3 +40,13 @@ flowchart TD;
     input[x or Feature] --> f --> output[ŷ or estimate target]
     
 ```
+Linear Regression Formula Representation:
+$$
+f_{w, b}(x) = wx + b
+
+$$
+w = weight of the linear line, changes the intensity of the slope
+b = bias of the linear line, changes the y offset of the line
+
+This function allows the learning algorithm to generate the proper linear separation of data. Note there are other mathematical formulations to help separate data however, for the sake of linear regression we are going to stick with the following.
+**Univariate**: is the linear regression formulation of one variable of influence.
