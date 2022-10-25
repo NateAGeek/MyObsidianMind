@@ -27,4 +27,6 @@
     * There is also the belief that people on the lower end of status have less to loose and more to gain when comparing to the upper class. Hence there is more of a drive for redistribution from the government.
 * How Much Cross-Class Comparison Happens in America
     * There is some current social situations in public that allow for the ability of social comparisons. For example first class plane passengers not wanting to interact with lower class. 
-* Declineing Oppertunity for Upward Comparision
+* Declining Opportunity for Upward Comparison
+    * Basically summed up how we are at a direct declining oppertunity to compare ourselves. And rather how we are relying on more external resouces to compare ourselves, such as: work, gender, media, and race. 
+    * 
