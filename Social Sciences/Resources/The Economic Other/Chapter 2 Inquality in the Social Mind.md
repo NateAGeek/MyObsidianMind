@@ -28,5 +28,9 @@
 * How Much Cross-Class Comparison Happens in America
     * There is some current social situations in public that allow for the ability of social comparisons. For example first class plane passengers not wanting to interact with lower class. 
 * Declining Opportunity for Upward Comparison
-    * Basically summed up how we are at a direct declining oppertunity to compare ourselves. And rather how we are relying on more external resouces to compare ourselves, such as: work, gender, media, and race. 
-    * 
+    * Basically summed up how we are at a direct declining opportunity to compare ourselves. And rather how we are relying on more external resources to compare ourselves, such as: work, gender, media, and race. 
+* Increasing Preference For Downward Comparison
+    * The sections covers how people find more safety in comparing themselves downwards than upwards. When comparing downwards it is easier for an individual to feel confident that they have it good. While comparing upwards only tends to more dramatically happen with larger inequality, leading to revolution desire to redistribute.
+* Comparison, Status Perception, and Political Efficacy
+    * There is an idea, that has been research look at source **58 and 59**, that lower status people tend to not participate in the the political system that would benefit them... **Worth exploring...**
+        * There is some argument that simply having access to more fiscal influence and the ability possible time, education, and other resources could allow a higher class more influence politically. This allows upper class to have more influence on the politics of society
