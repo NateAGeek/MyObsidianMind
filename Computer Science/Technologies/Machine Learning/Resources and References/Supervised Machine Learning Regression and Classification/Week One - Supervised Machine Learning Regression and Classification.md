@@ -50,3 +50,8 @@ b = bias of the linear line, changes the y offset of the line
 
 This function allows the learning algorithm to generate the proper linear separation of data. Note there are other mathematical formulations to help separate data however, for the sake of linear regression we are going to stick with the following.
 **Univariate**: is the linear regression formulation of one variable of influence.
+
+[[Cost Function Formula]]: The cost function is used to compute the distance of all the data points from the prediction. For example ŷ - y<sup>(i)</sup> = the error, and it is a comparison. The way to calculate the 
+
+_Worth reviewing this answer as to why we use the square error: https://datascience.stackexchange.com/questions/10188/why-do-cost-functions-use-the-square-error
+Basically thought it is to keep the range positive... But has some other math stuff...
