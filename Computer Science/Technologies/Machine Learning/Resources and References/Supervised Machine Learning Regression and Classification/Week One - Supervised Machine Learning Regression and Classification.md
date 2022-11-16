@@ -60,3 +60,6 @@ $$
 
 _Worth reviewing this answer as to why we use the square error: https://datascience.stackexchange.com/questions/10188/why-do-cost-functions-use-the-square-error
 Basically thought it is to keep the range positive... But has some other math stuff...
+
+Graphing the Cost Function Relative to the w parameter of the linear regression can allow for visually seeing the most optimal w and b for the regression.
+![[../../../../../NotebookAssets/Pasted image 20221115160031.png]]
