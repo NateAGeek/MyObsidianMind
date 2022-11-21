@@ -50,7 +50,7 @@ b = bias of the linear line, changes the y offset of the line
 This function allows the learning algorithm to generate the proper linear separation of data. Note there are other mathematical formulations to help separate data however, for the sake of linear regression we are going to stick with the following.
 **Univariate**: is the linear regression formulation of one variable of influence.
 
-[[Cost Function Formula]]: The cost function is used to compute the distance of all the data points from the prediction. 
+[[../../Cost Function]]: The cost function is used to compute the distance of all the data points from the prediction. 
 
 Squared Error Cost Function: is a cost function that is common in ML. For example ŷ - y<sup>(i)</sup> = the error, and it is a comparison. The way to calculate the full cost of our values we then need to take the total sum of or error squared. This is then divided by the number of elements (2x because it is kinda the same and makes other calculations easier... idk chill dogg), as we want to find the average of our error across our data set. 
 
@@ -65,4 +65,15 @@ Graphing the Cost Function Relative to the w parameter of the linear regression 
 ![[../../../../../NotebookAssets/Pasted image 20221115160031.png]]
 
 [[Gradient Descent]]
-Is a strategy to find local minimums for for values given altering to function params
+Is a strategy to find local minimums for for values given altering to function params.
+
+The algorithm example is as follow with a w and b parameter to the [[../../Cost Function]] J.
+$$
+\begin{aligned}
+temp\_w &= w - \alpha\frac{\partial}{\partial w}J(w, b) \\
+temp\_b &= b - \alpha\frac{\partial}{\partial b}J(w, b) \\
+w &= temp\_w \\
+b &= temp\_b
+\end{aligned}
+$$
+
