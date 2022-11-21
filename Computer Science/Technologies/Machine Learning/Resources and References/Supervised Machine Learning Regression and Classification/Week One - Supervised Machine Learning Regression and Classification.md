@@ -63,3 +63,6 @@ Basically thought it is to keep the range positive... But has some other math st
 
 Graphing the Cost Function Relative to the w parameter of the linear regression can allow for visually seeing the most optimal w and b for the regression.
 ![[../../../../../NotebookAssets/Pasted image 20221115160031.png]]
+
+[[Gradient Descent]]
+Is a strategy to find local minimums for for values given altering to function params
