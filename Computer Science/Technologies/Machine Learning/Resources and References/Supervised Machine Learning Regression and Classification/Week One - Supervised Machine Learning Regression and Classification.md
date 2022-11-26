@@ -77,4 +77,4 @@ b &= temp\_b
 \end{aligned}
 $$
 
-The Partial Derivatives help guide the direction of the parameter to change relative to alpha, the learning rate. The positive or negative affect of the partial derivative is what nudges the value into a local minimum.
+The Partial Derivatives help guide the direction of the parameter to change relative to alpha, the learning rate. The positive or negative affect of the partial derivative is what nudges the value into a local minimum.s
