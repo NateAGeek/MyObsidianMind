@@ -10,3 +10,6 @@ TODO: Find better research on the tricep activation and the forearm rotation.
 The mid body's job is to transfer the Torque 
 
 #### Notes of common mistakes
+Exaggerated step into the jab
+Not bring the jab back quickly into guarding position 
+
