@@ -155,3 +155,52 @@ NumPy also supports Matrixes that could be use for multiple features on training
 ## Feature Scaling
 Feature scaling is important to make the gradient decent to be better to compute, as we can set a better alpha (learning rate).
 
+### Normalize the dataset via min/max 0.0 - 1.0
+$$
+ x = \dfrac{x - x_\min}{x_\max - x_\min}
+$$
+### Mean Normalization
+$$
+ x_i := \dfrac{x_i - \mu_i}{max - min}
+$$
+Where $\mu$ is the sample mean
+
+###  Z-score Normalization
+$$x^{(i)}_j = \dfrac{x^{(i)}_j - \mu_j}{\sigma_j} \tag{4}$$ 
+where $j$ selects a feature or a column in the $\mathbf{X}$ matrix. $µ_j$ is the mean of all the values for feature (j) and $\sigma_j$ is the standard deviation of feature (j).
+$$
+\begin{align}
+\mu_j &= \frac{1}{m} \sum_{i=0}^{m-1} x^{(i)}_j \tag{5}\\
+\sigma^2_j &= \frac{1}{m} \sum_{i=0}^{m-1} (x^{(i)}_j - \mu_j)^2  \tag{6}
+\end{align}
+$$
+
+```python
+import numpy from np
+def zscore_normalize_features(X):
+    """
+    computes  X, zcore normalized by column
+    
+    Args:
+      X (ndarray (m,n))     : input data, m examples, n features
+      
+    Returns:
+      X_norm (ndarray (m,n)): input normalized by column
+      mu (ndarray (n,))     : mean of each feature
+      sigma (ndarray (n,))  : standard deviation of each feature
+    """
+    # find the mean of each column/feature
+    mu     = np.mean(X, axis=0)                 # mu will have shape (n,)
+    # find the standard deviation of each column/feature
+    sigma  = np.std(X, axis=0)                  # sigma will have shape (n,)
+    # element-wise, subtract mu for that column from each example, divide by std for that column
+    X_norm = (X - mu) / sigma      
+
+    return (X_norm, mu, sigma)
+ 
+#check our work
+#from sklearn.preprocessing import scale
+#scale(X_orig, axis=0, with_mean=True, with_std=True, copy=True)
+```
+## Picking Correct Learning Rate
+![[../../../../../NotebookAssets/Pasted image 20230201232445.png]]
