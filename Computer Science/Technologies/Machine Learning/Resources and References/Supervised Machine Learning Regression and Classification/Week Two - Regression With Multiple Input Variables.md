@@ -6,3 +6,4 @@ $$
 $$
 ## Vectorization
 Is a computational technique that allows vectors to be calculated faster. Though the process of using extra large registers to do math at once. Like SIMD and AVX specs
+
