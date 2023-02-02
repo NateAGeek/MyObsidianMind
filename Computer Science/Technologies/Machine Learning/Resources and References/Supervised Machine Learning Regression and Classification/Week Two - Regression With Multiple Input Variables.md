@@ -35,6 +35,7 @@ def compute_cost(X, y, w, b):
     return cost
 ```
 
+## [[Gradient Descent]] of Multiple Variables
 
 
 ## Vectorization
