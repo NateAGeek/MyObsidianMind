@@ -4,6 +4,39 @@ When dealing with multiple features for a model, you can take the dot product on
 $$
 \vec{x} \cdot \vec{w} = x_1(w_1) + x_2(w_2) + x_3(w_3)...
 $$
+## Cost Function With Multiple Features
+$$J(\mathbf{w},b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})^2 \tag{3}$$
+
+*Note: m is the number of training examples*
+This is another from of the [[Squared Error Cost Function]] except the function being used to determine the prediction is over multiple features that requires dot product and addition of bias.
+
+$$ f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = \mathbf{w} \cdot \mathbf{x}^{(i)} + b  \tag{4} $$
+
+Example Python Implementation from https://www.coursera.org/learn/machine-learning/ungradedLab/7GEJh/optional-lab-multiple-linear-regression
+```python
+def compute_cost(X, y, w, b): 
+    """
+    compute cost
+    Args:
+      X (ndarray (m,n)): Data, m examples with n features
+      y (ndarray (m,)) : target values
+      w (ndarray (n,)) : model parameters  
+      b (scalar)       : model parameter
+      
+    Returns:
+      cost (scalar): cost
+    """
+    m = X.shape[0]
+    cost = 0.0
+    for i in range(m):                                
+        f_wb_i = np.dot(X[i], w) + b           #(n,)(n,) = scalar (see np.dot)
+        cost = cost + (f_wb_i - y[i])**2       #scalar
+    cost = cost / (2 * m)                      #scalar    
+    return cost
+```
+
+
+
 ## Vectorization
 Is a computational technique that allows vectors to be calculated faster. Though the process of using extra large registers to do math at once. Like SIMD and AVX specs
 
