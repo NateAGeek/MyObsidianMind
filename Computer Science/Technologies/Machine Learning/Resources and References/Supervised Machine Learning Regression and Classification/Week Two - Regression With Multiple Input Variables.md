@@ -4,5 +4,203 @@ When dealing with multiple features for a model, you can take the dot product on
 $$
 \vec{x} \cdot \vec{w} = x_1(w_1) + x_2(w_2) + x_3(w_3)...
 $$
+## Cost Function With Multiple Features
+$$J(\mathbf{w},b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})^2 \tag{3}$$
+
+*Note: m is the number of training examples*
+This is another from of the [[Squared Error Cost Function]] except the function being used to determine the prediction is over multiple features that requires dot product and addition of bias.
+
+$$ f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = \mathbf{w} \cdot \mathbf{x}^{(i)} + b  \tag{4} $$
+
+Example Python Implementation from https://www.coursera.org/learn/machine-learning/ungradedLab/7GEJh/optional-lab-multiple-linear-regression
+```python
+def compute_cost(X, y, w, b): 
+    """
+    compute cost
+    Args:
+      X (ndarray (m,n)): Data, m examples with n features
+      y (ndarray (m,)) : target values
+      w (ndarray (n,)) : model parameters  
+      b (scalar)       : model parameter
+      
+    Returns:
+      cost (scalar): cost
+    """
+    m = X.shape[0]
+    cost = 0.0
+    for i in range(m):                                
+        f_wb_i = np.dot(X[i], w) + b           #(n,)(n,) = scalar (see np.dot)
+        cost = cost + (f_wb_i - y[i])**2       #scalar
+    cost = cost / (2 * m)                      #scalar    
+    return cost
+```
+
+## [[Gradient Descent]] of Multiple Variables
+
+```python
+def compute_gradient(X, y, w, b): 
+    """
+    Computes the gradient for linear regression 
+    Args:
+      X (ndarray (m,n)): Data, m examples with n features
+      y (ndarray (m,)) : target values
+      w (ndarray (n,)) : model parameters  
+      b (scalar)       : model parameter
+      
+    Returns:
+      dj_dw (ndarray (n,)): The gradient of the cost w.r.t. the parameters w. 
+      dj_db (scalar):       The gradient of the cost w.r.t. the parameter b. 
+    """
+    m,n = X.shape           #(number of examples, number of features)
+    dj_dw = np.zeros((n,))
+    dj_db = 0.
+
+    for i in range(m):                             
+        err = (np.dot(X[i], w) + b) - y[i]   
+        for j in range(n):                         
+            dj_dw[j] = dj_dw[j] + err * X[i, j]    
+        dj_db = dj_db + err                        
+    dj_dw = dj_dw / m                                
+    dj_db = dj_db / m                                
+        
+    return dj_db, dj_dw
+```
+
+```python
+def gradient_descent(X, y, w_in, b_in, cost_function, gradient_function, alpha, num_iters): 
+    """
+    Performs batch gradient descent to learn w and b. Updates w and b by taking 
+    num_iters gradient steps with learning rate alpha
+    
+    Args:
+      X (ndarray (m,n))   : Data, m examples with n features
+      y (ndarray (m,))    : target values
+      w_in (ndarray (n,)) : initial model parameters  
+      b_in (scalar)       : initial model parameter
+      cost_function       : function to compute cost
+      gradient_function   : function to compute the gradient
+      alpha (float)       : Learning rate
+      num_iters (int)     : number of iterations to run gradient descent
+      
+    Returns:
+      w (ndarray (n,)) : Updated values of parameters 
+      b (scalar)       : Updated value of parameter 
+      """
+    
+    # An array to store cost J and w's at each iteration primarily for graphing later
+    J_history = []
+    w = copy.deepcopy(w_in)  #avoid modifying global w within function
+    b = b_in
+    
+    for i in range(num_iters):
+
+        # Calculate the gradient and update the parameters
+        dj_db,dj_dw = gradient_function(X, y, w, b)   ##None
+
+        # Update Parameters using w, b, alpha and gradient
+        w = w - alpha * dj_dw               ##None
+        b = b - alpha * dj_db               ##None
+      
+        # Save cost J at each iteration
+        if i<100000:      # prevent resource exhaustion 
+            J_history.append( cost_function(X, y, w, b))
+
+        # Print cost every at intervals 10 times or as many iterations if < 10
+        if i% math.ceil(num_iters / 10) == 0:
+            print(f"Iteration {i:4d}: Cost {J_history[-1]:8.2f}   ")
+        
+    return w, b, J_history #return final w,b and J history for graphing
+```
+
 ## Vectorization
-Is a computational technique that allows vectors to be calculated faster 
+Is a computational technique that allows vectors to be calculated faster. Though the process of using extra large registers to do math at once. Like SIMD and AVX specs
+
+### NumPy Examples Of Vectorization
+```python
+import numpy as np
+np.random.seed(1)
+a = np.random.rand(10000000)  # very large arrays
+b = np.random.rand(10000000)
+
+tic = time.time()  # capture start time
+c = np.dot(a, b)
+toc = time.time()  # capture end time
+
+print(f"np.dot(a, b) =  {c:.4f}")
+print(f"Vectorized version duration: {1000*(toc-tic):.4f} ms ")
+
+tic = time.time()  # capture start time
+c = my_dot(a,b)
+toc = time.time()  # capture end time
+
+print(f"my_dot(a, b) =  {c:.4f}")
+print(f"loop version duration: {1000*(toc-tic):.4f} ms ")
+
+del(a);del(b)  #remove these big arrays from memory
+```
+This is a good example of doing dot product on vectorized arrays. The computation time is really fast with the numpy version, due to hardware acceleration and gpu performance.
+
+### NumPy Matrix
+```python
+import numpy as np
+# NumPy routines which allocate memory and fill with user specified values
+a = np.array([[5], [4], [3]]);   print(f" a shape = {a.shape}, np.array: a = {a}")
+a = np.array([[5],   # One can also
+              [4],   # separate values
+              [3]]); #into separate rows
+print(f" a shape = {a.shape}, np.array: a = {a}")
+```
+NumPy also supports Matrixes that could be use for multiple features on training sets for Machine Learning
+
+## Feature Scaling
+Feature scaling is important to make the gradient decent to be better to compute, as we can set a better alpha (learning rate).
+
+### Normalize the dataset via min/max 0.0 - 1.0
+$$
+ x = \dfrac{x - x_\min}{x_\max - x_\min}
+$$
+### Mean Normalization
+$$
+ x_i := \dfrac{x_i - \mu_i}{max - min}
+$$
+Where $\mu$ is the sample mean
+
+###  Z-score Normalization
+$$x^{(i)}_j = \dfrac{x^{(i)}_j - \mu_j}{\sigma_j} \tag{4}$$ 
+where $j$ selects a feature or a column in the $\mathbf{X}$ matrix. $µ_j$ is the mean of all the values for feature (j) and $\sigma_j$ is the standard deviation of feature (j).
+$$
+\begin{align}
+\mu_j &= \frac{1}{m} \sum_{i=0}^{m-1} x^{(i)}_j \tag{5}\\
+\sigma^2_j &= \frac{1}{m} \sum_{i=0}^{m-1} (x^{(i)}_j - \mu_j)^2  \tag{6}
+\end{align}
+$$
+
+```python
+import numpy from np
+def zscore_normalize_features(X):
+    """
+    computes  X, zcore normalized by column
+    
+    Args:
+      X (ndarray (m,n))     : input data, m examples, n features
+      
+    Returns:
+      X_norm (ndarray (m,n)): input normalized by column
+      mu (ndarray (n,))     : mean of each feature
+      sigma (ndarray (n,))  : standard deviation of each feature
+    """
+    # find the mean of each column/feature
+    mu     = np.mean(X, axis=0)                 # mu will have shape (n,)
+    # find the standard deviation of each column/feature
+    sigma  = np.std(X, axis=0)                  # sigma will have shape (n,)
+    # element-wise, subtract mu for that column from each example, divide by std for that column
+    X_norm = (X - mu) / sigma      
+
+    return (X_norm, mu, sigma)
+ 
+#check our work
+#from sklearn.preprocessing import scale
+#scale(X_orig, axis=0, with_mean=True, with_std=True, copy=True)
+```
+## Picking Correct Learning Rate
+![[../../../../../NotebookAssets/Pasted image 20230201232445.png]]
