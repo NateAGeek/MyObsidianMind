@@ -211,3 +211,5 @@ Sometimes data can derive and be transformed into more data that could optimize 
 ### For Example
 Measuring houses might sizes might be useful for predicting prices. However, if we are given the width and height, maybe area can be a new attribute to measure. Transforming the data, width and height, into area allows use to engineer new features from existing data. Growing the potential of developing models. 
 
+## [[Polynomial regression]]
+[[Polynomial Regression]] is a type of [[Linear Regression]] that estimates relation of features by the nth degree. This allows the data to be better fir in regression, compared to pure [[Linear Regression]] 
