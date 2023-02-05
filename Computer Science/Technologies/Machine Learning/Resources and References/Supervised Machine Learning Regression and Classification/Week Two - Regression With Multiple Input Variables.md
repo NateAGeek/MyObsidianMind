@@ -204,3 +204,10 @@ def zscore_normalize_features(X):
 ```
 ## Picking Correct Learning Rate
 ![[../../../../../NotebookAssets/Pasted image 20230201232445.png]]
+
+
+## Feature Engineering
+Sometimes data can derive and be transformed into more data that could optimize or give new contexts to datasets.
+### For Example
+Measuring houses might sizes might be useful for predicting prices. However, if we are given the width and height, maybe area can be a new attribute to measure. Transforming the data, width and height, into area allows use to engineer new features from existing data. Growing the potential of developing models. 
+
