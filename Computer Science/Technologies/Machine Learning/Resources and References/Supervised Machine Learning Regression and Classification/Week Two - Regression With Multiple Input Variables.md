@@ -155,17 +155,17 @@ NumPy also supports Matrixes that could be use for multiple features on training
 ## Feature Scaling
 Feature scaling is important to make the gradient decent to be better to compute, as we can set a better alpha (learning rate).
 
-### Normalize the dataset via min/max 0.0 - 1.0
+### [[Normalization]] the dataset via min/max 0.0 - 1.0
 $$
  x = \dfrac{x - x_\min}{x_\max - x_\min}
 $$
-### Mean Normalization
+### [[Mean Normalization]]
 $$
  x_i := \dfrac{x_i - \mu_i}{max - min}
 $$
 Where $\mu$ is the sample mean
 
-###  Z-score Normalization
+###  [[Z-Score Normalization]]
 $$x^{(i)}_j = \dfrac{x^{(i)}_j - \mu_j}{\sigma_j} \tag{4}$$ 
 where $j$ selects a feature or a column in the $\mathbf{X}$ matrix. $µ_j$ is the mean of all the values for feature (j) and $\sigma_j$ is the standard deviation of feature (j).
 $$
@@ -204,3 +204,14 @@ def zscore_normalize_features(X):
 ```
 ## Picking Correct Learning Rate
 ![[../../../../../NotebookAssets/Pasted image 20230201232445.png]]
+
+
+## Feature Engineering
+Sometimes data can derive and be transformed into more data that could optimize or give new contexts to datasets.
+### For Example
+Measuring houses might sizes might be useful for predicting prices. However, if we are given the width and height, maybe area can be a new attribute to measure. Transforming the data, width and height, into area allows use to engineer new features from existing data. Growing the potential of developing models. 
+
+## [[Polynomial regression]]
+[[Polynomial Regression]] is a type of [[Linear Regression]] that estimates relation of features by the nth degree. So, features that are not linearly correlated get better fits. An example could be the rate of growth factor in a colony. As the initial conditions are set, the growth factor is none linear, and potentially requires a polynomial regression to better predict the feature. This allows the data to be better fit in regression, compared to pure [[Linear Regression]]. 
+
+
