@@ -33,3 +33,6 @@ The underlying cost function for regression is different thus making how we upda
 ![[../../../../../NotebookAssets/Pasted image 20230209210554.png]]
 Although the gradient descent function seems similar to the linear version, missing the $x_j$ multiplication. The regression function is different thus expanding this formula is completely different.
 
+## Overfitting
+
+* Underfit is when the algorithm is unable to properly fit the data. In this context, the linear regression might not best fit the data. This is due to the nature of housing prices, they appear to stagnate in relation to their size. 
