@@ -215,4 +215,13 @@ Measuring houses might sizes might be useful for predicting prices. However, if 
 [[Polynomial Regression]] is a type of [[Linear Regression]] that estimates relation of features by the nth degree. So, features that are not linearly correlated get better fits. An example could be the rate of growth factor in a colony. As the initial conditions are set, the growth factor is none linear, and potentially requires a polynomial regression to better predict the feature. This allows the data to be better fit in regression, compared to pure [[Linear Regression]]. 
 
 ## [[Logistic Regression]]
-
+Logistic Regression is used for classifying datasets that contain boundary separations that are not linear. There are datasets that require more of a boolean selection rather than a linear, as linear could lead to inaccurate classification.
+![[../../../../../NotebookAssets/Pasted image 20230209183457.png]]
+To do Logistic Regression the we need to apply the weight and bias function to the [[Sigmoid Function]]. In the Sigmoid Function, the power of x is the parameter that adjusts the intensity of the function. We can insert our weight and bias function to better control our model learning abilities.
+$$
+\begin{aligned}
+f(x)_{wb} &= xw + b \\
+sig(x)_{wb} &= \frac{1}{1+e^{xw + b}}\
+\end{aligned}
+$$
+This now locks data a more binary value that is probabilistic.
