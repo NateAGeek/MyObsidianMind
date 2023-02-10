@@ -225,3 +225,17 @@ sig(x)_{wb} &= \frac{1}{1+e^{xw + b}}\
 \end{aligned}
 $$
 This now locks data a more binary value that is probabilistic.
+
+### Logistic Regression Cost Function
+The logistic regression cost can be challenging to calculate since it typically does not generate a Convex function, like [[Linear Regression]]. Logistic Regression leads to non-convex functions.
+![[../../../../../NotebookAssets/Pasted image 20230209191044.png]]
+
+To have a Logistic Regression Cost Function we need to properly identify the cost of the regression. The best fit for the loss function is as follows.
+$$
+L(f_{\vec{w},b}(\vec{x}^{(i)}), y^{(i)}) = \begin{cases}
+    -log(f_{\vec{w},b}(\vec{x}^{(i)})),& \text{if } y^{(i)} = 1\\
+    -log(1 - f_{\vec{w},b}(\vec{x}^{(i)})),& \text{if } y^{(i)} = 0
+\end{cases}
+$$
+If the y is 1, meaning the label to the data is 1 our log function will push the cost to move closer and closer to 0, guiding the fitting more accurately.
+![[../../../../../NotebookAssets/Screenshot 2023-02-09 at 7.38.28 PM.png]]
