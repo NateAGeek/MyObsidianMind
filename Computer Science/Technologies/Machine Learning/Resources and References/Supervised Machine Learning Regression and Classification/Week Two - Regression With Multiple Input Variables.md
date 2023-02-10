@@ -241,3 +241,5 @@ If the y is 1, meaning the label to the data is 1 our log function will push the
 ![[../../../../../NotebookAssets/Screenshot 2023-02-09 at 7.38.28 PM.png]]
 The cost function is the opposite for expected y values of 0
 ![[../../../../../NotebookAssets/Screenshot 2023-02-09 at 8.27.57 PM.png]]
+Also you can rewrite the loss function as follows
+$$loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) = (-y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right)$$
