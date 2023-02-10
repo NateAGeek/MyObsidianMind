@@ -239,3 +239,5 @@ L(f_{\vec{w},b}(\vec{x}^{(i)}), y^{(i)}) = \begin{cases}
 $$
 If the y is 1, meaning the label to the data is 1 our log function will push the cost to move closer and closer to 0, guiding the fitting more accurately.
 ![[../../../../../NotebookAssets/Screenshot 2023-02-09 at 7.38.28 PM.png]]
+The cost function is the opposite for expected y values of 0
+![[../../../../../NotebookAssets/Screenshot 2023-02-09 at 8.27.57 PM.png]]
