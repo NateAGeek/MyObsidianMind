@@ -43,3 +43,25 @@ Although the gradient descent function seems similar to the linear version, miss
 ![[../../../../../NotebookAssets/Pasted image 20230210171818.png|300]]
 
 * Overfitting is also applicable for Classification and other models. 
+
+### Counteracting Overfitting
+There are many different ways to counter act overfitting. However, one of the most mathematical ways is through Regularization. 
+* You can collect more data to train the model if possible, filling in possible gaps between datapoints to force the model to better fit
+* You can also reduce the number of unnecessary features, probably those that do not reflect how to predict the value desire.
+* Or use Regularization, that reduces the noise between the datapoints, as it reduces exaggerated weights and biases (almost like muffling the data).
+
+## Regularization
+
+Typically the way to reduce the noise between datapoints we need to diminish the weights to make sure they are not higher(extreme overfitting values). We can reduce the weights impact on the cost function by adding a regularization term. 
+$$\frac{\lambda}{2m}\sum_{j=1}^{n}w^2_j$$ This regularization term term attempts to properly diminish the extreme weights by a certain degree. The $\lambda$ controls how much the weights are diminished.
+
+Here is an example with the full [[Squared Error Cost Function]].
+$$
+J(\vec{w}, b) = \frac{1}{2m}\sum_{i=1}^m(f_{\vec{w}, b}(\vec{x}^{(i)})-y^{(i)})^2 + \frac{\lambda}{2m}\sum_{j=1}^{n}w^2_j
+$$
+
+### Gradient Decent with Regularized Linear Regression
+![[../../../../../NotebookAssets/Pasted image 20230210184137.png]]
+Where w and b are the partial derivates in relation to $\alpha$.
+This will cause the $w_j$ term to be reduce in relation to $\alpha$ as we attempt to minimize into a gradient. $\lambda$ is typically a constant and can lead to more control of how much we want to reduce the $w_j$ parameter.
+### Gradient Decent with Regularized Logistic Regression
