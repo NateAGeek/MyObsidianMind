@@ -42,3 +42,4 @@ Although the gradient descent function seems similar to the linear version, miss
 * Overfit or High Variance is when a model fits the data set perfectly, however, it sometimes will predict data that does not lead to a generalized approach. This happens for example here, the highlighted pink area is out of the logical bounds of what would be a generalized approach. As the price of the house between 3 and 4 is probably not less.
 ![[../../../../../NotebookAssets/Pasted image 20230210171818.png|300]]
 
+* Overfitting is also applicable for Classification and other models. 
