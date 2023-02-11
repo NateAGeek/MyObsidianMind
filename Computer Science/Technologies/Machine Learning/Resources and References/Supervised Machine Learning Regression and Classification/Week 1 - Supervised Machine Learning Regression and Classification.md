@@ -57,6 +57,13 @@ This function allows the learning algorithm to generate the proper linear separa
 $$
 \frac{1}{2m}\sum_{i=1}^m(ŷ^{(i)}-y^{(i)})^2
 $$
+Or also with the linear regression function
+$$
+\begin{align}
+f_{\vec{w}, b}(x) &= \vec{w}x + b \\
+J(\vec{w}, b) &= \frac{1}{2m}\sum_{i=1}^m(f_{\vec{w}, b}(\vec{x}^{(i)})-y^{(i)})^2\\
+\end{align}
+$$
 
 _Worth reviewing this answer as to why we use the square error: https://datascience.stackexchange.com/questions/10188/why-do-cost-functions-use-the-square-error
 Basically thought it is to keep the range positive... But has some other math stuff...
