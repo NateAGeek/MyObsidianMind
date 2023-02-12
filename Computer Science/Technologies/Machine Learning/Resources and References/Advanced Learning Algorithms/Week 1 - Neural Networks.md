@@ -22,3 +22,5 @@ There are a lot of different activation functions used for fitting neurons. Tens
 ### [[Neural Network Layers]]
 Neural Networks are built with multiple layers. But for starter there is the input layer, that is basically a vector of features. Then there is an output layer, outputting the best estimation of the expected value by the model. In between is the input and output layer are hidden layers. The hidden layers are the dense collection of simulated neurons that use the activation functions to find the best fit for data.
 
+[[Activation Value]] of a Layer with unit(neuron) j is notated like so: $$a_j^{[l]} = g(\vec{w}_j^{[l]}\cdot\vec{a}^{[l-1]}+b_j^{[l]})$$
+Where $l$ is the layer index, and $j$ is the neuron index. Notice that we use the pervious activation layer's value to produce the new one. $g$ is the activation function
