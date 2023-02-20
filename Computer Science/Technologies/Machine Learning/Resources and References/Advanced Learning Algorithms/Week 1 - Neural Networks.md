@@ -54,3 +54,12 @@ def my_sequential(x, W1, b1, W2, b2):
 A dense layer is a just a input array of features, this case a 1d array. Then we look at the weight of W, how man weights we have (aka how many units in the dense layer). Then dot is taken with the feature input.
 Weights are in proportion to how many inputs are there, hence why n is the num of inputs and j is the number in the dense layer.
 
+## AGI
+[[Artificial General Intelligence]]: General learning, fun fact regions of the brain can be rewired to learn different things. Audio cortex can be rewired with vision input and learn to see. Roe research
+[[Artificial Narrow Intelligence]]: Image classification and other mini tasks have been done.
+
+## Vectorization
+
+![[../../../../../NotebookAssets/Pasted image 20230220135932.png]]
+matmul is in from NumPy to multiply two matrixes that allows for faster computing of the W and a_in
+
