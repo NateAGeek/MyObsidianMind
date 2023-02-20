@@ -24,3 +24,5 @@ Neural Networks are built with multiple layers. But for starter there is the inp
 
 [[Activation Value]] of a Layer with unit(neuron) j is notated like so: $$a_j^{[l]} = g(\vec{w}_j^{[l]}\cdot\vec{a}^{[l-1]}+b_j^{[l]})$$
 Where $l$ is the layer index, and $j$ is the neuron index. Notice that we use the pervious activation layer's value to produce the new one. $g$ is the activation function
+
+## Forward Propagation From Scratch
