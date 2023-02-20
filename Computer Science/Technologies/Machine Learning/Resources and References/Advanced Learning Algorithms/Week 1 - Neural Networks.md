@@ -9,8 +9,8 @@ Are a series of simulated neurons, that have capacity to out put values based on
 * In the context of [[Logistic Regression]] the activation function is simply $f(x) = \frac{1}{1+e^{-x}}$ as the neurons output is dependent on the logistic, classifying, correlation of the input data.
 
 #### More on Activation Functions
-There are a lot of different activation functions used for fitting neurons. Tensorflow has a list here that are use with the [[../../Kares|Kares Library]]. Link https://keras.io/api/layers/activations/
-[[../../Kares|Keras]]
+There are a lot of different activation functions used for fitting neurons. Tensorflow has a list here that are use with the [[../../Kares/Kares|Kares Library]]. Link https://keras.io/api/layers/activations/
+[[../../Kares/Kares|Keras]]
 * [[Sigmoid Activation Function]]
 * [[Softmax Activation Function]]
 * [[Softsign Activation Function]]
