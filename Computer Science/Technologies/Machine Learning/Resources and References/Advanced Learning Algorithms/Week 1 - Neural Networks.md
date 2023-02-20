@@ -25,7 +25,7 @@ Neural Networks are built with multiple layers. But for starter there is the inp
 [[Activation Value]] of a Layer with unit(neuron) j is notated like so: $$a_j^{[l]} = g(\vec{w}_j^{[l]}\cdot\vec{a}^{[l-1]}+b_j^{[l]})$$
 Where $l$ is the layer index, and $j$ is the neuron index. Notice that we use the pervious activation layer's value to produce the new one. $g$ is the activation function
 
-## Forward Propagation From Scratch
+## [[Forward Propagation]] From Scratch
 ```python
 def my_dense(a_in, W, b):
     """
@@ -63,3 +63,4 @@ Weights are in proportion to how many inputs are there, hence why n is the num o
 ![[../../../../../NotebookAssets/Pasted image 20230220135932.png]]
 matmul is in from NumPy to multiply two matrixes that allows for faster computing of the W and a_in
 
+You will not need to do a loop like in the original dense layer with the dot product. This is due to how matmul will transpose the A_in to multiply with W. Then, will handle the creation of the output matrix. That will then be handled with the sigmoid function g.
