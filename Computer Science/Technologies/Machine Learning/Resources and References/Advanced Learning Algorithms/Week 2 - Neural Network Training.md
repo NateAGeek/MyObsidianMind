@@ -13,4 +13,22 @@ ReLU for positive numbers
 
 _ReLU has become the common activation function for training hidden layers as it can be faster at resolving_
 
-The reason to default use ReLu over Linear is due to linear would just lead to linear recession rather than a fitting of the data. ReLUs have the ability to turn on and off function when needed. Since their activation 
+The reason to default use ReLu over Linear is due to linear would just lead to linear recession rather than a fitting of the data. ReLUs have the ability to turn on and off function when needed. Since their activation.
+
+## Multiclass Classification
+Although sigmoid can be used to predict the probability of a output being true or false. However, we want to generalize this to have multiple possible outputs. Softmax regression is used for multiclass outputs.
+
+### Softmax
+Softmax function tries to find the probability of the learned output compared to the other results.
+$$
+    P(y = out|\vec{x})   
+$$
+General Softmax Logic follows
+$$
+\begin{align}
+    z_j &= \vec{w}_j\ \cdot\ \vec{x} + b_j \\
+    j &= 1, ..., N \\
+    a_j &= \frac{e^{z_j}}{\sum_{k=1}^{N}e^{z_k}} = P(y = j|\vec{x})
+\end{align}
+$$
+Where z is first calculated as a probable output, then is fitted across the distribution of all the other possible classified outputs.
