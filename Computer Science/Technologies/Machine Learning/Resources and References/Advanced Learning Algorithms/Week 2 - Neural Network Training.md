@@ -32,3 +32,9 @@ $$
 \end{align}
 $$
 Where z is first calculated as a probable output, then is fitted across the distribution of all the other possible classified outputs.
+
+Softmax does suffer from [[Roundoff Errors]] in computing. We use logits to reduce rounding issues. Then with the output you have to pass it through a sigmoid as you are no longer getting individual probabilities.
+
+## Multi-label Classification
+Are if there are multiple detections in an output. Such as if there is cars, bus, or pedestrians in a image. 
+
