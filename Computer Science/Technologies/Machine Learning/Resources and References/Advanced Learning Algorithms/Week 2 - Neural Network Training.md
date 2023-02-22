@@ -13,3 +13,4 @@ ReLU for positive numbers
 
 _ReLU has become the common activation function for training hidden layers as it can be faster at resolving_
 
+The reason to default use ReLu over Linear is due to linear would just lead to linear recession rather than a fitting of the data. ReLUs have the ability to turn on and off function when needed. Since their activation 
