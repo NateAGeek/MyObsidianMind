@@ -54,3 +54,4 @@ The derivation that back prop provides allows for HUGE performance in finding ho
 Forward Propagation is N * P
 backwards Propagation is just N + P
 
+_Like I get how to solve the back prop after the first forward prop is solved, but is that what we need to do? TODO: Need to look at back prop tutorial and other explanation_
