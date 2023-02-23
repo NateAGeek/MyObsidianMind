@@ -45,8 +45,12 @@ It is different alpha rates for each parameter in the model. You can change the 
 ## Additional Layers
 Convolutional Layer: Are good for reading regions of an image or area of data. They can help neural networks train faster too.
 
-## Backpropagation
-Sympy can help help programical solve derivatives 
+## Backwards Propagation
+`Sympy` can help help programmatically solve derivatives 
 
 Back Prop is the computation of change in J change backwards, via a derivative.
 The derivation that back prop provides allows for HUGE performance in finding how alpha changes the learning rate. Reduces computational steps needed.
+
+Forward Propagation is N * P
+backwards Propagation is just N + P
+
