@@ -38,5 +38,15 @@ Softmax does suffer from [[Roundoff Errors]] in computing. We use logits to redu
 ## Multi-label Classification
 Are if there are multiple detections in an output. Such as if there is cars, bus, or pedestrians in a image. A multi-label classification would just be a sigmoid output.
 
+## Optimizer
+Adam Optimizer: adaptive moment estimation
+It is different alpha rates for each parameter in the model. You can change the learning rate to potential learning speed. Adam is a good choice over typical gradient decent.
 
+## Additional Layers
+Convolutional Layer: Are good for reading regions of an image or area of data. They can help neural networks train faster too.
 
+## Backpropagation
+Sympy can help help programical solve derivatives 
+
+Back Prop is the computation of change in J change backwards, via a derivative.
+The derivation that back prop provides allows for HUGE performance in finding how alpha changes the learning rate. Reduces computational steps needed.
