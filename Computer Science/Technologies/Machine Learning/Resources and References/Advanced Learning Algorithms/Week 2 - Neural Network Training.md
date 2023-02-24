@@ -44,11 +44,23 @@ m = 100
 centers = [[-5, 2], [-2, -2], [1, 2], [5, -2]]
 std = 1.0
 X_train, y_train = make_blobs(n_samples=m, centers=centers, cluster_std=std,random_state=30)
-plt_mc(X_train,y_train,classes, centers, std=std)
+
+# This is a training point as the input values
+# X_train[:3] = 
+# [[ 4.33 -1.99]
+# [ 4.1  -2.31]
+# [ 4.5  -2.19]]
+
+# This is the output class labels for the points
+# y_train[:3] =
+# [3 3 3]
+
 
 model = Sequential(
     [
         Dense(2, activation = 'relu',   name = "L1"),
+        # We need to be linear activation since we will be using logits
+        # we also will be generating 4 different classes
         Dense(4, activation = 'linear', name = "L2")
     ]
 )
@@ -60,6 +72,9 @@ model.fit(
     X_train,y_train,
     epochs=200
 )
+
+prediction_point = model.predict([[4.33, -1.99]]) #should be class 3 out of the classes of 0, 1, 2, 3
+np.argmax(prediction_point[0]) # should be 3
 
 ```
 
@@ -84,3 +99,6 @@ Forward Propagation is N * P
 backwards Propagation is just N + P
 
 _Like I get how to solve the back prop after the first forward prop is solved, but is that what we need to do? TODO: Need to look at back prop tutorial and other explanation_
+
+Ok, I think since we have the expected output when training, we can go backwards from y. That is how we are able to do it. Need to still watch a video on it more or less though...
+
