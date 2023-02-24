@@ -29,6 +29,15 @@ To collect data of that is a baseline of performance. What is the reasonable tes
 * Guess on experience
 * Algorithm that already exists
 
+#### High Bias
 If your Training Error and Baseline Performance have a high distance in error, then you have a high bias issue
-If your Training Error and Cross Validation Error has a high number, then you have a high variance
+![[../../../../../NotebookAssets/Pasted image 20230224170650.png]]
 
+Hight Bias: Probably means that the algorithm is maxing out on what it can learn. So there might need to be a different approach to the learning algorithm. More layers? More feature engineering?
+
+#### High Variance
+If your Training Error and Cross Validation Error has a high number, then you have a high variance.
+![[../../../../../NotebookAssets/Screenshot 2023-02-24 at 5.08.56 PM.png]]
+High Variance is probably a large gap between the training and cross validation. That probably means that you need to have more data to properly learn the expected output. Might be possible.
+
+_Calculating this graph can lead to a lot of computation requirements as to test every model and graph the learning curve can be challenging_
