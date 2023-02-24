@@ -81,6 +81,7 @@ np.argmax(prediction_point[0]) # should be 3
 ## Multi-label Classification
 Are if there are multiple detections in an output. Such as if there is cars, bus, or pedestrians in a image. A multi-label classification would just be a sigmoid output.
 
+TODO: Find a good example. But it appears to just be a sigmoid output on the CategoricalCrossentropy output.
 
 ## Optimizer
 Adam Optimizer: adaptive moment estimation
