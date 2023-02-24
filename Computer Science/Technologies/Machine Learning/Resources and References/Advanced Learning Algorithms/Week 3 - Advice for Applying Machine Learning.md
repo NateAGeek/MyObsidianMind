@@ -19,4 +19,16 @@ One way to measure if you model fits just right is typically when the model has 
 **High Variance/Overfit**: Is when the Training error is low. But the cross validation is high. Meaning the model has been trained to really only support what it was trained on and not generalized
 **High bias and High Variance**: Is when the training error on the training set and the cross validation is high too.
 
+## Regularization
+Regularization helps reduce both bias and variance in a model. Basically mirrors how choosing the right degree of a polynomial works with regular regression. However, this is used for machine learning models
+![[../../../../../NotebookAssets/Pasted image 20230224163428.png]]
+
+## Baseline
+To collect data of that is a baseline of performance. What is the reasonable tests are
+* Human Level Performance
+* Guess on experience
+* Algorithm that already exists
+
+If your Training Error and Baseline Performance have a high distance in error, then you have a high bias issue
+If your Training Error and Cross Validation Error has a high number, then you have a high variance
 
