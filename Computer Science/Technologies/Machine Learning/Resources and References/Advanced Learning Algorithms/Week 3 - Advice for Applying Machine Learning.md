@@ -61,3 +61,23 @@ _Calculating this graph can lead to a lot of computation requirements as to test
 **Although increasing the network might lead to overfitting. If you begin to regularize it then you will find that it becomes more generalized and less overfitting.**
 
 **Keras layers have a param called kernel_regularizer**
+
+## Developing a Machine Learning Model
+### Error Analysis
+Manually looking into samples and find where miss classification/fitting happened and determine what is causing the error in the model, maybe some pattern.
+
+Error analysis fits under diagnosis of an algorithm.
+
+### Adding/Creating Data Tips
+* Using Error Analysis can help use target what data to find more examples of. So collecting more data specialized can help train the model better. 
+* Data Augmentation: transforming the data in some way. In images, rotating, mirror, size, etc. Audio too, combining bad conditions to a baseline weather. This can also kinda be done with data, but can be a little difficult. 
+* Generating synthetic data: Data that is very similar to what problem you are trying to solve.
+
+### Transfer Learning
+Is taking another model that is focus on a general or similar problem and using its initial layers as a base to start training your network.
+
+**For example** a general network for detecting all kinds of objects in a scene. We can then use that models layers as a start for our algorithms that learns to detect cats. Since the weights have already been trained we can just update the output layer or even have a good start to train the inner layers. 
+
+**Supervised Pre-training**: Is the first pre trained network
+**Fine Tuning**: using a pre-trained data
+
