@@ -41,3 +41,23 @@ If your Training Error and Cross Validation Error has a high number, then you ha
 High Variance is probably a large gap between the training and cross validation. That probably means that you need to have more data to properly learn the expected output. Might be possible.
 
 _Calculating this graph can lead to a lot of computation requirements as to test every model and graph the learning curve can be challenging_
+
+#### Examples Of Fixing High Bias/Variance
+* Getting more training examples: fixes high variance
+    * Will allow the data cross validation set to match with the training set
+* Try smaller sets of features: fixes high variance
+    * Removing features that may not be required will allow the model to fit better with training set. Note, removing features may lead to a higher bias too, as the training and cross validation set may end up meeting, but could perform worst than the baseline. So this may or may not be true.
+* Try getting additional features: fixes high bias
+    * More features could lead to better fitting with less data points, thus converging with less training items
+* Try adding polynomial features: fixes high bias
+    * Is like adding features but for a dataset with enough training examples
+* Try decreasing $\lambda$: fixes high bias
+    * As it can give more room for the algorithm to match the data results and not force it to fit training set.
+* Try increasing $\lambda$: fixes high variance
+    * As it will start to make the learning algorithm fit data more better to create a generalized approach.
+#### A common approach for problems
+![[../../../../../NotebookAssets/Pasted image 20230225134719.png]]
+
+**Although increasing the network might lead to overfitting. If you begin to regularize it then you will find that it becomes more generalized and less overfitting.**
+
+**Keras layers have a param called kernel_regularizer**
