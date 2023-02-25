@@ -81,3 +81,25 @@ Is taking another model that is focus on a general or similar problem and using 
 **Supervised Pre-training**: Is the first pre trained network
 **Fine Tuning**: using a pre-trained data
 
+### Skewed Data
+Some data of occurrences are rare. For example if only 1% of the population has a disease. Then a model with 99% accuracy may just have learned to always say the disease is not present since it is mostly likely not in the population. 
+
+**Precision/Recall**
+ ![[../../../../../NotebookAssets/Pasted image 20230225155530.png]]
+
+**Precision**: of data is simply with all the **True Positives** what percentage were correct of predicting out of all positives. 
+**Recall**: Is what percentage of **True Positives** did we detect out of cases that should have been positive. 
+
+These measures then allows us to better work on datasets that may be more skewed. Confirming if our models are better and more accurate.
+
+**There are balances to solving/balancing precision and recall**: Changing acceptance requirements can increase recall but lower precision. 
+![[../../../../../NotebookAssets/Pasted image 20230225160455.png]]
+
+### F1 Score
+Can help automate the Precision and Recall by scoring it formulaically
+
+$$
+    F_1score = \frac{1}{\frac{1}{2}(\frac{1}{P} + \frac{1}{R})} = 2\frac{PR}{P + R}
+$$
+This will give a more balance number of the optimal balance of P and R. as it will take priority of the weaker one.
+**This is also known as the Harmonic Mean**
