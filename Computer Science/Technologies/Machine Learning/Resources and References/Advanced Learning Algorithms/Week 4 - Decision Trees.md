@@ -20,3 +20,9 @@ _Note: 0 * log(0) = 0 in this context_
 ## Information Gain
 Is the ability to find the features to split on in a tree to maximize entropy separation.
 To choose a split, we need to take the weighted average of the entropy between split features. We are trying to split on the maximum amount of entropy.
+**Information Gain Formula**
+$$
+\begin{align}
+Information\ Gain = H(p_1^{root}) - (w^{left}H(p_1^{left}) + w^{right}H(p_1^{right}))
+\end{align}
+$$
