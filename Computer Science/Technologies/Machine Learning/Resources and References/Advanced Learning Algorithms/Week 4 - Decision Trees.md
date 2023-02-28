@@ -19,3 +19,4 @@ _Note: 0 * log(0) = 0 in this context_
 
 ## Information Gain
 Is the ability to find the features to split on in a tree to maximize entropy separation.
+To choose a split, we need to take the weighted average of the entropy between split features. We are trying to split on the maximum amount of entropy.
