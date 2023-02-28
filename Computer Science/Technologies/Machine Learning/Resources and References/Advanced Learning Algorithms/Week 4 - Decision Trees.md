@@ -1,0 +1,18 @@
+## Decision Trees
+Is a tree that takes conditional nodes to determine and potential classify the label. The **Root Node** trickles down into the children and determines the possible output.
+
+## Building a Decision Tree
+* Find a feature that will be the root node of the decision. We keep splitting features until we gain our insight into our labels and find classification. Where the collection is fully separated 
+* Determine when to stop splitting. When the final nodes fully classify the items. Or limit the depth
+
+## Entropy
+Is the measure of purity of a collection of data. If you have a pure collection then the entropy is 0. Otherwise, if the sample set is 50/50, then the entropy is 1, as there is a equal mix of items.
+
+The formula is as follows:
+$$
+\begin{align}
+p_0 &= 1 - p_1 \\
+H(p_1) &= -p_1log_2(p_1) - p_0log_2(p_0)\\
+\end{align}
+$$
+_Note: 0 * log(0) = 0 in this context_
