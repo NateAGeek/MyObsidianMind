@@ -26,3 +26,5 @@ $$
 Information\ Gain = H(p_1^{root}) - (w^{left}H(p_1^{left}) + w^{right}H(p_1^{right}))
 \end{align}
 $$
+### One-hot Encoding
+If we have multiple features, like a animal has 3 different ear types, we need to convert them in to a boolean feature. We use one-hot encoding to do that
