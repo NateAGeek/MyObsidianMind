@@ -37,3 +37,16 @@ To work with continuous data it is about finding the value that provides the mos
 ![[../../../../../NotebookAssets/Pasted image 20230228231051.png]]
 For a tree we need to find the split on the largest reduction variance. This will allow us to split and guess an estimate of the weight.
 
+## Tree Ensembles
+Decisions trees are sensitive to changes in their data, and then in relation the entropy completely changes. To avoid this we have multiple trees that gives a more general approach.
+
+### Sampling with Replacement & Random Forest
+Is a way to generate multiple trees. We randomly pull samples and and construct new training set, it does not matter if we have duplicates.
+
+**Bag Decision Tree**
+* Create a new training set
+* Generate Tree
+* Repeat multiple to generate trees
+**Random Forest**
+* Bag Decision Tree
+* 
