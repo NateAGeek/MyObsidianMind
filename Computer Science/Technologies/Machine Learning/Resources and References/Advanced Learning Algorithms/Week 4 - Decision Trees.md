@@ -35,4 +35,5 @@ To work with continuous data it is about finding the value that provides the mos
 
 ### Regression on Decision Trees
 ![[../../../../../NotebookAssets/Pasted image 20230228231051.png]]
-For a 
+For a tree we need to find the split on the largest reduction variance. This will allow us to split and guess an estimate of the weight.
+
