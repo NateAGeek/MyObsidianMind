@@ -27,4 +27,8 @@ Information\ Gain = H(p_1^{root}) - (w^{left}H(p_1^{left}) + w^{right}H(p_1^{rig
 \end{align}
 $$
 ### One-hot Encoding
-If we have multiple features, like a animal has 3 different ear types, we need to convert them in to a boolean feature. We use one-hot encoding to do that
+If we have multiple features, like a animal has 3 different ear types, we need to convert them in to a boolean feature. We use one-hot encoding to do that as it allows us to create boolean branches for a decision tree to work.
+
+### Continuos Data
+![[../../../../../NotebookAssets/Pasted image 20230228223042.png]]
+To work with continuous data it is about finding the value that provides the most entropy on the data set. Then splitting based on that value.
