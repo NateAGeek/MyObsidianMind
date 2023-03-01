@@ -32,3 +32,5 @@ If we have multiple features, like a animal has 3 different ear types, we need t
 ### Continuos Data
 ![[../../../../../NotebookAssets/Pasted image 20230228223042.png]]
 To work with continuous data it is about finding the value that provides the most entropy on the data set. Then splitting based on that value.
+
+### Regression on Decision Trees
