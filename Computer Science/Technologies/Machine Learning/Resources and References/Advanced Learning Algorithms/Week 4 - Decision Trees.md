@@ -37,3 +37,34 @@ To work with continuous data it is about finding the value that provides the mos
 ![[../../../../../NotebookAssets/Pasted image 20230228231051.png]]
 For a tree we need to find the split on the largest reduction variance. This will allow us to split and guess an estimate of the weight.
 
+## Tree Ensembles
+Decisions trees are sensitive to changes in their data, and then in relation the entropy completely changes. To avoid this we have multiple trees that gives a more general approach.
+
+### Sampling with Replacement for Tree Ensembles
+Is a way to generate multiple trees. We randomly pull samples and and construct new training set, it does not matter if we have duplicates.
+
+**Bag Decision Tree**
+* Create a new training set
+* Generate Tree
+* Repeat multiple to generate trees
+**Random Forest**
+* Bag Decision Tree, without generated trees
+* Randomly choose Features of subset of available. So long that n features is < some k constant. $k=\sqrt{n}$ 
+**XGBoost**
+* Bag Decision Tree
+* Find what items are misclassified and build the next tree focused on resolving that
+* Except when the bag generated is for bad examples higher weight
+_for the math on the weights, it is complex, and is better to use an open source lib_
+
+### When to use Decision Trees vs Neural Networks
+**Decision Trees**
+* Decision Trees are useful for structured data
+* Not recommended for unstructured data like images or audio and text. Since they are usually not possible to categorize in a format to easily split on. Or the granularity is too complex to split on.
+* Fast to train
+**Neural Networks**
+* Works well with all types
+* slower that decision trees
+* Works with transfer learning
+* Might be easier to combine them
+
+
