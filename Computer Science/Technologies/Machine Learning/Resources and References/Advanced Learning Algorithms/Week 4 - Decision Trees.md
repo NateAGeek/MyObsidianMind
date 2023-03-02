@@ -53,5 +53,18 @@ Is a way to generate multiple trees. We randomly pull samples and and construct 
 **XGBoost**
 * Bag Decision Tree
 * Find what items are misclassified and build the next tree focused on resolving that
+* Except when the bag generated is for bad examples higher weight
+_for the math on the weights, it is complex, and is better to use an open source lib_
+
+### When to use Decision Trees vs Neural Networks
+**Decision Trees**
+* Decision Trees are useful for structured data
+* Not recommended for unstructured data like images or audio and text. Since they are usually not possible to categorize in a format to easily split on. Or the granularity is too complex to split on.
+* Fast to train
+**Neural Networks**
+* Works well with all types
+* slower that decision trees
+* Works with transfer learning
+* Might be easier to combine them
 
 
