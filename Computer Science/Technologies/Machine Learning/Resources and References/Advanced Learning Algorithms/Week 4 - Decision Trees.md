@@ -66,5 +66,3 @@ _for the math on the weights, it is complex, and is better to use an open source
 * slower that decision trees
 * Works with transfer learning
 * Might be easier to combine them
-
-
