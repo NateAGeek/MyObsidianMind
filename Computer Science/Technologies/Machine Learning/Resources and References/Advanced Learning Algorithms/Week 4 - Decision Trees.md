@@ -40,7 +40,7 @@ For a tree we need to find the split on the largest reduction variance. This wil
 ## Tree Ensembles
 Decisions trees are sensitive to changes in their data, and then in relation the entropy completely changes. To avoid this we have multiple trees that gives a more general approach.
 
-### Sampling with Replacement & Random Forest
+### Sampling with Replacement for Tree Ensembles
 Is a way to generate multiple trees. We randomly pull samples and and construct new training set, it does not matter if we have duplicates.
 
 **Bag Decision Tree**
@@ -48,5 +48,10 @@ Is a way to generate multiple trees. We randomly pull samples and and construct 
 * Generate Tree
 * Repeat multiple to generate trees
 **Random Forest**
+* Bag Decision Tree, without generated trees
+* Randomly choose Features of subset of available. So long that n features is < some k constant. $k=\sqrt{n}$ 
+**XGBoost**
 * Bag Decision Tree
-* 
+* Find what items are misclassified and build the next tree focused on resolving that
+
+
