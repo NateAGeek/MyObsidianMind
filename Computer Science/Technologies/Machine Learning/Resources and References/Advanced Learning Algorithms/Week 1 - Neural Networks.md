@@ -60,7 +60,7 @@ Weights are in proportion to how many inputs are there, hence why n is the num o
 
 ## Vectorization
 
-![[../../../../../NotebookAssets/Pasted image 20230220135932.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230220135932.png]]
 matmul is in from NumPy to multiply two matrixes that allows for faster computing of the W and a_in
 
 You will not need to do a loop like in the original dense layer with the dot product. This is due to how matmul will transpose the A_in to multiply with W. Then, will handle the creation of the output matrix. That will then be handled with the sigmoid function g.

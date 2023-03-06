@@ -18,7 +18,7 @@ Are algorithms that take inputs and attempt to produce the correct output label,
 ## [[../../Unsupervised Learning | Unsupervised Learning]]
 Are algorithms that take inputs and attempt discover patterns within the data. They are not algorithms that are meant to produces a single result given input. However, rather help define sets and patterns in data. 
 
-[[Clustering]]: Is used to find relational regions of data within a dataset to discover similarities across data. This can be dimensional where we can identify similar relations.
+[[../../Clustering]]: Is used to find relational regions of data within a dataset to discover similarities across data. This can be dimensional where we can identify similar relations.
 
 [[Anomaly Detection]]: This algorithm technique is used to discover unusual data points.
 
@@ -69,7 +69,7 @@ _Worth reviewing this answer as to why we use the square error: https://datascie
 Basically thought it is to keep the range positive... But has some other math stuff...
 
 Graphing the Cost Function Relative to the w parameter of the linear regression can allow for visually seeing the most optimal w and b for the regression.
-![[../../../../../NotebookAssets/Pasted image 20221115160031.png]]
+![[../../../../../../NotebookAssets/Pasted image 20221115160031.png]]
 
 ### [[Gradient Descent]]
 Is a strategy to find local minimums for for values given altering to function params.

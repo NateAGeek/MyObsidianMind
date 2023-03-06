@@ -1,7 +1,7 @@
 
 ## [[Logistic Regression]]
 Logistic Regression is used for classifying datasets that contain boundary separations that are not linear. There are datasets that require more of a boolean selection rather than a linear, as linear could lead to inaccurate classification.
-![[../../../../../NotebookAssets/Pasted image 20230209183457.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230209183457.png]]
 To do Logistic Regression the we need to apply the weight and bias function to the [[Sigmoid Function]]. In the Sigmoid Function, the power of x is the parameter that adjusts the intensity of the function. We can insert our weight and bias function to better control our model learning abilities.
 $$
 \begin{aligned}
@@ -13,7 +13,7 @@ This now locks data a more binary value that is probabilistic.
 
 ### Logistic Regression Cost Function
 The logistic regression cost can be challenging to calculate since it typically does not generate a Convex function, like [[Linear Regression]]. Logistic Regression leads to non-convex functions.
-![[../../../../../NotebookAssets/Pasted image 20230209191044.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230209191044.png]]
 
 To have a Logistic Regression Cost Function we need to properly identify the cost of the regression. The best fit for the loss function is as follows.
 $$
@@ -23,9 +23,9 @@ L(f_{\vec{w},b}(\vec{x}^{(i)}), y^{(i)}) = \begin{cases}
 \end{cases}
 $$
 If the y is 1, meaning the label to the data is 1 our log function will push the cost to move closer and closer to 0, guiding the fitting more accurately.
-![[../../../../../NotebookAssets/Screenshot 2023-02-09 at 7.38.28 PM.png]]
+![[../../../../../../NotebookAssets/Screenshot 2023-02-09 at 7.38.28 PM.png]]
 The cost function is the opposite for expected y values of 0
-![[../../../../../NotebookAssets/Screenshot 2023-02-09 at 8.27.57 PM.png]]
+![[../../../../../../NotebookAssets/Screenshot 2023-02-09 at 8.27.57 PM.png]]
 Also you can rewrite the loss function as follows
 $$loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) = (-y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right)$$
 
@@ -60,17 +60,17 @@ def compute_cost_logistic(X, y, w, b):
 
 ### Gradient Descent with Logistic Regression 
 The underlying cost function for regression is different thus making how we update w and b slightly different.
-![[../../../../../NotebookAssets/Pasted image 20230209210554.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230209210554.png]]
 Although the gradient descent function seems similar to the linear version, missing the $x_j$ multiplication. The regression function is different thus expanding this formula is completely different.
 
 ## [[Machine Learning Overfitting]]
 
 * Underfit/High Bias is when the algorithm is unable to properly fit the data. In this context, the linear regression might not best fit the data. This is due to the nature of housing prices, they appear to stagnate in relation to their size. 
-![[../../../../../NotebookAssets/Screenshot 2023-02-10 at 5.13.20 PM.png|300]]
+![[../../../../../../NotebookAssets/Screenshot 2023-02-10 at 5.13.20 PM.png|300]]
 * Generalization is more of a term for a model that best fits current test data and also possible new data in a general way. It is best to generalize you model to predict values that best fit your dataset.
-![[../../../../../NotebookAssets/Pasted image 20230210171800.png|300]]
+![[../../../../../../NotebookAssets/Pasted image 20230210171800.png|300]]
 * Overfit or High Variance is when a model fits the data set perfectly, however, it sometimes will predict data that does not lead to a generalized approach. This happens for example here, the highlighted pink area is out of the logical bounds of what would be a generalized approach. As the price of the house between 3 and 4 is probably not less.
-![[../../../../../NotebookAssets/Pasted image 20230210171818.png|300]]
+![[../../../../../../NotebookAssets/Pasted image 20230210171818.png|300]]
 
 * Overfitting is also applicable for Classification and other models. 
 
@@ -91,7 +91,7 @@ J(\vec{w}, b) = \frac{1}{2m}\sum_{i=1}^m(f_{\vec{w}, b}(\vec{x}^{(i)})-y^{(i)})^
 $$
 
 ### Gradient Decent with Regularized Linear Regression
-![[../../../../../NotebookAssets/Pasted image 20230210184137.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230210184137.png]]
 Where w and b are the partial derivates in relation to $\alpha$.
 This will cause the $w_j$ term to be reduce in relation to $\alpha$ as we attempt to minimize into a gradient. $\lambda$ is typically a constant and can lead to more control of how much we want to reduce the $w_j$ parameter.
 
