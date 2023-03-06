@@ -19,3 +19,6 @@ $$
 It is a cost function that converges to the mean of the centroid.
 
 ### Initializing K-Means
+Randomly place cluster points. Then run the convergence algorithm with the cost function. Calculate the results that give the min of cost function. You need to do this sometimes from 50-1000 times, and pick the best one.
+### Choosing Clusters
+ 
