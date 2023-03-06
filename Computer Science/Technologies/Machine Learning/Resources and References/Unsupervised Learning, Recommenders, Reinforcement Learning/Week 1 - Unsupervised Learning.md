@@ -11,6 +11,9 @@ Assign random [centroid] that is close to some datapoints. Then it determines th
 * Then for each cluster find the average direction of the categorized datapoints
     * Move the centroids towards that until convergence of avg location.
 ### Cost Function
+Where c = cluster assignments that x is assigned to
+Where $\mu$ = the centroid to cluster
+Where x = the data point
 $$
 \begin{align}
     J(c^{(1)}...,c^{(m)},\mu_{1},...,\mu_{k}) &= \frac{1}{m}\sum_{i=1}^m ||x^{(i)}-\mu_{c^{(i)}}||^2
