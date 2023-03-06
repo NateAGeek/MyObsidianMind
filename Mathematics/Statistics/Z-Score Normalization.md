@@ -1,0 +1,1 @@
+Z-Score normalization is the process of normalizing the series of data weighted by the deviation of the underlying set. 
