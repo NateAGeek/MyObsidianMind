@@ -165,7 +165,7 @@ $$
 $$
 Where $\mu$ is the sample mean
 
-###  [[Z-Score Normalization]]
+###  [[../../../../../Mathematics/Statistics/Z-Score Normalization]]
 $$x^{(i)}_j = \dfrac{x^{(i)}_j - \mu_j}{\sigma_j} \tag{4}$$ 
 where $j$ selects a feature or a column in the $\mathbf{X}$ matrix. $µ_j$ is the mean of all the values for feature (j) and $\sigma_j$ is the standard deviation of feature (j).
 $$
