@@ -29,3 +29,78 @@ Find the best clustering that that will reduce the cost function.
 
 _However, really picking the clusters tends to be a per application based choice_
 
+### Python Example
+This function finds what datapoints are close to the centeroid
+```python
+def find_closest_centroids(X, centroids):
+    """
+    Computes the centroid memberships for every example
+    
+    Args:
+        X (ndarray): (m, n) Input values      
+        centroids (ndarray): (K, n) centroids
+    
+    Returns:
+        idx (array_like): (m,) closest centroids
+    
+    """
+
+    # Set K
+    K = centroids.shape[0]
+
+    # You need to return the following variables correctly
+    idx = np.zeros(X.shape[0], dtype=int)
+
+    ### START CODE HERE ###
+    for i in range(0, len(idx)):
+        min_j = np.linalg.norm(X[i] - centroids[0])
+        min_mu = 0
+        for mu in range(1, K):
+            j = np.linalg.norm(X[i] - centroids[mu])
+            if j < min_j:
+                min_j = j
+                min_mu = mu
+        idx[i] = min_mu
+     ### END CODE HERE ###
+    
+    return idx
+```
+
+We then can run the compute_centroids to find where the means direction to move the centroids  after classification, to better fit the data
+```python
+def compute_centroids(X, idx, K):
+    """
+    Returns the new centroids by computing the means of the 
+    data points assigned to each centroid.
+    
+    Args:
+        X (ndarray):   (m, n) Data points
+        idx (ndarray): (m,) Array containing index of closest centroid for each 
+                       example in X. Concretely, idx[i] contains the index of 
+                       the centroid closest to example i
+        K (int):       number of centroids
+    
+    Returns:
+        centroids (ndarray): (K, n) New centroids computed
+    """
+    
+    # Useful variables
+    m, n = X.shape
+    
+    # You need to return the following variables correctly
+    centroids = np.zeros((K, n))
+    
+    ### START CODE HERE ###
+    clusters_m = np.zeros(K)
+    for i in range(m):
+        centroids[idx[i]] = centroids[idx[i]] + X[i]
+        clusters_m[idx[i]] = clusters_m[idx[i]] + 1
+        
+    for mi in range(len(clusters_m)):
+        centroids[mi] = centroids[mi]/clusters_m[mi]
+    ### END CODE HERE ## 
+    
+    return centroids
+```
+We do this until we converge to a point or over a set number of iterations
+
