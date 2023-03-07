@@ -13,7 +13,7 @@ Sometimes when making a model you do not want to overfit but also prevent the mo
 
 ### Diagnosing Bias and Variance
 One way to measure if you model fits just right is typically when the model has low error on both cross validation and training set.
-![[../../../../../NotebookAssets/Pasted image 20230224160100.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230224160100.png]]
 
 **High Bias/Underfit**: Is when the error in the training set is high, and typically the cross validation is also equal in error
 **High Variance/Overfit**: Is when the Training error is low. But the cross validation is high. Meaning the model has been trained to really only support what it was trained on and not generalized
@@ -21,7 +21,7 @@ One way to measure if you model fits just right is typically when the model has 
 
 ## Regularization
 Regularization helps reduce both bias and variance in a model. Basically mirrors how choosing the right degree of a polynomial works with regular regression. However, this is used for machine learning models
-![[../../../../../NotebookAssets/Pasted image 20230224163428.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230224163428.png]]
 
 ## Baseline
 To collect data of that is a baseline of performance. What is the reasonable tests are
@@ -31,13 +31,13 @@ To collect data of that is a baseline of performance. What is the reasonable tes
 
 #### High Bias
 If your Training Error and Baseline Performance have a high distance in error, then you have a high bias issue
-![[../../../../../NotebookAssets/Pasted image 20230224170650.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230224170650.png]]
 
 Hight Bias: Probably means that the algorithm is maxing out on what it can learn. So there might need to be a different approach to the learning algorithm. More layers? More feature engineering?
 
 #### High Variance
 If your Training Error and Cross Validation Error has a high number, then you have a high variance.
-![[../../../../../NotebookAssets/Screenshot 2023-02-24 at 5.08.56 PM.png]]
+![[../../../../../../NotebookAssets/Screenshot 2023-02-24 at 5.08.56 PM.png]]
 High Variance is probably a large gap between the training and cross validation. That probably means that you need to have more data to properly learn the expected output. Might be possible.
 
 _Calculating this graph can lead to a lot of computation requirements as to test every model and graph the learning curve can be challenging_
@@ -56,7 +56,7 @@ _Calculating this graph can lead to a lot of computation requirements as to test
 * Try increasing $\lambda$: fixes high variance
     * As it will start to make the learning algorithm fit data more better to create a generalized approach.
 #### A common approach for problems
-![[../../../../../NotebookAssets/Pasted image 20230225134719.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230225134719.png]]
 
 **Although increasing the network might lead to overfitting. If you begin to regularize it then you will find that it becomes more generalized and less overfitting.**
 
@@ -85,7 +85,7 @@ Is taking another model that is focus on a general or similar problem and using 
 Some data of occurrences are rare. For example if only 1% of the population has a disease. Then a model with 99% accuracy may just have learned to always say the disease is not present since it is mostly likely not in the population. 
 
 **Precision/Recall**
- ![[../../../../../NotebookAssets/Pasted image 20230225155530.png]]
+ ![[../../../../../../NotebookAssets/Pasted image 20230225155530.png]]
 
 **Precision**: of data is simply with all the **True Positives** what percentage were correct of predicting out of all positives. 
 **Recall**: Is what percentage of **True Positives** did we detect out of cases that should have been positive. 
@@ -93,7 +93,7 @@ Some data of occurrences are rare. For example if only 1% of the population has 
 These measures then allows us to better work on datasets that may be more skewed. Confirming if our models are better and more accurate.
 
 **There are balances to solving/balancing precision and recall**: Changing acceptance requirements can increase recall but lower precision. 
-![[../../../../../NotebookAssets/Pasted image 20230225160455.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230225160455.png]]
 
 ### F1 Score
 Can help automate the Precision and Recall by scoring it formulaically

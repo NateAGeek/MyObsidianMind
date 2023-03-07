@@ -30,11 +30,11 @@ $$
 If we have multiple features, like a animal has 3 different ear types, we need to convert them in to a boolean feature. We use one-hot encoding to do that as it allows us to create boolean branches for a decision tree to work.
 
 ### Continuos Data
-![[../../../../../NotebookAssets/Pasted image 20230228223042.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230228223042.png]]
 To work with continuous data it is about finding the value that provides the most entropy on the data set. Then splitting based on that value.
 
 ### Regression on Decision Trees
-![[../../../../../NotebookAssets/Pasted image 20230228231051.png]]
+![[../../../../../../NotebookAssets/Pasted image 20230228231051.png]]
 For a tree we need to find the split on the largest reduction variance. This will allow us to split and guess an estimate of the weight.
 
 ## Tree Ensembles
