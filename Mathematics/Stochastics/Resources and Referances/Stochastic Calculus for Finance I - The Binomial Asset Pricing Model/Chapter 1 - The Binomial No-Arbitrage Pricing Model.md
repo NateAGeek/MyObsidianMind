@@ -12,3 +12,29 @@ In markets [[Arbitrage]] is the trading strategy that requires zero money, has z
 
 _NOTE: Although arbitrage is found in markets it is typically fleeting. As someone discovers it and removes it thought trading it..._
 
+## Example of Model Definitions
+Given the context of an asset currently priced in a 4, and has an up factor of 2 and a down factor of 1/2. We get the following binomial possibility.
+![[../../../../NotebookAssets/Pasted image 20230309161411.png]]
+
+#### Variable Definitions 
+* $S_0 = $4$
+    * Asset starting price
+    * $S_1(H\ or\ T)$: representing the outcome of the asset at one unit time in the future
+* $X_0$ = $1.20
+    * The capital put forth
+* $\Delta_0 = \frac{1}{2}$
+    * shares bought of asset
+* $B_0 = (X_0 - \Delta_0S_0)$
+    * Borrowed capital from money markets
+* $r = \frac{1}{4}$
+    * Interest rate of borrowed capital from money markets
+* $O_0 = (1+r)B_0$
+    * The owed cost of borrowed capital at time 0
+
+In the context of the example.
+1) We will first buy half a share at $4, totaling to $2.
+2) We only have $1.20 so we need to seek capital from the money markets and barrow $0.80 at a rate of $\frac{1}{4}$.
+3) That leaves us with an owed amount of $0.80 * $\frac{1}{4}$ = $1
+4) Since owed money is a debt, owed $1 becomes -$1 in our profit
+5) In state of return of H is $8 * $\frac{1}{2}$ = $4, and paying back the interest owed of -$1, we would have a portfolio $3
+6) In state of return of T is $2  * $\frac{1}{2}$ = $1, and paying back the interest owed of -$1, we would have a portfolio $0
