@@ -39,8 +39,17 @@ In the context of the example.
 5) In state of return of H is $8 * $\frac{1}{2}$ = $4, and paying back the interest owed of -$1, we would have a portfolio $3
 6) In state of return of T is $2  * $\frac{1}{2}$ = $1, and paying back the interest owed of -$1, we would have a portfolio $0
 
+Formula
+$$
+\begin{align}
+X_1(H) &= \Delta_0S_1(H) + O_0 = 3 \\
+X_1(T) &= \Delta_0S_1(T) + O_0 = 0
+\end{align}
+$$
+
 If we also add in the context of a European Call Option K at strike 5. We can determine if we simulated the option with money markets as a borrower. When K = 5, $(S_1(H) - K)^+ = 3$ or $(S_1(T) - K)^+ = 0$. So we were able to get the same return using money markets as if we were to hold a Call Option to expiration at time one, with a strike of 5.
 
 #### Potential Arbitrage Opportunity 
 In this context if the option was price at more or less than $1.20, then we would have a profit opportunity. As we could long or short the simulated trade with money markets and make the difference in profit without risking any money technically. This would be considered an arbitrage.
 
+TODO: Review more of the V_0 related work and figure out the best way to note it.
