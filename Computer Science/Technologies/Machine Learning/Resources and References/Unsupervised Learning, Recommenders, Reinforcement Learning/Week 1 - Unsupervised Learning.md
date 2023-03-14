@@ -104,3 +104,8 @@ def compute_centroids(X, idx, K):
 ```
 We do this until we converge to a point or over a set number of iterations
 
+## Anomaly Detection
+
+### Density Estimation
+Attempt to build a density map where values towards the minimum, where the density of data is most, are less likely to be an anomaly while the further out by a degree then the likelihood of an anomaly increases.
+
