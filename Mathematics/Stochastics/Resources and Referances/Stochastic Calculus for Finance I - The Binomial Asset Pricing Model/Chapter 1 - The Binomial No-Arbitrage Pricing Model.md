@@ -73,8 +73,24 @@ $$
 We can then define the following equations
 $$
 \begin{align}
-    (1+r)X_0 + \Delta_0(S_1(H) - (1+r)S_0) &= V_1(H) \\
-    (1+r)X_0 + \Delta_0(S_1(T) - (1+r)S_0) &= V_1(T)
+    X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r)) &= V_1(H) \\
+    X_0(1+r) + \Delta_0(S_1(T) - S_0(1+r)) &= V_1(T)
 \end{align}
 $$
-The two variables that need to solved is how much items needed to correctly build a 
+To properly reflect the solve for how we reflect the initial money market portfolio we need to calculate the $X_0$ and $\Delta_0$.
+
+Calculating $\Delta_0$ is fairly simple.
+$$
+\begin{align}
+V_1(H) - V_1(T) &= X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r)) -  X_0(1+r) + \Delta_0(S_1(T) - S_0(1+r)) \\ 
+V_1(H) - V_1(T) &= X_0(1+r) - X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r)) + \Delta_0(S_1(T) - S_0(1+r)) \\
+V_1(H) - V_1(T) &= \Delta_0(S_1(H) - S_0(1+r)) + \Delta_0(S_1(T) - S_0(1+r)) \\
+V_1(H) - V_1(T) &= \Delta_0S_1(H) - \Delta_0S_0(1+r) + \Delta_0S_1(T) - \Delta_0S_0(1+r) \\
+V_1(H) - V_1(T) &= \Delta_0S_1(H) + \Delta_0S_1(T) - \Delta_0S_0(1+r) - \Delta_0S_0(1+r) \\
+V_1(H) - V_1(T) &= \Delta_0S_1(H) + \Delta_0S_1(T) \\
+V_1(H) - V_1(T) &= \Delta_0(S_1(H) + S_1(T)) \\
+\frac{V_1(H) - V_1(T)}{S_1(H) - S_1(T)} &= \Delta_0 \\
+TODO: Simplified\ wrong\ someplace...
+\end{align}
+$$
+Solving for X_0 is more involved... Can do...
