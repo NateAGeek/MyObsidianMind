@@ -17,7 +17,7 @@ Given the context of an asset currently priced in a 4, and has an up factor of 2
 ![[../../../../NotebookAssets/Pasted image 20230309161411.png]]
 
 #### Variable Definitions 
-* $S_0 = $4$
+* $S_0$ = $4$
     * Asset starting price
     * $S_1(H\ or\ T)$: representing the outcome of the asset at one unit time in the future
 * $X_0$ = $1.20
@@ -47,9 +47,34 @@ X_1(T) &= \Delta_0S_1(T) + O_0 = 0
 \end{align}
 $$
 
-If we also add in the context of a European Call Option K at strike 5. We can determine if we simulated the option with money markets as a borrower. When K = 5, $(S_1(H) - K)^+ = 3$ or $(S_1(T) - K)^+ = 0$. So we were able to get the same return using money markets as if we were to hold a Call Option to expiration at time one, with a strike of 5.
+If we also add in the context of a European Call Option K at strike 5. We can determine if we simulated the option with money markets as a borrower. When K = 5, $(S_1(H) - K)^+ = 3$ or $(S_1(T) - K)^+ = 0$. So we were able to get the same return using money markets as if we were to hold a Call Option to expiration at time one, with a strike of 5. That means we can replicate the option strategy with money markets or use money markets to replicate the outcome of the option strategy.
 
 #### Potential Arbitrage Opportunity 
-In this context if the option was price at more or less than $1.20, then we would have a profit opportunity. As we could long or short the simulated trade with money markets and make the difference in profit without risking any money technically. This would be considered an arbitrage.
+In this context if the option was price at more or less than $1.20, then we would have a profit opportunity. Since base on the example we  As we could long or short the simulated trade with money markets and make the difference in profit without risking any money technically. This would be considered an arbitrage.
 
-TODO: Review more of the V_0 related work and figure out the best way to note it.
+### Solving For a More General Derivative at $V_0$
+The goal for reverse engineering price of a derivative at time zero, is to determine its equivalent portfolio. This allows to determine if the derivative is miss priced and could lead to a risk free profit arbitrage. 
+
+In order to solve to $V_0$ we need to do it reverse from the potential outcomes from $V_1(H)$ and $V_1(T)$. We can start by assuming a matching portfolio created, example above, the following have to be true $X_1(H) = V_1(H)$ and $X_1(T) = V_1(T)$ since we will assume that the market is efficient and there is not an arbitrage between the money market portfolio and the derivates alternative. 
+
+First we must define what $X_1$ is in relation to the money market portfolio. We can do this with the following equation. Where $\Delta_0S_1$ represents our position at time 1 and $(1+r)(X_0 - \Delta_0S_0)$ our negative cost from borrowing from the money markets. 
+$$
+\begin{align}
+X_1 &= \Delta_0S_1 + (1+r)(X_0 - \Delta_0S_0) \\
+    &= \Delta_0S_1 + X_0(1+r) - \Delta_0S_0(1+r) \\
+    &= \Delta_0S_1 - \Delta_0S_0(1+r) + X_0(1+r) \\
+    &= \Delta_0(S_1 - S_0(1+r)) + X_0(1+r) \\
+    &= X_0(1+r) + \Delta_0(S_1 - S_0(1+r))\\
+    Simplified: \\
+X_1 &= X_0(1+r) + \Delta_0(S_1 - S_0(1+r))
+\end{align}
+$$
+
+We can then define the following equations
+$$
+\begin{align}
+    (1+r)X_0 + \Delta_0(S_1(H) - (1+r)S_0) &= V_1(H) \\
+    (1+r)X_0 + \Delta_0(S_1(T) - (1+r)S_0) &= V_1(T)
+\end{align}
+$$
+The two variables that need to solved is how much items needed to correctly build a 
