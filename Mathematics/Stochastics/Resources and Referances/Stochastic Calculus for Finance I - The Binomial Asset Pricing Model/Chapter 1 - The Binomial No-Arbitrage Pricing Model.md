@@ -79,7 +79,7 @@ $$
 $$
 To properly reflect the solve for how we reflect the initial money market portfolio we need to calculate the $X_0$ and $\Delta_0$.
 
-Calculating $\Delta_0$ is fairly simple.
+Calculating $\Delta_0$ is fairly simple. This ends up being the [[Delta Hedging Formula]]
 $$
 \begin{align}
 V_1(H) - V_1(T) &= X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r)) -  X_0(1+r) + \Delta_0(S_1(T) - S_0(1+r)) \\ 
@@ -92,4 +92,12 @@ V_1(H) - V_1(T) &= \Delta_0(S_1(H) - S_1(T)) \\
 \frac{V_1(H) - V_1(T)}{S_1(H) - S_1(T)} &= \Delta_0 \\
 \end{align}
 $$
-We now how how much shares we need 
+We now how how much shares we need properly replicate the position in the money market portfolio.
+
+We need still need to solve for the $X_0$ required capital to mimic the derivative. This is a bit more complicated and we introduce what is known as the risk-neutral probabilities, $\tilde{p}$ and $\tilde{q} = 1 - \tilde{p}$  to help us solve for the unknowns.
+
+$$
+\begin{align}
+
+\end{align}
+$$
