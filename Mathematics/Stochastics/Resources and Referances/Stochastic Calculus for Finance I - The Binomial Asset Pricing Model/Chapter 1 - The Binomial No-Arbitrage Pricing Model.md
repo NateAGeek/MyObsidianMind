@@ -87,10 +87,9 @@ V_1(H) - V_1(T) &= X_0(1+r) - X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r)) + \Delta_0(
 V_1(H) - V_1(T) &= \Delta_0(S_1(H) - S_0(1+r)) + \Delta_0(S_1(T) - S_0(1+r)) \\
 V_1(H) - V_1(T) &= \Delta_0S_1(H) - \Delta_0S_0(1+r) + \Delta_0S_1(T) - \Delta_0S_0(1+r) \\
 V_1(H) - V_1(T) &= \Delta_0S_1(H) + \Delta_0S_1(T) - \Delta_0S_0(1+r) - \Delta_0S_0(1+r) \\
-V_1(H) - V_1(T) &= \Delta_0S_1(H) + \Delta_0S_1(T) \\
-V_1(H) - V_1(T) &= \Delta_0(S_1(H) + S_1(T)) \\
+V_1(H) - V_1(T) &= \Delta_0S_1(H) + \Delta_0S_1(T) - 0 \\
+V_1(H) - V_1(T) &= \Delta_0(S_1(H) - S_1(T)) \\
 \frac{V_1(H) - V_1(T)}{S_1(H) - S_1(T)} &= \Delta_0 \\
-TODO: Simplified\ wrong\ someplace...
 \end{align}
 $$
-Solving for X_0 is more involved... Can do...
+We now how how much shares we need 
