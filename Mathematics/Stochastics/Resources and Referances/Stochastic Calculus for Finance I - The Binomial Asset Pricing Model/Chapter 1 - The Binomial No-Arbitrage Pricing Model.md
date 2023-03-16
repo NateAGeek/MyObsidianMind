@@ -94,7 +94,9 @@ V_1(H) - V_1(T) &= \Delta_0(S_1(H) - S_1(T)) \\
 $$
 We now how how much shares we need properly replicate the position in the money market portfolio.
 
-We need still need to solve for the $X_0$ required capital to mimic the derivative. This is a bit more complicated and we introduce what is known as the risk-neutral probabilities, $\tilde{p}$ and $\tilde{q} = 1 - \tilde{p}$  to help us solve for the unknowns.
+We need still need to solve for the $X_0$ required capital to mimic the derivative. This is a bit more complicated and we introduce what is known as the risk-neutral probabilities, $\tilde{p}$ and $\tilde{q} = 1 - \tilde{p}$ , to help us solve for the unknowns.
+
+Multiplying $\tilde{p}$ by $X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r)) = V_1(H)$, $\tilde{q}$ by $X_0(1+r) + \Delta_0(S_1(T) - S_0(1+r)) = V_1(T)$, and sum them we can have enough context to solve for $X_0$ in relation to the outcomes of $V_1(H)\ and\ V_1(T)$ 
 
 $$
 \begin{align}
