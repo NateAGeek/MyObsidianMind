@@ -96,10 +96,43 @@ We now how how much shares we need properly replicate the position in the money 
 
 We need still need to solve for the $X_0$ required capital to mimic the derivative. This is a bit more complicated and we introduce what is known as the risk-neutral probabilities, $\tilde{p}$ and $\tilde{q} = 1 - \tilde{p}$ , to help us solve for the unknowns.
 
-Multiplying $\tilde{p}$ by $X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r)) = V_1(H)$, $\tilde{q}$ by $X_0(1+r) + \Delta_0(S_1(T) - S_0(1+r)) = V_1(T)$, and sum them we can have enough context to solve for $X_0$ in relation to the outcomes of $V_1(H)\ and\ V_1(T)$ 
-
+Multiplying $\tilde{p}$ by $X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r)) = V_1(H)$, $\tilde{q}$ by $X_0(1+r) + \Delta_0(S_1(T) - S_0(1+r)) = V_1(T)$, and sum them we can have enough context to solve for $X_0$ in relation to the outcomes of $V_1(H)\ and\ V_1(T)$. 
 $$
 \begin{align}
-
+\tilde{p}(X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r))) &= \tilde{p}V_1(H) \\
+\tilde{q}(X_0(1+r) + \Delta_0(S_1(T) - S_0(1+r))) &= \tilde{q}V_1(T) \\
+\\
+\tilde{p}(X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r))) + \\
+\tilde{q}(X_0(1+r) + \Delta_0(S_1(T) - S_0(1+r))) \\
+&= \tilde{p}V_1(H) + \tilde{q}V_1(T) \\
+\\
+X_0(1+r) + \Delta_0([\tilde{p}S_1(H) + \tilde{q}S_1(T)] - S_0(1+r))) &= \tilde{p}V_1(H) + \tilde{q}V_1(T)
+\\
+\\
+S_0 = \frac{1}{1 + r}[\tilde{p}S_1(H) + \tilde{q}S_1(T)] \\
+\\
+\\
+X_0(1+r) = \tilde{p}V_1(H) + \tilde{q}V_1(T) \\
+X_0 = \frac{1}{1+r}[\tilde{p}V_1(H) + \tilde{q}V_1(T)]
 \end{align}
 $$
+Now we need to solve for $\tilde{p}$ and $\tilde{q} = 1 - \tilde{p}$  to resolve the full relation for $X_0$
+
+Knowing $S_0 = \frac{1}{1 + r}[\tilde{p}S_1(H) + \tilde{q}S_1(T)]$ we can solve for $\tilde{p}$ and $\tilde{q} = 1 - \tilde{p}$ like so...
+$$
+\begin{align}
+S_0 = \frac{1}{1 + r}[\tilde{p}uS_0 + \tilde{q}dS_0] = \frac{S_0}{1 + r}[\tilde{p}u + \tilde{q}d] \\
+\tilde{p} = \frac{1 + r - d}{u-d} \\
+\tilde{q} = \frac{u-1-r}{u-d}
+\end{align}
+$$
+
+This now allows us to formulate:
+$$
+X_0 = \frac{V_1(H)(1 + r - d) + V_1(T)(u-1-r)}{(1+r)(u-d)}
+$$
+
+We can fully emulate the derivative outcome with a money market based portfolio.  
+
+### Example: TODO
+
