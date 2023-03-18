@@ -96,7 +96,6 @@ We now how how much shares we need properly replicate the position in the money 
 
 We need still need to solve for the $X_0$ required capital to mimic the derivative. This is a bit more complicated and we introduce what is known as the risk-neutral probabilities, $\tilde{p}$ and $\tilde{q} = 1 - \tilde{p}$ , to help us solve for the unknowns.
 
-<<<<<<< HEAD
 Multiplying $\tilde{p}$ by $X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r)) = V_1(H)$, $\tilde{q}$ by $X_0(1+r) + \Delta_0(S_1(T) - S_0(1+r)) = V_1(T)$, and sum them we can have enough context to solve for $X_0$ in relation to the outcomes of $V_1(H)\ and\ V_1(T)$. 
 $$
 \begin{align}
@@ -135,14 +134,34 @@ $$
 
 We can fully emulate the derivative outcome with a money market based portfolio.  
 
-### Example: TODO
+### Example
+kinda an example with python how this would work... Only thing is I do not know how to incorporate buying with money market...
+```python
+S_0 = 4
+S_1H = 8
+S_1T = 2
 
-=======
-Multiplying $\tilde{p}$ by $X_0(1+r) + \Delta_0(S_1(H) - S_0(1+r)) = V_1(H)$, $\tilde{q}$ by $X_0(1+r) + \Delta_0(S_1(T) - S_0(1+r)) = V_1(T)$, and sum them we can have enough context to solve for $X_0$ in relation to the outcomes of $V_1(H)\ and\ V_1(T)$ 
+V_1H = 8
+V_1T = 2
 
-$$
-\begin{align}
+r = 1/4
+u = S_1H/S_0
+d = S_1T/S_0
 
-\end{align}
-$$
->>>>>>> origin/main
+p = (1 + r - d)/(u - d)
+q = (u - 1 - r)/(u - d)
+
+X_0 = (p * V_1H + q * V_1T)/(1 + r) # Starting capital required
+D_0 = (V_1H - V_1T) / (S_1H - S_1T)
+
+print(f"Starting Capital {X_0}")
+print(f"Number of Shares {D_0}")
+print(X_0)
+print(S_0)
+
+if X_0 == S_0:
+    print("Yeps X_0 = S_0")
+```
+
+## Multiple Binomial Models
+Utilizing what we 
