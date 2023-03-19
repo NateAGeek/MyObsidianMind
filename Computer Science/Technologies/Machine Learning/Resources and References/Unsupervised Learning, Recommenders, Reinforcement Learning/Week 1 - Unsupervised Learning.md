@@ -109,3 +109,7 @@ We do this until we converge to a point or over a set number of iterations
 ### Density Estimation
 Attempt to build a density map where values towards the minimum, where the density of data is most, are less likely to be an anomaly while the further out by a degree then the likelihood of an anomaly increases.
 
+## Gaussian Distribution 
+Is a "bell" like distribution that has a center at $/mu$ with a $\sigma$ that is the distance in from the center to for the first distribution.
+
+$\mu = \fract{1}
