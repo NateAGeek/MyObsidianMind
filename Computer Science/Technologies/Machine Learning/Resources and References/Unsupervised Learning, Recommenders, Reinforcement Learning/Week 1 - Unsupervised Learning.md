@@ -120,6 +120,31 @@ $$
 $\mu = \frac{1}{m}\sum_{i=1}^{m}x^{(i)}$
 $\sigma = \frac{1}{m}\sum_{i=1}^{m}(x^{(i)}-\mu)^2$ 
 
+```python
+def estimate_gaussian(X): 
+    """
+    Calculates mean and variance of all features 
+    in the dataset
+    
+    Args:
+        X (ndarray): (m, n) Data matrix
+    
+    Returns:
+        mu (ndarray): (n,) Mean of all features
+        var (ndarray): (n,) Variance of all features
+    """
+
+    m, n = X.shape
+    
+    ### START CODE HERE ### 
+    mu = np.sum(X, axis=0)/m
+    print(mu)
+    var = np.sum((X - mu)**2, axis=0)/m
+    
+    ### END CODE HERE ### 
+        
+    return mu, var
+```
 
 #### Density Estimation
 Extract multiple features that are independent of each other, but not needed to be independent. And we can find their product probability with the following format.
