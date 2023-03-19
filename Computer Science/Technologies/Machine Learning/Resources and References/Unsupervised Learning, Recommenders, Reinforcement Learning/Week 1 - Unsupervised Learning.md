@@ -135,3 +135,9 @@ _if you do not have enough data, then might create just a Cross Validation Set_
 Anomaly detection is useful for datasets that contain variety of possible issues that do fit the normal expectations.
 Supervised Learning tries to learn the pattern from a consistent dataset with clear examples of what are problems. The algorithm learns more to detect specific problems rather than possible problems like anomaly detection does.
 
+### Choosing Features
+Review the features is Gaussian, however, if they are not Gaussian... Then we can transform them into a distribution. Taking the log of the data set works. Or cubing it. It is a matter of finding a formula.
+
+#### Error Analysis for Anomaly Detection
+Review the data and determine if there are features in the allow better detection. This is if the $p(\vec(x))$ is too large.
+
