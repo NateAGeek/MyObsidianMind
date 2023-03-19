@@ -110,6 +110,63 @@ We do this until we converge to a point or over a set number of iterations
 Attempt to build a density map where values towards the minimum, where the density of data is most, are less likely to be an anomaly while the further out by a degree then the likelihood of an anomaly increases.
 
 ## Gaussian Distribution 
-Is a "bell" like distribution that has a center at $/mu$ with a $\sigma$ that is the distance in from the center to for the first distribution.
+Is a "bell" like distribution that has a center at $\mu$ with a $\sigma$ that is the distance in from the center to for the first distribution.
 
-$\mu = \fract{1}
+$$
+p(x ; \mu,\sigma ^2) = \frac{1}{\sqrt{2 \pi \sigma ^2}}\exp^{ - \frac{(x - \mu)^2}{2 \sigma ^2} }
+$$
+
+#### Maximum Likelihood for $\mu$ and $\sigma$ formulas
+$\mu = \frac{1}{m}\sum_{i=1}^{m}x^{(i)}$
+$\sigma = \frac{1}{m}\sum_{i=1}^{m}(x^{(i)}-\mu)^2$ 
+
+```python
+def estimate_gaussian(X): 
+    """
+    Calculates mean and variance of all features 
+    in the dataset
+    
+    Args:
+        X (ndarray): (m, n) Data matrix
+    
+    Returns:
+        mu (ndarray): (n,) Mean of all features
+        var (ndarray): (n,) Variance of all features
+    """
+
+    m, n = X.shape
+    
+    ### START CODE HERE ### 
+    mu = np.sum(X, axis=0)/m
+    print(mu)
+    var = np.sum((X - mu)**2, axis=0)/m
+    
+    ### END CODE HERE ### 
+        
+    return mu, var
+```
+
+#### Density Estimation
+Extract multiple features that are independent of each other, but not needed to be independent. And we can find their product probability with the following format.
+$$\begin{align}
+p(\vec{x}) &= p(x_1;\mu_1,\sigma_1^2) * p(x_2;\mu_2,\sigma_2^2) * p(x_3;\mu_3,\sigma_3^2) ... p(x_n;\mu_n,\sigma_n^2) \\
+p(\vec{x}) &= \prod_{j=1}^{n} p(x_j;\mu_j,\sigma_j^2)
+\end{align}
+$$
+Base on the distribution if $p(\vec{x}) > \epsilon$, where $\epsilon$ is a defined tolerance, then the model will predict an anomaly with the process. The $\epsilon$ has a relation that smaller value will lead to more items being detected as anomaly.
+### Training a model to choose a correct $\epsilon$
+* Create a training set of assumed normal examples
+* Create a Validation set, that can include anomalous examples
+* Create a test set, that can include anomalous examples
+_if you do not have enough data, then might create just a Cross Validation Set_
+
+#### Why use Anomaly Detection vs Supervised Learning
+Anomaly detection is useful for datasets that contain variety of possible issues that do fit the normal expectations.
+Supervised Learning tries to learn the pattern from a consistent dataset with clear examples of what are problems. The algorithm learns more to detect specific problems rather than possible problems like anomaly detection does.
+
+### Choosing Features
+Review the features is Gaussian, however, if they are not Gaussian... Then we can transform them into a distribution. Taking the log of the data set works. Or cubing it. It is a matter of finding a formula.
+
+#### Error Analysis for Anomaly Detection
+Review the data and determine if there are features in the allow better detection. This is if the $p(\vec(x))$ is too large.
+

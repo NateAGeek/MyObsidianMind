@@ -103,3 +103,4 @@ $$
 $$
 This will give a more balance number of the optimal balance of P and R. as it will take priority of the weaker one.
 **This is also known as the Harmonic Mean**
+
