@@ -112,6 +112,10 @@ Attempt to build a density map where values towards the minimum, where the densi
 ## Gaussian Distribution 
 Is a "bell" like distribution that has a center at $\mu$ with a $\sigma$ that is the distance in from the center to for the first distribution.
 
+$$
+p(x ; \mu,\sigma ^2) = \frac{1}{\sqrt{2 \pi \sigma ^2}}\exp^{ - \frac{(x - \mu)^2}{2 \sigma ^2} }
+$$
+
 #### Maximum Likelihood for $\mu$ and $\sigma$ formulas
 $\mu = \frac{1}{m}\sum_{i=1}^{m}x^{(i)}$
 $\sigma = \frac{1}{m}\sum_{i=1}^{m}(x^{(i)}-\mu)^2$ 
@@ -124,7 +128,7 @@ p(\vec{x}) &= p(x_1;\mu_1,\sigma_1^2) * p(x_2;\mu_2,\sigma_2^2) * p(x_3;\mu_3,\s
 p(\vec{x}) &= \prod_{j=1}^{n} p(x_j;\mu_j,\sigma_j^2)
 \end{align}
 $$
-Base on the distribution if $p(\vec{x}) > \epsilon$, where $\epsilon$ is a defined tolerance. Then the model will predict an anomaly with the process.
+Base on the distribution if $p(\vec{x}) > \epsilon$, where $\epsilon$ is a defined tolerance, then the model will predict an anomaly with the process. The $\epsilon$ has a relation that smaller value will lead to more items being detected as anomaly.
 ### Training a model to choose a correct $\epsilon$
 * Create a training set of assumed normal examples
 * Create a Validation set, that can include anomalous examples
