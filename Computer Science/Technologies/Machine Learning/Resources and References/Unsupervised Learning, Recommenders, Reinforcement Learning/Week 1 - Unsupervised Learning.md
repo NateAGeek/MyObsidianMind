@@ -113,7 +113,7 @@ Attempt to build a density map where values towards the minimum, where the densi
 Is a "bell" like distribution that has a center at $\mu$ with a $\sigma$ that is the distance in from the center to for the first distribution.
 
 $$
-p(x ; \mu,\sigma ^2) = \frac{1}{\sqrt{2 \pi \sigma ^2}}\exp^{ - \frac{(x - \mu)^2}{2 \sigma ^2} }
+p(x ; \mu,\sigma ^2) = \frac{1}{m}{1}{\sqrt{2 \pi \sigma ^2}}\exp^{ - \frac{(x - \mu)^2}{2 \sigma ^2} }
 $$
 
 #### Maximum Likelihood for $\mu$ and $\sigma$ formulas
