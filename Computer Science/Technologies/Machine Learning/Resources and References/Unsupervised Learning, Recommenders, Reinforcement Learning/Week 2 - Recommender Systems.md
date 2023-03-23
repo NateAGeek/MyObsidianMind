@@ -1,0 +1,2 @@
+## Recommender Systems
+They are used to resolve best recomidations for entities based on a series of prefreances that are features. For example we could find a dataset of users and their ratings of movies. Extracting the genera type of the movie

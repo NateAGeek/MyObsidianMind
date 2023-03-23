@@ -166,4 +166,4 @@ if X_0 == S_0:
 ## Multiple Binomial Models
 Utilizing what we know about binomial models. We can extend them to multiple periods of time. 
 ![[../../../../NotebookAssets/Pasted image 20230318115200.png]]
-Where the up and down factors are consistent. We develop a model with set degrees of price
+Where the up and down factors are consistent. We develop a model with set degrees of price action over a series of possible outcomes. 
