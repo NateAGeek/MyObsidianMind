@@ -24,3 +24,27 @@ This now is a function for minimizing the square cost of the parameters, w, b, a
 
 We can then extract features, and then we can use those new features to create predictions for other users reactions.
 
+## Normalization 
+If we don't have any data for a user then we end up having w = 0 and b = 0. We can use means normalization to help better fit and predict the what the new user might rate.
+
+We generate a array of mean averages of the ratings from all the users. We subtract those from the original score to normalize it by the mean average.
+
+$$
+\mu = 
+\begin{bmatrix}
+5&5&0&0&?=2.50 \\
+5&?&?&0&?=2.50 \\
+?&5&?&?&?=2.00 \\
+0&0&5&4&?=2.25 \\
+0&0&5&0&?=1.25 \\
+\end{bmatrix}
+$$
+
+We then add $\mu$ to the outputs to get the original known users ratings. However, the new users end up being the avg. Then we get accurate results for unknown users.
+
+## Tensorflow Custom Gradient Decent
+
+![[../../../../../NotebookAssets/EE56BF40-2D21-4877-9F33-8A06ADB61CB5.jpeg]]
+
+You can also use an Optimizer like Adam. This is just a simple way help find learning gradient decent
+
