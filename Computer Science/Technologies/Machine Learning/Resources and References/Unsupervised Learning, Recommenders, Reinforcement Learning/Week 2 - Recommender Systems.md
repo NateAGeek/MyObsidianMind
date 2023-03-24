@@ -53,3 +53,8 @@ Content based filtering algorithms are different from collaborative filtering al
 
 We can use a series of neural networks to find the extracted features of the user and the movies and then dot them to encode the combination of their relative values. 
 ![[../../../../../NotebookAssets/Pasted image 20230323203854.png]]
+
+
+### Large Datasets
+We can generate a list of plausible items. We can precompute the most similar movie the user has watched. Then we can also incorporate the genres the use has watched. Maybe top 20 movies. Base on our filtering, we can then pass that into the ranking, neural net.
+![[../../../../../NotebookAssets/Pasted image 20230323205432.png]]
