@@ -55,6 +55,19 @@ We can use a series of neural networks to find the extracted features of the use
 ![[../../../../../NotebookAssets/Pasted image 20230323203854.png]]
 
 
-### Large Datasets
+### Large Datasets and Recommendations/Ranking
 We can generate a list of plausible items. We can precompute the most similar movie the user has watched. Then we can also incorporate the genres the use has watched. Maybe top 20 movies. Base on our filtering, we can then pass that into the ranking, neural net.
 ![[../../../../../NotebookAssets/Pasted image 20230323205432.png]]
+
+## Principal Component Analysis Algorithm for Data Visualization
+Principal Component Analysis allows us to better visualize more complex and higher dimensional series of data. We try and reduce the complexity of features from many features to 2-3 dimensional data. 
+
+We need to normalize the data to better coordinate the data.
+We project the datapoint onto a line that best fits the datapoints to then get the data on the new z-axis.
+You're are trying to find the maximum variance of the data.
+![[../../../../../NotebookAssets/Pasted image 20230324111334.png]]
+
+### PCA is not Linear Regression
+![[../../../../../NotebookAssets/Pasted image 20230324111921.png]]
+Linear Regression tries to maximize the fitting of the slope to the target output y. PCA is trying to minimizing the projection distance.
+
