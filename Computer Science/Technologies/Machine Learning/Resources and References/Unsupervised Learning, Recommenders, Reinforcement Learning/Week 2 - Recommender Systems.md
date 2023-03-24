@@ -49,4 +49,7 @@ We then add $\mu$ to the outputs to get the original known users ratings. Howeve
 You can also use an Optimizer like Adam. This is just a simple way help find learning gradient decent
 
 ## Content-based Filtering
+Content based filtering algorithms are different from collaborative filtering algorithms. The primary difference is that the algorithm tries to build recommendations from the learned features rather than the user data.
 
+We can use a series of neural networks to find the extracted features of the user and the movies and then dot them to encode the combination of their relative values. 
+![[../../../../../NotebookAssets/Pasted image 20230323203854.png]]
