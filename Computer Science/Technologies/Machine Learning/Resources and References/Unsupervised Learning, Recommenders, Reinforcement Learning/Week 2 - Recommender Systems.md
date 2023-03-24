@@ -48,3 +48,5 @@ We then add $\mu$ to the outputs to get the original known users ratings. Howeve
 
 You can also use an Optimizer like Adam. This is just a simple way help find learning gradient decent
 
+## Content-based Filtering
+
