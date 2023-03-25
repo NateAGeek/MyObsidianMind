@@ -9,4 +9,6 @@ To encourage the algorithm to choose the most optimal reward, maybe not the best
 ### Policy Function
 A function that uses the reward to generate the best series of actions to follow.
 
-### 
+### Q-function
+Returns the optimal action to take. We try to max the Q function to then take the best actions.
+
