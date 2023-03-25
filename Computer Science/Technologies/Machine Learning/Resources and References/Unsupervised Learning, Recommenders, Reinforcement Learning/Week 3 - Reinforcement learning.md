@@ -4,4 +4,9 @@ Is the structure of teaching an algorithm how to behave based on a reward functi
 We use a state and determine the reward factor of the algorithms performance. We try and teach to maximize the reward for the algorithm to follow.
 
 ### Return of reward
-To encourage the algorithm to choose the most optimal reward, maybe not the best but the easiest to access. We can guide it to take the easiest route via a discount factor. The discount factor then is applied to the state causing 
+To encourage the algorithm to choose the most optimal reward, maybe not the best but the easiest to access. We can guide it to take the easiest route via a discount factor. The discount factor then is applied to the state causing larger/longer states to reward ratios to be reduced.
+
+### Policy Function
+A function that uses the reward to generate the best series of actions to follow.
+
+### 
