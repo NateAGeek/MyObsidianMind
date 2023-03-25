@@ -26,3 +26,6 @@ If our action system is not deterministic. We can take the average of the Q-func
 
 ### Good Example problem for fully calculating Q from a given state.
 ![[../../../../../NotebookAssets/Pasted image 20230325153318.png]]
+
+## Continuous State
+Are states that can have varying degrees of dimensions of data. 
