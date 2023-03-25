@@ -12,3 +12,17 @@ A function that uses the reward to generate the best series of actions to follow
 ### Q-function
 Returns the optimal action to take. We try to max the Q function to then take the best actions.
 
+### Bellman Equation
+$$
+    Q(s, a) = R(s) + \gamma(max_{a'}Q(s', a'))
+$$
+
+We try to determine the best optimal action to follow without calculating the whole system. Since we can just incrementally follow the chain of actions.
+
+### Stochastic Environments
+If our action system is not deterministic. We can take the average of the Q-function. We try to maximize the average over the actions. We can basically take on average the output of possible actions. 
+
+![[../../../../../NotebookAssets/Pasted image 20230325152647.png]]
+
+### Good Example problem for fully calculating Q from a given state.
+![[../../../../../NotebookAssets/Pasted image 20230325153318.png]]
