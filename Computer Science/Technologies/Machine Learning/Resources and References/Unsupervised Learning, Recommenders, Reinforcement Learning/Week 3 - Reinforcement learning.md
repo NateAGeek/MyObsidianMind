@@ -29,3 +29,25 @@ If our action system is not deterministic. We can take the average of the Q-func
 
 ## Continuous State
 Are states that can have varying degrees of dimensions of data. 
+
+### Deep Reinforcement Learning
+We can take an input state and feed it into a neural network. This will allow us to build a NN that can learn and determine the optimal Q-function output given the state input. We then pick the maximal Q-function.
+
+#### Using Bellman Equation to Learning and Train our NN
+We can generate a series of of X and Ys with Bellman Equation. 
+![[../../../../../NotebookAssets/Pasted image 20230325162005.png]]
+Although, we can not determine $max_{a'}Q(s', a')$ at the start. We can give an initial guess that the algorithm will progressively optimize. 
+![[../../../../../NotebookAssets/Pasted image 20230325163134.png]]
+
+### Deep Q algorithm
+
+![[../../../../../NotebookAssets/Pasted image 20230325163700.png]]
+
+### Update to the deep learning model to improve performance of learning q-function
+
+![[../../../../../NotebookAssets/Pasted image 20230325163555.png]]
+
+## ϵ-greedy policy
+We can try to pick a action with some minor greed policy. This allows us to learn new things that might not have been the best guess initially.
+![[../../../../../NotebookAssets/Pasted image 20230325164038.png]]
+
