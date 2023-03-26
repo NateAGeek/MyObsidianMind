@@ -51,6 +51,12 @@ Although, we can not determine $max_{a'}Q(s', a')$ at the start. We can give an 
 We can try to pick a action with some minor greed policy. This allows us to learn new things that might not have been the best guess initially.
 ![[../../../../../NotebookAssets/Pasted image 20230325164038.png]]
 
+## Mini Batching
+Mini batching is taking a random series of examples to rapidly test the model on. This random small selection, can improve the performance of the training. This batching can maybe random or slowly incremental of series.
+
+## Soft Updates
+Soft updates are used to nudge the W and B of the model slightly with new W and Bs. This helps let the reinforcement model to converge more lightly to a result. 
+
 ## Code Example
 
 Building the Model of the Q-Function, that will provide train what we want to train the model on developing.
