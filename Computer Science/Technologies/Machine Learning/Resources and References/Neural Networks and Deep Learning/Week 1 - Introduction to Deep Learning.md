@@ -2,4 +2,5 @@ Just reviews a lot of AI stuff... Nothing too crazy tbh... Maybe a bit on the pe
 
 
 ## Interview
-
+Restriction Ballsman Machine
+Variation Methods
