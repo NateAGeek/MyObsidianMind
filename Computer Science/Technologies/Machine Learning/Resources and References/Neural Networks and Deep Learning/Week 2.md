@@ -21,3 +21,14 @@ $$
 L(\hat{y},y)=(y(log(\hat{y})) + (1-y)log(1-\hat{y}))
 $$
 We use this function to determine how close we are to the expected classification output. This loss function basically if y = 1 encourages us to optimize to $\hat{y}$ to 1 and y = 0 then encourage us to optimize $\hat{y}$ to 0.
+
+## Gradient Decent
+We attempt to find the minimum of optimizing the learned value. We take a rate to where we slowly move the desired value to its local minimum of its convex function.
+
+$$
+\begin{align}
+w &:= w - \alpha \frac{\partial J(w,b)}{\partial w} \\
+b &:= b - \alpha \frac{\partial J(w,b)}{\partial b}
+\end{align}
+$$
+
