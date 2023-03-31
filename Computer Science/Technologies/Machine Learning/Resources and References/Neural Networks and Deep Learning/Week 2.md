@@ -18,7 +18,7 @@ Where $z = w^T x + b$.
 
 ### Loss/Error Function
 $$
-L(\hat{y},y)=(y(log(\hat{y})) + (1-y)log(1-\hat{y}))
+L(\hat{y},y)=-(y(log(\hat{y})) + (1-y)log(1-\hat{y}))
 $$
 We use this function to determine how close we are to the expected classification output. This loss function basically if y = 1 encourages us to optimize to $\hat{y}$ to 1 and y = 0 then encourage us to optimize $\hat{y}$ to 0.
 
@@ -61,4 +61,8 @@ b &= 3 \\ \\
 \frac{\partial J}{\partial c} &= \frac{\partial J}{\partial u} \ \frac{\partial u}{\partial c} = 3 * 3 = 9
 \end{align}
 $$
-In this example we have solved for all the original 
+In this example we have solved for all the original Computation graph through the means of back propagation. This gives us the the directional influence originating variables of the derivatives via back propagation.
+
+### Back Propagation with Example of Logistic Regression
+![[../../../../../NotebookAssets/Pasted image 20230331165340.png]]
+With this small number of features $x_1$ and $x_2$ we can determine to what degree we need to adjust $w_1$ and $w_2$ and b to bring the loss down to the approbate classification; 1 or 0. Since our loss function will nudge us to the proper classification we can extract the direction our weights must move in relation to the rate of change in relation to the loss function. 
