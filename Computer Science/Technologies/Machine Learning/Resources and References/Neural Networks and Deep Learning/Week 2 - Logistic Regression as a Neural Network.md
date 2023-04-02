@@ -66,3 +66,5 @@ In this example we have solved for all the original Computation graph through th
 ### Back Propagation with Example of Logistic Regression
 ![[../../../../../NotebookAssets/Pasted image 20230331165340.png]]
 With this small number of features $x_1$ and $x_2$ we can determine to what degree we need to adjust $w_1$ and $w_2$ and b to bring the loss down to the approbate classification; 1 or 0. Since our loss function will nudge us to the proper classification we can extract the direction our weights must move in relation to the rate of change in relation to the loss function. 
+
+## Numpy
