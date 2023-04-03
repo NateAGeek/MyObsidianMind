@@ -6,7 +6,7 @@ To do Logistic Regression the we need to apply the weight and bias function to t
 $$
 \begin{aligned}
 f(x)_{wb} &= xw + b \\
-sig(x)_{wb} &= \frac{1}{1+e^{xw + b}}\
+sig(x)_{wb} &= \frac{1}{1+e^{-xw + b}}\
 \end{aligned}
 $$
 This now locks data a more binary value that is probabilistic.
