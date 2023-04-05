@@ -16,4 +16,14 @@ Since due to the representation of all the words in a sparse representation, we 
 We first create a map of positive words and negative words. We extract these words into a map via labeled data.
 ![[NotebookAssets/C16418A3-BA93-43DE-83BA-2815194D3AD0.png]]
 We then encode these into a data set with the format $X_m = [bias, \sum_{m}freq(w,1), \sum_{m}freq(w,0)]$
-This representation will help guide how our tweets are in sentiment base on the frequency of positive and n
+This representation will help guide how our tweets are in sentiment base on the frequency of positive and negative words.
+
+## Preprocessing Tokens and Data
+It is useful to remove values from the dataset that do not provide value to sentiment analysis. These are punctuation, urls, handlers, or other data specific declinations. Also reduce them to lowercase as the case does not provide additional details.
+
+#### Remove Stop Words
+Stop words can add unnecessary words that do not contribute to the context of the sentiment analysis. They are "and", "as", "is", etc. They can in the future be useful for context, however, in sentiment analysis it does not provide any additional value.
+
+#### Tokenize Stem Words
+Reduce words down to their core stem. Removing "ing" or "Ed", etc. as we want to only note the core word and not the potential context of it's time and reference.
+
