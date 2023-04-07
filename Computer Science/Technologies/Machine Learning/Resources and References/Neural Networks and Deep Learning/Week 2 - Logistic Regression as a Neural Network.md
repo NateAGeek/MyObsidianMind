@@ -67,4 +67,75 @@ In this example we have solved for all the original Computation graph through th
 ![[../../../../../NotebookAssets/Pasted image 20230331165340.png]]
 With this small number of features $x_1$ and $x_2$ we can determine to what degree we need to adjust $w_1$ and $w_2$ and b to bring the loss down to the approbate classification; 1 or 0. Since our loss function will nudge us to the proper classification we can extract the direction our weights must move in relation to the rate of change in relation to the loss function. 
 
-## Numpy
+## Example of a single logistic regression on predicting 1 = 1 and 0 = 0.
+```python
+import math
+import random
+import time
+import numpy as np
+from IPython.display import clear_output
+
+# Generate random data between 0 and 1
+training_x = np.random.rand(100000, 1)
+training_x[training_x >= 0.5] = 1
+training_x[training_x < 0.5] = 0
+training_x = training_x.T # change it so we have (features, examples) shape
+
+# expected outputs
+training_y = training_x # should create 1 = 1, and 0 = 0
+
+# Our weights and bias
+w1 = np.array([[random.randint(-10000, 10000)/1000]])
+b = np.array([[random.randint(-10000, 10000)/1000]])
+
+total_training_examples = training_x.shape[1]
+
+print(f"Starting data w1: {w1}, b: {b}")
+
+# Learning rate that we descend
+alpha = 0.001
+
+# Finds the current loss/cost of the single node
+def logistic_loss_vec(a, y):
+    return -np.sum(np.dot(y, np.log(a).T)) - (np.dot((1 - y), np.log(1 - a).T))/total_training_examples
+
+# Sigmoid vec
+def sigmoid_vec(z):
+    return 1/(1 + np.exp(-z))
+
+# Optimize and preform the gradient
+for it in range(0, 100000):
+    
+    # Forward prop to find the output of the function
+    z = np.dot(w1.T, training_x) + b
+    a = sigmoid_vec(z)  # Apply the sigmoid function to the linear equation
+
+    # Then based on the forward prop we can determine what small changes in
+    # the weight and bias nudges us to the desire out
+    dz = a - training_y
+    dw1 = np.dot(training_x, dz.T)/total_training_examples
+    db = np.sum(dz)/total_training_examples
+
+    # Preform the gradient decent base on the directions of the w and b
+    w1 = w1 - alpha * dw1
+    b = b - alpha * db
+
+    # Apply the sigmoid function to the predicted linear equation
+    y_pre = sigmoid_vec(np.dot(w1.T, training_x) + b)  
+
+    # Evaluate the current cost between the predictions and training outputs
+    cost = logistic_loss_vec(y_pre, training_y)
+    
+    if it % 1000 == 0:
+        # Calculate the accuracy of the model
+        predictions = np.round(y_pre)
+        accuracy = np.mean(predictions == training_y) * 100
+        print(f"iter: {it}")
+        print(f"w:{w1}, b:{b}")
+        print(f"cost: {cost}")        
+        print(f"accuracy: {accuracy}%")
+
+print(f"Final result")
+print(f"w:{w1}, b:{b}")
+print(f"cost: {cost}")
+```
