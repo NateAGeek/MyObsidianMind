@@ -1,1 +1,3 @@
-## Vectorizing Across Multiple Examples
+## Activation Functions
+Basically goes over how the sigmoid function is slower due to how it might average to .5 rather allowing the averages to mean to 0 - 1. Using Relu is a good activation function...
+
