@@ -27,3 +27,24 @@ Stop words can add unnecessary words that do not contribute to the context of th
 #### Tokenize Stem Words
 Reduce words down to their core stem. Removing "ing" or "Ed", etc. as we want to only note the core word and not the potential context of it's time and reference.
 
+```python
+# run this cell to import nltk
+import nltk
+from os import getcwd
+import w1_unittest
+
+nltk.download('twitter_samples')
+nltk.download('stopwords')
+
+import numpy as np
+import pandas as pd
+from nltk.corpus import twitter_samples 
+
+from utils import process_tweet, build_freqs
+
+# select the set of positive and negative tweets
+all_positive_tweets = twitter_samples.strings('positive_tweets.json')
+all_negative_tweets = twitter_samples.strings('negative_tweets.json')
+
+
+```
