@@ -7,3 +7,5 @@ If we just did linear functions, we could simplify it into one big one and it wo
 ## Initializing Random is Important
 Technically if you initialize all the weights to 0 then every neural network in the later is going to compute the same output, hence all of your functions will produce the same result and there really will not be any point to having a neural network layer.
 Biases are ok to be 0. It is best to random init them small, since most activation functions work with smaller regions.
+
+X is an input
