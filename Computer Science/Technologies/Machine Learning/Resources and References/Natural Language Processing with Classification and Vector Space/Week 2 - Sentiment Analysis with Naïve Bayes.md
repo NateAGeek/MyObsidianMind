@@ -37,3 +37,14 @@ This allows us to successfully calculate the log likelihood of the possible sent
 
 ![[../../../../../NotebookAssets/Pasted image 20230411125409.png]]
 
+There are many applications of naive Bayes including:
+-   Author identification
+-   Spam filtering
+-   Information retrieval
+-   Word disambiguation
+
+## Issues with Naive Bayes Classification
+All words are structurally independent sentiment. As in they do not share context with their related words. So "sunny and hot day" could be technically negative. However, since they do not share proper relation with the day, they are interpreted separate. 
+
+Also, if the data set is skewed with more positive or negative sentiments, then the data will have a bias on the classification. 
+
