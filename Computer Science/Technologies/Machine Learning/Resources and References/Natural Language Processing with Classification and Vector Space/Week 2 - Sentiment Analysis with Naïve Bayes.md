@@ -3,3 +3,6 @@ First calculate the total probability of an event or action to happen. In the co
 
 ![[../../../../../NotebookAssets/Pasted image 20230410204534.png]]
 
+We can then take the union of the possibility of multiple cases. Such as a word in both aspects and then determine its probability.
+![[../../../../../NotebookAssets/Pasted image 20230410210128.png]]
+
