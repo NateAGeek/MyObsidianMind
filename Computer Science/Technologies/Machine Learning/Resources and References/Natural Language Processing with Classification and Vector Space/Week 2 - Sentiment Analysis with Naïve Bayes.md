@@ -29,3 +29,11 @@ Is a way to smooth out values for words that may not have any sentiment meaning.
 ![[../../../../../NotebookAssets/Pasted image 20230410234316.png]]
 ![[../../../../../NotebookAssets/Pasted image 20230410234329.png]]
 ![[../../../../../NotebookAssets/Pasted image 20230410234340.png]]
+## Naive Bayers Log Likelihood
+![[../../../../../NotebookAssets/Pasted image 20230411124214.png]]
+This allows us to successfully calculate the log likelihood of the possible sentiment of a series of data. We use log due to having to prevent underflow, where the data is so small the computer loses its value.
+
+**Log Likelihood starts at 0**
+
+![[../../../../../NotebookAssets/Pasted image 20230411125409.png]]
+
