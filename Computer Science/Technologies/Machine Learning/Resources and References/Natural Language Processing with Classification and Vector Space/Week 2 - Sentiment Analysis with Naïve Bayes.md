@@ -9,3 +9,4 @@ We can then take the union of the possibility of multiple cases. Such as a word 
 We can extract the now conditional probability that a positive tweet has happy or happy is in a positive tweet.
 ![[../../../../../NotebookAssets/Pasted image 20230410215441.png]]
 ![[../../../../../NotebookAssets/Pasted image 20230410215449.png]]
+![[../../../../../NotebookAssets/Pasted image 20230410221705.png]]
