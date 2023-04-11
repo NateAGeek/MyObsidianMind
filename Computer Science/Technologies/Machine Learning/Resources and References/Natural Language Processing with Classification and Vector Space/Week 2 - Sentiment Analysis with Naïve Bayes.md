@@ -23,4 +23,9 @@ Using the word count... we can resolve the probabilities a word is | pos or nega
 Allowing us to get a final value/sentiment like so
 ![[../../../../../NotebookAssets/Pasted image 20230410225516.png]]
 
-## 
+## Laplacian Smoothing
+Is a way to smooth out values for words that may not have any sentiment meaning. For example the `because` word has no negative value, and could lead to dividing by zero when doing the native bayers
+
+![[../../../../../NotebookAssets/Pasted image 20230410234316.png]]
+![[../../../../../NotebookAssets/Pasted image 20230410234329.png]]
+![[../../../../../NotebookAssets/Pasted image 20230410234340.png]]
