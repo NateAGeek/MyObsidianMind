@@ -14,6 +14,7 @@ These sub sets are the same... so they cancel?
 ![[../../../../../NotebookAssets/Pasted image 20230410222937.png]]
 Basically we are able to determine the probability of X|Y if we know Y|X
 
+## Naive Bayers
 We can then use this to calculate the comparative sentiment of a word table
 ![[../../../../../NotebookAssets/Pasted image 20230410225354.png]]
 
@@ -22,3 +23,4 @@ Using the word count... we can resolve the probabilities a word is | pos or nega
 Allowing us to get a final value/sentiment like so
 ![[../../../../../NotebookAssets/Pasted image 20230410225516.png]]
 
+## 
