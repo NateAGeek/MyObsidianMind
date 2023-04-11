@@ -6,3 +6,6 @@ First calculate the total probability of an event or action to happen. In the co
 We can then take the union of the possibility of multiple cases. Such as a word in both aspects and then determine its probability.
 ![[../../../../../NotebookAssets/Pasted image 20230410210128.png]]
 
+We can extract the now conditional probability that a positive tweet has happy or happy is in a positive tweet.
+![[../../../../../NotebookAssets/Pasted image 20230410215441.png]]
+![[../../../../../NotebookAssets/Pasted image 20230410215449.png]]
