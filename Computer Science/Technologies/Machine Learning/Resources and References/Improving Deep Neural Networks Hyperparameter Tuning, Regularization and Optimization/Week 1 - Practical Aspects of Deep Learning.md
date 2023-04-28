@@ -21,3 +21,4 @@ Bias and Variance are all relative to each other and the human ability
 ## Regularization
 Basically smooths out then fitting of the data. This allows for the dataset to be fitted more "generally".
 
+L_1 Regularization does make the model more sparse and could lead to more compression for your model. $+ ||w||$ todo expand that formulation 
