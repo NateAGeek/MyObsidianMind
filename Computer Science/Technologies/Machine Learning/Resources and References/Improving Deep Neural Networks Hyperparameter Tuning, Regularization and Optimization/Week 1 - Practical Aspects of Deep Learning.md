@@ -21,4 +21,16 @@ Bias and Variance are all relative to each other and the human ability
 ## Regularization
 Basically smooths out then fitting of the data. This allows for the dataset to be fitted more "generally".
 
-L_1 Regularization does make the model more sparse and could lead to more compression for your model. $+ ||w||$ todo expand that formulation 
+## $L_2$ Regularization 
+$L_2$ Regularization is mathematically defined as $$||w||_2^2 = \sum_{j=1}^{n_x} w_j^2 = w^Tw$$
+### $L _1$ Regularization
+$L_1$ Regularization is mathematically defined as
+$$\frac{\lambda}{2m} \sum_{i=1}^{n_x}|w| = \frac{\lambda}{2m}||w||_1$$
+### Properties of $L_{1\ and\ 2}$ 
+
+$L_1$ Regularization does make the model more sparse and could lead to more compression for your model. 
+
+$L_2$ Regularization tends to be used more.
+
+### Applying to Neural Networks
+
