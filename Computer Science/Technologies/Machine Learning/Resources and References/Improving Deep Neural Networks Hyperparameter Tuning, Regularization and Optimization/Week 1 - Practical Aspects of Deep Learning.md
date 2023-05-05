@@ -34,3 +34,33 @@ $L_2$ Regularization tends to be used more.
 
 ### Applying to Neural Networks
 
+You apply it to the end of your cost function to penalized the weights Matrix from being to large.
+
+$L_2$ Regularization helps reduce the overfitting of parameters and should help J reduce down towards 0.
+
+### Dropout Regularization
+
+Basically set some probability that neurons in the network are not updated. That leads to a smaller and diminished network. 
+
+#### Inverted Dropout
+Code wise, you create an array of random values of on or off, we can tweak how many this is by some number. We then do not update those neurons by multiplying each element by the random array. We need to divide it by the dropout rate to normalize our loss correctly.
+
+$$
+\begin{align}
+drop &= [...] \\
+Z &= w \cdot (a * drop)/keep + b
+\end{align}
+$$
+Drop is always randomized
+
+### Why is it Effective
+Essentially you are reducing the reliance of other features to define your network randomly. It helps to better generalize your machine learning algorithm. 
+
+One thing to note is that you first want to make sure your cost function is decreasing, then add drop out to make sure your algorithm does not overfit.
+
+### Other Regularization 
+* Data Augmentation 
+    * Basically try and slightly mutate the data to where is still represents the dataset but slightly different. For example images: changing orientation, distortion, filters.
+* Early Stopping
+    * comparing the training and cross validation sets and determining early training stoppage when the loss on the training vs cross begin to diverge.
+* 
