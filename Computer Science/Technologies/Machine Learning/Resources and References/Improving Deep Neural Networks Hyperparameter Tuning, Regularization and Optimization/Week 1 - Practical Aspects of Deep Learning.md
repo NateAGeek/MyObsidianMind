@@ -64,4 +64,12 @@ One thing to note is that you first want to make sure your cost function is decr
 * Early Stopping
     * comparing the training and cross validation sets and determining early training stoppage when the loss on the training vs cross begin to diverge.
     * Although it is useful it does sometimes now allow you to reduce the full learning to determine the full potential of learning. So, it is best to use this as an adjustment point to further regress your model.
-* 
+
+### Normalizing Training Sets
+When the data is not normalized, then you could maybe have trouble, as you will need to further reduce the learning rate. However, if the data is more symmetric across planes of features, then you can resolve to the gradient faster and more efficient. 
+
+### Vanishing or Exploiting Gradients
+This is based in the depth of the neural network. If the weights begin to align at a number greater than the identity of the input, X, then the $y$ output could explode out of the underlying value.
+
+If the underlying value weights keep reducing down, then the output can slowly vanish, and $y$ becomes harder and harder to fit.
+
