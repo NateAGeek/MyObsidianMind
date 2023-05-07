@@ -63,4 +63,5 @@ One thing to note is that you first want to make sure your cost function is decr
     * Basically try and slightly mutate the data to where is still represents the dataset but slightly different. For example images: changing orientation, distortion, filters.
 * Early Stopping
     * comparing the training and cross validation sets and determining early training stoppage when the loss on the training vs cross begin to diverge.
+    * Although it is useful it does sometimes now allow you to reduce the full learning to determine the full potential of learning. So, it is best to use this as an adjustment point to further regress your model.
 * 
