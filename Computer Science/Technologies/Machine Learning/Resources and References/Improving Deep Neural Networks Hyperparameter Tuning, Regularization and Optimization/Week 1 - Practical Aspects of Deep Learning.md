@@ -81,3 +81,14 @@ w_l. = np.random.randn(shape) * np.sqrt(2/n_l-1)
 Although this does not solve the vanishing or exploding, it does lock the weights to be more in between a random range of 0 and 1, and does allow the fitting to not fall into a vanishing or exploding trap.
 
 **You can tune this variance as a hyper parameter of your overall model and that can help your model learn**
+
+### Gradient Checking
+We want to make sure that our derivative is correct when we are regressing. This allows us to determine our error. We first take $f'(\theta)=f(\theta+\epsilon) - f(\theta-\epsilon)/2\epsilon$ this will tell us how close we are to the actual derivative and our gradient is correct.
+
+## Gradient Checking For Determine Proper Back-propagation Formulation
+Since we implement our own back propagation formula we can make errors. We need to be able to test that our gradients match with the derivative of the underlying error function. To do this we can use the gradient checking against our cost and output ($\theta$) and determine if we are close or far from our desire direction.
+
+![[../../../../../NotebookAssets/Pasted image 20230507170611.png]]
+
+### Tips for checking
+![[../../../../../NotebookAssets/Pasted image 20230507170906.png]]
