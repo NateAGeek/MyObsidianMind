@@ -73,3 +73,11 @@ This is based in the depth of the neural network. If the weights begin to align 
 
 If the underlying value weights keep reducing down, then the output can slowly vanish, and $y$ becomes harder and harder to fit.
 
+#### Partial Solution
+Setting the weights, putting the initialization to 1/2 of the variance of the number of weights.
+```python
+w_l. = np.random.randn(shape) * np.sqrt(2/n_l-1)
+```
+Although this does not solve the vanishing or exploding, it does lock the weights to be more in between a random range of 0 and 1, and does allow the fitting to not fall into a vanishing or exploding trap.
+
+**You can tune this variance as a hyper parameter of your overall model and that can help your model learn**
