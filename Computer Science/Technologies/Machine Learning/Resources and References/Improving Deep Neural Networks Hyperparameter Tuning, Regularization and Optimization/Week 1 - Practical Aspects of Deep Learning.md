@@ -53,6 +53,8 @@ Z &= w \cdot (a * drop)/keep + b
 $$
 Drop is always randomized
 
+TODO: Review why normalize to keep_prob
+
 ### Why is it Effective
 Essentially you are reducing the reliance of other features to define your network randomly. It helps to better generalize your machine learning algorithm. 
 
