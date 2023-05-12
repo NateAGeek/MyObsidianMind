@@ -31,6 +31,29 @@ $V_{db} = \beta V_{db - 1} + (1-\beta)db$
 
 ### RMSprop
 
+$V_{dW} = \beta V_{dW - 1} + (1-\beta)dW^2$
+$V_{db} = \beta V_{db - 1} + (1-\beta)db^2$
+
+$W := W - \alpha \frac{dW}{\sqrt{V_{dW}}}$
+$b := b - \alpha \frac{db}{\sqrt{V_{db}}}$
+The logic is that you are reducing the extremes of noise in the "horizontal" axis but reducing the noise towards the center of the gradient minima.
+
+It's important to add a epsilon to the square root to prevent the algorithm from going to zero
+
+### Adam Optimization 
+Adam Optimization is just the mixture of EMA and RMSprop combined.
+
+### Learning Rate Decay
+Slowly reduce learning rate. Using a decay rate. The decay rate is a hyper parameter. You can do exponential decay. 
+
+### Local Optima
+There is more likely to have data that generates a saddle point. Then having probably if local optima points.
+
+Plateaus in the saddle is more likely to lead to longer time training. Plateaus tend to be useful for these optimization functions.
+
+
+
+
 
 
 
