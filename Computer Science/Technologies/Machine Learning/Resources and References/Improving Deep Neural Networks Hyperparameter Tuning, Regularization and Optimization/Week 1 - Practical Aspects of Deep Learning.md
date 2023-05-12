@@ -67,6 +67,8 @@ One thing to note is that you first want to make sure your cost function is decr
     * comparing the training and cross validation sets and determining early training stoppage when the loss on the training vs cross begin to diverge.
     * Although it is useful it does sometimes now allow you to reduce the full learning to determine the full potential of learning. So, it is best to use this as an adjustment point to further regress your model.
 
+**Weight Decay**: Is a form or regularization to reduce the weights every iteration to better regularize the model.
+
 ### Normalizing Training Sets
 When the data is not normalized, then you could maybe have trouble, as you will need to further reduce the learning rate. However, if the data is more symmetric across planes of features, then you can resolve to the gradient faster and more efficient. 
 
@@ -94,3 +96,6 @@ Since we implement our own back propagation formula we can make errors. We need 
 
 ### Tips for checking
 ![[../../../../../NotebookAssets/Pasted image 20230507170906.png]]
+
+
+
