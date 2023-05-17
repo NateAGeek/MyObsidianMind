@@ -24,5 +24,14 @@ Babysitting models is slowly tuning and training different parameters(learning r
 Many models with different parameters to train the different parameters. Caviar version
 
 ### Batch Normalization 
+Normalizing the activation features of the layers can optimize the learning rate.
 
+Basically the same as normalizing the inputs to the models.
+
+$$
+\begin{align}
+Z_{norm} &= \frac{Z - \mu}{\sqrt{\delta^2 + \epsilon}} \\
+Z_{out} &= \lambda Z_{norm} + \beta
+\end{align}
+$$
 
