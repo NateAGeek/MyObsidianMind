@@ -15,3 +15,14 @@ Although we were suggesting to pick parameters at random we have to account that
 
 Uniformly randomly searching on a log scale as it will allow us to more target look for parameters.
 
+### Re-test Hyper Parameters 
+It's important as data and systems change it is worth retuning your model.
+
+### Babysitting Model
+Babysitting models is slowly tuning and training different parameters(learning rate in the example) to slowly lead the model to learn. Know as Panda version.
+
+Many models with different parameters to train the different parameters. Caviar version
+
+### Batch Normalization 
+
+
