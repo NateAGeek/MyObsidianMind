@@ -8,6 +8,17 @@ The propose Transformers can be more parallelization since they avoid the requir
 ### Compared to Other Models: Extended Neural GPU, ByteNet, ConvS2S
 The main issue is that the other models use convolutional neural networks. These become spares as their context points are further apart and can fail on them. The Transformer reduces the points by a constant and resolves this issue, though this leads to some minor lower resolution, Multi-Head Attention to counteract.
 
+### Multi-Head Attention
+Multi-Head Attention is a technique that takes a series of inputs and though layers learns the different characteristics of the input. These characteristics are learned and then concatenated together. This is used to enrich the context of the input, expand upon it. Attention heads could pay attention to different areas of the input. For example in text "the cat sat on the bed and licked himself clean". A head could focus on extracting relations of where objects are, in this context "cat" and "bed", this would add an linear attention score to the cat and bed. But another head could find an attention of where the action is taking place in relation to the object, "cat", and add more attention to "lick".
+
+#### Deeper Dive with ChatGPT
+*So, I ended up taking a more inquiring based approach with ChatGPT to get an understanding what was going on, as I was missing some context. Here is a summery of my interaction.*
+
+* Basically used the example above for the "Head" interaction with the "Cat"
+* Learned that the Multi-Head Attention aspect does not reduce the input data. But rather using a series of different layers -- each with its own learned specialization that is refer to as "attention" because that is what they are paying attention to -- expands the data with relational aspects across them.
+* This expansion process creates a multidimensional matrix(a tensor).
+* So the length of the input is `n`, however, typically the input is a vector (like a word embedding) such as `d`
+* Convert
 
 
 
