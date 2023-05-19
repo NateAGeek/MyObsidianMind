@@ -6,6 +6,9 @@ They are establishing a new model layer type that will attempt to remove the req
 The propose Transformers can be more parallelization since they avoid the requirement for 
 
 ### Compared to Other Models: Extended Neural GPU, ByteNet, ConvS2S
+The main issue is that the other models use convolutional neural networks. These become spares as their context points are further apart and can fail on them. The Transformer reduces the points by a constant and resolves this issue, though this leads to some minor lower resolution, Multi-Head Attention to counteract.
+
+
 
 
 @misc{vaswani2017attention,
