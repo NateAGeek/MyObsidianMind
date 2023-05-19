@@ -5,6 +5,9 @@ They are establishing a new model layer type that will attempt to remove the req
 
 The propose Transformers can be more parallelization since they avoid the requirement for 
 
+### Compared to Other Models: Extended Neural GPU, ByteNet, ConvS2S
+
+
 @misc{vaswani2017attention,
       title={Attention Is All You Need}, 
       author={Ashish Vaswani and Noam Shazeer and Niki Parmar and Jakob Uszkoreit and Llion Jones and Aidan N. Gomez and Lukasz Kaiser and Illia Polosukhin},
