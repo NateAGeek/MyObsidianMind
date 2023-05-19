@@ -18,7 +18,8 @@ Multi-Head Attention is a technique that takes a series of inputs and though lay
 * Learned that the Multi-Head Attention aspect does not reduce the input data. But rather using a series of different layers -- each with its own learned specialization that is refer to as "attention" because that is what they are paying attention to -- expands the data with relational aspects across them.
 * This expansion process creates a multidimensional matrix(a tensor).
 * So the length of the input is `n`, however, typically the input is a vector (like a word embedding) such as `d`
-* Convert
+* There is also the input. The input is a linear tuned series of weights dot multiplied by each input. These inputs are then grouped as Q(Query), K(Key), and V(Value). Each of those linear weights are trained via gradient decent.
+* 
 
 
 
