@@ -19,9 +19,10 @@ Multi-Head Attention is a technique that takes a series of inputs and though lay
 * This expansion process creates a multidimensional matrix(a tensor).
 * So the length of the input is `n`, however, typically the input is a vector (like a word embedding) such as `d`
 * There is also the input. The input is a linear tuned series of weights dot multiplied by each input. These inputs are then grouped as Q(Query), K(Key), and V(Value). Each of those linear weights are trained via gradient decent.
-* These are then fed into a the attention function, that simply takes the dot product of them, scaling it, and apply a softmax function
+* These are then fed into a the attention function, that simply takes the dot product of them, scaling it with the "Scaled Dot-Product Attention" formulation, and apply a softmax function
 * We then now have an output vector of `n x d`
 
+### How the Model "Learns" and Uses These Multi-Head Attention Layers
 
 
 
