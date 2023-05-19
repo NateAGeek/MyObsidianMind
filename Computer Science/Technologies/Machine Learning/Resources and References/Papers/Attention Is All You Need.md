@@ -22,8 +22,28 @@ Multi-Head Attention is a technique that takes a series of inputs and though lay
 * These are then fed into a the attention function, that simply takes the dot product of them, scaling it with the "Scaled Dot-Product Attention" formulation, and apply a softmax function
 * We then now have an output vector of `n x d`
 
-### How the Model "Learns" and Uses These Multi-Head Attention Layers
+![[../../../../../NotebookAssets/Pasted image 20230518214515.png]]
 
+Here is a diagram of the scaling function and the multi-head attention layer
+
+![[../../../../../NotebookAssets/Pasted image 20230518214616.png]]
+Full transformer layer
+### How the Model "Learns" and Uses These Multi-Head Attention Layers
+3.2.3 Applications of Attention in our Model
+The Transformer uses multi-head attention in three different ways:
+• In "encoder-decoder attention" layers, the queries come from the previous decoder layer,
+and the memory keys and values come from the output of the encoder. This allows every
+position in the decoder to attend over all positions in the input sequence. This mimics the
+typical encoder-decoder attention mechanisms in sequence-to-sequence models such as.
+• The encoder contains self-attention layers. In a self-attention layer all of the keys, values
+and queries come from the same place, in this case, the output of the previous layer in the
+encoder. Each position in the encoder can attend to all positions in the previous layer of the
+encoder.
+• Similarly, self-attention layers in the decoder allow each position in the decoder to attend to
+all positions in the decoder up to and including that position. We need to prevent leftward
+information flow in the decoder to preserve the auto-regressive property. We implement this
+inside of scaled dot-product attention by masking out (setting to −∞) all values in the input
+of the softmax which correspond to illegal connections.
 
 
 @misc{vaswani2017attention,
