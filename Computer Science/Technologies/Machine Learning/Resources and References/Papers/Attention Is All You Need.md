@@ -29,6 +29,11 @@ Here is a diagram of the scaling function and the multi-head attention layer
 ![[../../../../../NotebookAssets/Pasted image 20230518214616.png]]
 Full transformer layer
 
+
+## Input Embedding
+
+The input embedding 
+
 ### How the Model "Learns" and Uses These Multi-Head Attention Layers
 
 3.2.3 Applications of Attention in our Model
