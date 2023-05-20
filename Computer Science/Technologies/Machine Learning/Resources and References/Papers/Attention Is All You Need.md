@@ -32,7 +32,7 @@ Full transformer layer
 
 ## Input Embedding
 
-The input embedding 
+The input embedding  
 
 ### How the Model "Learns" and Uses These Multi-Head Attention Layers
 
