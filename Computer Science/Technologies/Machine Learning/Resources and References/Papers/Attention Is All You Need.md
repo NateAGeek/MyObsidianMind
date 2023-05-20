@@ -28,7 +28,9 @@ Here is a diagram of the scaling function and the multi-head attention layer
 
 ![[../../../../../NotebookAssets/Pasted image 20230518214616.png]]
 Full transformer layer
+
 ### How the Model "Learns" and Uses These Multi-Head Attention Layers
+
 3.2.3 Applications of Attention in our Model
 The Transformer uses multi-head attention in three different ways:
 • In "encoder-decoder attention" layers, the queries come from the previous decoder layer,
