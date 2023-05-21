@@ -24,15 +24,23 @@ Multi-Head Attention is a technique that takes a series of inputs and though lay
 
 ![[../../../../../NotebookAssets/Pasted image 20230518214515.png]]
 
+### Q, K, and V
+
+The Query 
+
 Here is a diagram of the scaling function and the multi-head attention layer
 
 ![[../../../../../NotebookAssets/Pasted image 20230518214616.png]]
 Full transformer layer
 
 
-## Input Embedding
+## Input Embedding & Outputs Embedding
 
-The input embedding  
+The input embedding are just functional conversions of words into vectors. 
+
+We also keep track of the output per step of prediction. This allows the model to also have some insight into what it is predicting. 
+
+For the output embedding though we use a Masked Multi-Head Attention, as to remove the look ahead bias from the output. As we need to prevent the model from seeing that so the masked multi-head attention layer prevents that.
 
 ### How the Model "Learns" and Uses These Multi-Head Attention Layers
 
