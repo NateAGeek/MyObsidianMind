@@ -26,7 +26,7 @@ Multi-Head Attention is a technique that takes a series of inputs and though lay
 
 ### Q, K, and V
 
-The Query 
+The Query and Key are basically two linear interpretations of the understanding the attention is trying to resolve. So, the Query contains the vectors for what to specifically pay attention to and the Key acts as the compatibility measure. These are then used together to apply over the value and the filter generated from the Q and K. This final bit is what gets passed to the Decoder.
 
 Here is a diagram of the scaling function and the multi-head attention layer
 
@@ -40,10 +40,11 @@ The input embedding are just functional conversions of words into vectors.
 
 We also keep track of the output per step of prediction. This allows the model to also have some insight into what it is predicting. 
 
-For the output embedding though we use a Masked Multi-Head Attention, as to remove the look ahead bias from the output. As we need to prevent the model from seeing that so the masked multi-head attention layer prevents that.
+For the output embedding though we use a **Masked Multi-Head Attention**, as to remove the look ahead bias from the output. As we need to prevent the model from seeing that so the masked multi-head attention layer prevents that.
 
 ### How the Model "Learns" and Uses These Multi-Head Attention Layers
 
+Direct copy from the paper
 3.2.3 Applications of Attention in our Model
 The Transformer uses multi-head attention in three different ways:
 • In "encoder-decoder attention" layers, the queries come from the previous decoder layer,
@@ -59,6 +60,7 @@ all positions in the decoder up to and including that position. We need to preve
 information flow in the decoder to preserve the auto-regressive property. We implement this
 inside of scaled dot-product attention by masking out (setting to −∞) all values in the input
 of the softmax which correspond to illegal connections.
+
 
 
 @misc{vaswani2017attention,
