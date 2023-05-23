@@ -26,7 +26,7 @@ Many models with different parameters to train the different parameters. Caviar 
 ### Batch Normalization 
 Normalizing the activation features of the layers can optimize the learning rate.
 
-Basically the same as normalizing the inputs to the models.
+Basically the same as normalizing the inputs to the models. However it is handled on a per layer level
 
 $$
 \begin{align}
@@ -34,4 +34,9 @@ Z_{norm} &= \frac{Z - \mu}{\sqrt{\delta^2 + \epsilon}} \\
 Z_{out} &= \lambda Z_{norm} + \beta
 \end{align}
 $$
+
+Gamma and Beta normalize the variance of the $z^i$
+
+### Mini-Batch Normalization 
+This mini batch normalization creates a beta that then basically removes the biases in the layers and adds a new normalized distributed parameter.
 
