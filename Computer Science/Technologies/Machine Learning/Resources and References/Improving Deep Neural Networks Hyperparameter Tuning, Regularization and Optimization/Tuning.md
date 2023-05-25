@@ -40,3 +40,12 @@ Gamma and Beta normalize the variance of the $z^i$
 ### Mini-Batch Normalization 
 This mini batch normalization creates a beta that then basically removes the biases in the layers and adds a new normalized distributed parameter.
 
+### Why does Batch Normalization Work
+It makes later layers in the network more sensitive to learn, as now small changes in the network have greater influences on the latter layers.
+
+Reduces Covariance shift
+
+Adds some noise and has a slight Regularization, bigger size will do it.
+
+### Batch norm at test time
+Estimate the mu and sigma square, we use exponential average we use a series of batches to calculate this overtime. These averages start to become our way to z norm.
