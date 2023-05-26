@@ -55,3 +55,9 @@ It is used to categorize multiple different outputs for classification. Uses lin
 
 C=2 then it just becomes linear regression
 
+### One-hot encoding
+![[../../../../../NotebookAssets/Pasted image 20230525192123.png]]
+converting a series of examples into categorical single ranked tensor. Where 1 represents the identify of that classification, and the index representing the class.
+
+### tf.keras.initializers.GlorotNormal
+generates samples from a truncated normal distribution centered on 0.
