@@ -49,3 +49,9 @@ Adds some noise and has a slight Regularization, bigger size will do it.
 
 ### Batch norm at test time
 Estimate the mu and sigma square, we use exponential average we use a series of batches to calculate this overtime. These averages start to become our way to z norm.
+
+### Softmax Regression
+It is used to categorize multiple different outputs for classification. Uses linear boundaries to separate and categorizing outputs.
+
+C=2 then it just becomes linear regression
+
