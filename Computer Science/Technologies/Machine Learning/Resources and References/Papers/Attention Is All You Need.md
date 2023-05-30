@@ -43,7 +43,7 @@ We also keep track of the output per step of prediction. This allows the model t
 For the output embedding though we use a **Masked Multi-Head Attention**, as to remove the look ahead bias from the output. As we need to prevent the model from seeing that so the masked multi-head attention layer prevents that.
 
 ### Positional Encoding 
-These words are then fed into a positional encoding. This encoding 
+These words are then fed into a positional encoding. This encoding is added to give context to the distance of words in a sentence. 
 
 ### How the Model "Learns" and Uses These Multi-Head Attention Layers
 
