@@ -31,3 +31,21 @@ For example picking a model with the best accuracy but takes a running time less
 ### Setting Up Dev/Test sets
 
 Focus on making you Dev and Test sets come from same distribution and minimize isolation of categories from the different sets.
+
+Best to random shuffle the data so the data comes from the same distribution.
+
+### Bast Practice For Testing ML
+For modern problems it is better to try and get the most of a test set with a lot of data.
+
+For the most part your train set should be the largest with the dev and test set only needing to be smaller.
+
+### When the Algorithm is Not Following Best Metrics
+
+Add weight to examples that you do not want as it should encourage larger errors in the validation metric
+
+Adding weight to items that you want your algorithm to avoid
+
+Make sure that when user testing, then we need to change our dev and test set and metrics for our error.
+
+
+
