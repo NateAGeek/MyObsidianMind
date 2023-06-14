@@ -62,6 +62,9 @@ When our model is closer to human error then our model has higher variance. We c
 
 The Avoidable Bias is for the distance between "Human" and "Training". And the "Variance" is the different between training and dev set. 
 
+### Define Human Level Performance
+Human-level error is a proxy for Bayes Error
+
 
 
 
