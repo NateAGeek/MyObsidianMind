@@ -22,4 +22,6 @@ Consider the items you got right too not just wrong and make sure your data is c
 
 Handle potential if dev and test comes from a slight different distribution.
 
+### Build Your First System Quickly
 
+When building a system it is important to setup a dev, test, and metrics to improve the performance on. Build the initial system quickly, then use bias and variance to increase the performance slowly. 
