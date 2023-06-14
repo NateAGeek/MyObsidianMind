@@ -47,5 +47,21 @@ Adding weight to items that you want your algorithm to avoid
 
 Make sure that when user testing, then we need to change our dev and test set and metrics for our error.
 
+### Comparing to Human Level Performance
+Bayse Optimal Error: Is the theoretical optimal performance a model can achieve. It appears as we approach it above human performance, it is harder to go reach it. 
+
+If the model is not as performant as a Human you can do the following.
+When you ML Model is worst than humans. You can have people label data for you.
+Add Error analysis
+Better analysis of bias and variance
+
+### How to measure Bays Error
+When the models training error and dev error is further from the base of the human error, then our model has some bias and we need to improve. We could train it longer or get better data. 
+
+When our model is closer to human error then our model has higher variance. We can use to measure out best course of action by the wording "Avoidable Bias" and "Variance".
+
+The Avoidable Bias is for the distance between "Human" and "Training". And the "Variance" is the different between training and dev set. 
+
+
 
 
