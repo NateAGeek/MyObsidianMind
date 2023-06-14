@@ -65,6 +65,15 @@ The Avoidable Bias is for the distance between "Human" and "Training". And the "
 ### Define Human Level Performance
 Human-level error is a proxy for Bayes Error
 
+We survey a series of professionals and take the lowest error. We would then use this error as the base line for Bayers error. We then know the minimum could be bayers error.
+
+### Surpassing Human Level Performance
+given enough data we seem to be able to surpass human level performance. 
+
+## Fundamental Assumptions
+You can fit the training set pretty well
+Your dev and test set are close train
+
 
 
 
