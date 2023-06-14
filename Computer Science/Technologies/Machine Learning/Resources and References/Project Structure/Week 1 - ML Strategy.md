@@ -43,7 +43,7 @@ For the most part your train set should be the largest with the dev and test set
 
 Add weight to examples that you do not want as it should encourage larger errors in the validation metric
 
-Adding weight to items that you want your algorithm to avoid
+Adding weight to items that you want your algorithm to avoid.want your algorithm to avoid
 
 Make sure that when user testing, then we need to change our dev and test set and metrics for our error.
 
