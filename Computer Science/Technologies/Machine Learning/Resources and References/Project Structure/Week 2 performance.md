@@ -25,3 +25,16 @@ Handle potential if dev and test comes from a slight different distribution.
 ### Build Your First System Quickly
 
 When building a system it is important to setup a dev, test, and metrics to improve the performance on. Build the initial system quickly, then use bias and variance to increase the performance slowly. 
+
+### Training from testing data vs training/dev
+
+What do you do when you have two sets of data from different distribution
+* You can merge datasets and randomly shuffle them
+    - Advantage same distribution
+    - Downside is that the dev and test set might have more distribution of the larger main set
+    - Andrew does not recommend
+- Andrew suggests taking a slight different approach
+    - Put the new data partially in the train set
+    - However, make the new preferred data results into only the dev and test set
+
+
