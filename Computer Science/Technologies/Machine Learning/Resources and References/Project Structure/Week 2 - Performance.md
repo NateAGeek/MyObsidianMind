@@ -67,3 +67,9 @@ If your network is small it may hurt performance.
 ### End to End
 End to end is the ability to break down a task into a multi layer/step of different models that will combine into one that will give better performance.
 
+Pros:
+    Let the data fit itself
+    Less hand designing of the components
+Cons:
+    Requires a lot of data
+    Sometimes hand design system can be helpful
