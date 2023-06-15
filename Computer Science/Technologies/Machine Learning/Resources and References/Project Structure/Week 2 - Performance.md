@@ -40,4 +40,30 @@ What do you do when you have two sets of data from different distribution
 When dealing with networks that do not run well on dev set, you can test to see if the a new hybrid "training-dev" subset of the training produces errors. For example:
 ![[../../../../../NotebookAssets/Pasted image 20230614204120.png]]
 
-This error between the training and train-dev error shows that our model has a high variance 
+This error between the training and train-dev error shows that our model has a high variance. 
+
+If the training error and training-dev are close, but far from dev. Then you probably have a distribution issues.
+
+If it is both, then you have both issues.
+
+![[../../../../../NotebookAssets/Pasted image 20230614210454.png]]
+
+This style of tabling can give quite a few insights.
+
+### Addressing Data Mismatch
+
+When dealing with data mismatch we can find the data that is causing the distribution to be different. Then create data synthesis to result in more data.
+
+However, one thing to keep track of when creating data it is important to make sure you look at the insight. Since some you could be overfitting on smaller subsets of repeated patterns in the synthesized dataset.
+
+### Transfer Learning
+When you take a network and try and train it with your data. You fine tune the whole network or maybe only the last node.
+
+### Multi Task Learning
+Training a network that objective is to categorically learn multiple outputs. We can have one network learn multiple outputs. This could lead to maybe better accuracy but also learning multiple classification rather than one network at a time. 
+
+If your network is small it may hurt performance.
+
+### End to End
+End to end is the ability to break down a task into a multi layer/step of different models that will combine into one that will give better performance.
+
