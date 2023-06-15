@@ -37,4 +37,7 @@ What do you do when you have two sets of data from different distribution
     - Put the new data partially in the train set
     - However, make the new preferred data results into only the dev and test set
 
+When dealing with networks that do not run well on dev set, you can test to see if the a new hybrid "training-dev" subset of the training produces errors. For example:
+![[../../../../../NotebookAssets/Pasted image 20230614204120.png]]
 
+This error between the training and train-dev error shows that our model has a high variance 
