@@ -19,6 +19,9 @@ It's best to have odd number filters.
 Striding a filter is skipping by a specific step process. 
 
 When padding or striding the expected output side is as follows: Floor(n+2p-f/s + 1)
+$$
+
+$$
 
 Cross-correlation is more what we do in ML. But in math it is when you do flipping of a rotation.
 
