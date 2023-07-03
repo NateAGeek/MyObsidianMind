@@ -25,3 +25,11 @@ $$
 
 Cross-correlation is more what we do in ML. But in math it is when you do flipping of a rotation.
 
+### Convolutions of RGB or Volume
+
+You basically expand the kernel or filter into a multi dimensional. You still pad and move the kernel around the image. You add up all the numbers in the kernel, however, when you add up all the filtered results you then output them into a 2D plane.
+
+You can then take these outputs and then stack them to make an output volumetric data. 
+
+Depth and channels is the z dimensions aspect of data
+
