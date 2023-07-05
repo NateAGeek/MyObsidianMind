@@ -33,3 +33,6 @@ You can then take these outputs and then stack them to make an output volumetric
 
 Depth and channels is the z dimensions aspect of data
 
+The filters have a bias added as a parameter 
+
+![[../../../../../NotebookAssets/IMG_7584.jpeg]]
