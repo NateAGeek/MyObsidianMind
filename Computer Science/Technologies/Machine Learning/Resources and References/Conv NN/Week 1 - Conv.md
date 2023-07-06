@@ -36,3 +36,15 @@ Depth and channels is the z dimensions aspect of data
 The filters have a bias added as a parameter 
 
 ![[../../../../../NotebookAssets/IMG_7584.jpeg]]
+
+### Pooling Layers
+
+##### Max Pooling
+Is a filter that takes the max value in a region, defined by the filter size, and reduces the input down to an output of max values.
+![[../../../../../NotebookAssets/Pasted image 20230705204944.png]]
+
+*This can also be applied to 3d data as well*
+
+#### Average Pooling
+Is taking the average of the filter, rather than max. 
+
