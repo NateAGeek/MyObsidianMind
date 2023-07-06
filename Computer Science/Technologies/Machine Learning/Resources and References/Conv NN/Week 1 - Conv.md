@@ -48,3 +48,15 @@ Is a filter that takes the max value in a region, defined by the filter size, an
 #### Average Pooling
 Is taking the average of the filter, rather than max. 
 
+### LeNet - 5
+It was a neural network that for recognizing digits.
+It was a 5 layers that broke down the input into a single layer. Used sigmod and tahn 
+
+### AlexNet
+Has similarities to LeNet but had more layers and used relu.
+
+### VGG
+Simplified NN. It was doubling the Conv filters but then used Pool Max to reduce. Reducing the width and height.
+
+## ResNet
+
