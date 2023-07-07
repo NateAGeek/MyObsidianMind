@@ -182,3 +182,4 @@ $$
 These examples use the outcomes and the probabilities from past coin flips to quantify the output value.
 
 ### Expanding Previous Single Binomial Model
+
