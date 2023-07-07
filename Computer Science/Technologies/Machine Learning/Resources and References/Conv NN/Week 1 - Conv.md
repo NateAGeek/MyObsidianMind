@@ -60,3 +60,7 @@ Simplified NN. It was doubling the Conv filters but then used Pool Max to reduce
 
 ## ResNet
 
+They are layers that feed their past layer into the next one.
+
+They work because they are able to skip past possible over learned dense layers and then cause them to learn the identity matrix of the output.
+
