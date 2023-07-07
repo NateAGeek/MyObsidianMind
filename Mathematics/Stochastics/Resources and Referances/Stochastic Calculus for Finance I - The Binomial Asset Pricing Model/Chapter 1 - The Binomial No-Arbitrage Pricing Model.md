@@ -50,7 +50,7 @@ $$
 If we also add in the context of a European Call Option K at strike 5. We can determine if we simulated the option with money markets as a borrower. When K = 5, $(S_1(H) - K)^+ = 3$ or $(S_1(T) - K)^+ = 0$. So we were able to get the same return using money markets as if we were to hold a Call Option to expiration at time one, with a strike of 5. That means we can replicate the option strategy with money markets or use money markets to replicate the outcome of the option strategy.
 
 #### Potential Arbitrage Opportunity 
-In this context if the option was price at more or less than $1.20, then we would have a profit opportunity. Since base on the example we  As we could long or short the simulated trade with money markets and make the difference in profit without risking any money technically. This would be considered an arbitrage.
+In this context if the option was price at more or less than $1.20, then we would have a profit opportunity. Since base on the example as we could long or short the simulated trade with money markets and make the difference in profit without risking any money technically. This would be considered an arbitrage.
 
 ### Solving For a More General Derivative at $V_0$
 The goal for reverse engineering price of a derivative at time zero, is to determine its equivalent portfolio. This allows to determine if the derivative is miss priced and could lead to a risk free profit arbitrage. 
