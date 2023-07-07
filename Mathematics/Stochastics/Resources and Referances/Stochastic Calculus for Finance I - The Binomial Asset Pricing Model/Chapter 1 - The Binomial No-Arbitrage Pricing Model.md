@@ -183,3 +183,4 @@ These examples use the outcomes and the probabilities from past coin flips to qu
 
 ### Expanding Previous Single Binomial Model
 
+We can take the original model to determine the portfolio value of $X$. We can do this via forward propagation of the binomial model. 
