@@ -183,4 +183,17 @@ These examples use the outcomes and the probabilities from past coin flips to qu
 
 ### Expanding Previous Single Binomial Model
 
-We can take the original model to determine the portfolio value of $X$. We can do this via forward propagation of the binomial model. 
+We can take the original model to determine the portfolio value of $X$. We can do this via recursively defining the portfolio of the binomial model. 
+
+$$
+\begin{align}
+X_{n+1} &= \Delta_nS_{n+1}+(1+r)(X_n-\Delta_nS_n)
+\end{align}
+$$
+The formulation leaves some unknowns that need to be solved for determining what $\Delta$ and that is dependent on the $V$ of the underlying derivative contract. 
+$$
+\begin{align}
+V_n(w_1w_2...w_n) &= \frac{1}{1+r} [\tilde{p}V_{n+1}(w_1w_2...w_nH) + \tilde{q}V_{n+1}(w_1w_2...w_nT)] \\
+\Delta_{n}(w_1w_2...w_n) &= \frac{V_{n+1}(w_1w_2...w_nH) - V_{n+1}(w_1w_2...w_nT)}{S_{n+1}(w_1w_2...w_nH) - S_{n+1}(w_1w_2...w_nT)}
+\end{align}
+$$
