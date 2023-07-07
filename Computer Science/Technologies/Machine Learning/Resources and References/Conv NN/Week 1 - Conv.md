@@ -36,7 +36,7 @@ Depth and channels is the z dimensions aspect of data
 The filters have a bias added as a parameter 
 
 ![[../../../../../NotebookAssets/IMG_7584.jpeg]]
-
+the f = filter size, so if it is (7, 7); f = 7
 ### Pooling Layers
 
 ##### Max Pooling
