@@ -15,3 +15,13 @@ They are layers that feed their past layer into the next one.
 They work because they are able to skip past possible over learned dense layers and then cause them to learn the identity matrix of the output.
 
 Residual Layers
+
+### 1x1 over Multiple Channels 
+It is taking the relu of the different channels and determining how it best fits the required problem.
+
+### Inception Network
+You take an input and then stack together the output of a bunch of filter outputs stacking them into one big output 
+
+#### Bottle Neck idea
+Using a 1x1 you can reduce the demensionality of the shape then apply your weight calculations on the output. Reducing computational requirement over doing a larger Conv network
+
