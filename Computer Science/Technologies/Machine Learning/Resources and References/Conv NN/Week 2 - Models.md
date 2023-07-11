@@ -25,3 +25,13 @@ You take an input and then stack together the output of a bunch of filter output
 #### Bottle Neck idea
 Using a 1x1 you can reduce the demensionality of the shape then apply your weight calculations on the output. Reducing computational requirement over doing a larger Conv network
 
+#### Inception Network
+Inception modules stacked up on each other
+
+#### MobileNet
+Depthwise Separable Convolution
+Basically channel convolution 
+The pointwise convolution, creating point over the each layer. You then create however many points you want to add a channel depth as the output.
+
+MobileNetV2 
+Uses a bypass and bottle neck to be more accurate while keeping the computation and memory cost low.
