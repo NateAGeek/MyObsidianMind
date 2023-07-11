@@ -11,4 +11,6 @@
     * Automate Stops in Portfolio Allocation
     * NLP Chatbot for interactive models
 * Fraud Detection
-    * 
+    * Using Classification Model
+    * Handling Unbalanced Data Set
+* 
