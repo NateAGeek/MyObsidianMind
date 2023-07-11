@@ -13,4 +13,14 @@
 * Fraud Detection
     * Using Classification Model
     * Handling Unbalanced Data Set
+* Credit Scoring and Default Prediction
+    * Loan default prediction
+    * Feature reduction processing
+* Traditional Derivatives Pricing and Hedging 
+    * Alternative Styles of models that are more cost effective
+    * Option Pricing using Supervised Learning
+    * Hedging Derivatives using reinforcement
+* Sentiment Analysis - NLP
+    * News data sentiment
+    * Sentiment trading strategy
 * 
