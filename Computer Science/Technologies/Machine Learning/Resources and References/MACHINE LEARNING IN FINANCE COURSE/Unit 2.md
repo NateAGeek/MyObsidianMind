@@ -23,4 +23,3 @@
 * Sentiment Analysis - NLP
     * News data sentiment
     * Sentiment trading strategy
-* 
