@@ -49,4 +49,5 @@ Documentation: https://scikit-learn.org/stable/modules/generated/sklearn.feature
 The goal of SelectKBest is to score the features and determine the best ones to use. Ones that are not useful could be thrown away and reviewed if the model needs more features to learn from. It would be best to alter or increase possible dimensionality of the discarded features in the future. 
 
 #### Data Transformation
-**Rescaling**: MinMaxScaler 
+**Rescaling**: is converting the data from 0 - 1 range, typical function could be `sklearn.MinMaxScaler `
+**Standardization**: Standardize the data series into a normal distribution. sklearn.StandardScaler
