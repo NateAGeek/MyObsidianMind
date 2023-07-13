@@ -1,3 +1,4 @@
+![[../../../../../NotebookAssets/Pasted image 20230712204719.png]]
 
 ## Problem Definition
 The goal of the problem definition is to establish a clear objective and desired solution to a problem. This gives some initial direction and critical for framing objectives and metrics.
@@ -51,3 +52,10 @@ The goal of SelectKBest is to score the features and determine the best ones to 
 #### Data Transformation
 **Rescaling**: is converting the data from 0 - 1 range, typical function could be `sklearn.MinMaxScaler `
 **Standardization**: Standardize the data series into a normal distribution. sklearn.StandardScaler
+**Normalization:** Is the rescaling of a multi-vector series of data into length of one or unit norm. `sklearn.Normalizer()`
+
+#### Model Tuning
+* Grid Search
+* Randomized Search
+* Bayesian Optimization
+
