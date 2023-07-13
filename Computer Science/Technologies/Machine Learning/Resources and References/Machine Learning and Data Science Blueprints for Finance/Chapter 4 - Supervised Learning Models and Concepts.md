@@ -8,3 +8,12 @@ They also will use kernels to transform the data to better create degrees of sep
 Is the use of Euclidean distance or Manhattan distance to determine the clusters for classification. This allows for quick automation of regions of data points.
 
 ### Linear Discriminant Analysis
+Is the collapsing of points of data into a reduced axis, maximizing the distribution of the points, to help create classification and clustering.
+![[../../../../../NotebookAssets/Pasted image 20230712220853.png]]
+![[../../../../../NotebookAssets/Pasted image 20230712220904.png]]
+
+### Classification and Regression Trees
+The goal of CART/Decision Tree Classifiers breaks down a collection of tabular data into sequences of steps that allow for conditional classification. 
+
+![[../../../../../NotebookAssets/Pasted image 20230712221254.png]]
+
