@@ -17,3 +17,14 @@ The goal of CART/Decision Tree Classifiers breaks down a collection of tabular d
 
 ![[../../../../../NotebookAssets/Pasted image 20230712221254.png]]
 
+The objective is to regressively keep finding where to split the data to properly classify it conditionally. We then have a stopping criteria, such as a minimum depth. We then do some pruning of the tree to remove or optimize leaf nodes that may not be needed for classification. Trees have shown to be really good at classifying and learning tabular data.
+
+### Ensemble Models
+Are basically meta CART models that mix classifiors to obtain better and faster results. The ones that are worth exploring in more details are
+* Random Forest
+* Extra Trees
+* Adaptive Boosting
+* Gradient Boosting
+
+
+![[../../../../../NotebookAssets/Pasted image 20230712225831.png]]
