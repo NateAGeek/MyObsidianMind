@@ -197,3 +197,5 @@ V_n(w_1w_2...w_n) &= \frac{1}{1+r} [\tilde{p}V_{n+1}(w_1w_2...w_nH) + \tilde{q}V
 \Delta_{n}(w_1w_2...w_n) &= \frac{V_{n+1}(w_1w_2...w_nH) - V_{n+1}(w_1w_2...w_nT)}{S_{n+1}(w_1w_2...w_nH) - S_{n+1}(w_1w_2...w_nT)}
 \end{align}
 $$
+
+We can further recursively solve for all the parameters to find a no-arbitrage solution.
