@@ -28,3 +28,22 @@ $$
 $$
 **_Note: since $q = 1 - p$, then $p+q = 1$.**_
 
+### Definition 2.1.1
+We can define **probability space** that consists of elements $w$ in $\Omega$ and a probability measure of $\mathbb{P}$ maps. 
+We must define:
+* $\Omega$ is a nonempty finite set
+* $\mathbb{P}$ is a probability function
+* $\mathbb{P}$ maps the element $w$ in $\Omega$ a number $[0, 1]$ 
+We also must limit the total probability space to 1, as each element must have a final 
+$$\sum_{w\in\Omega}\mathbb{P}(w) = 1$$
+
+
+Once we have defined the logical **probability space** we can define subsets as follows:
+$$
+\mathbb{P}(A) = \sum_{w\in A}\mathbb{P}(w)
+$$
+We can then hold value that if two events are disjointed, then their events can be define as follows:
+$$
+\mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B)
+$$
+
