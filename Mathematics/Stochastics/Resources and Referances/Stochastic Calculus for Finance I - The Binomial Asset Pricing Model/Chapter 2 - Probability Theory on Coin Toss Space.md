@@ -46,4 +46,59 @@ We can then hold value that if two events are disjointed, then their events can 
 $$
 \mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B)
 $$
+### Definition 2.2.1
+Solving for the distribution of a set of outcomes. Basically converting the probabilities of the element space into a distribution
 
+On the set here
+$$
+\Omega = \{HHH, HHT,HTH,HTT,THH,THT,TTH,TTT\}
+$$
+We can define the probability of $H$ vs $T$ to be $\frac{1}{2}$ with the probability of each element in $\Omega$ to be $\frac{1}{8}$, since there are 8 elements.
+
+We then can define a function that will create a distribution of these elements for us to work with. For example, we have the functions $X$ and $Y$. Where the function $X$ produces how many 
+$H$'s are in the element. $Y$ is simply the opposite such that it produces the number of $T$. This would create the following distribution in relation to $\tilde{\mathbb{P}}$. 
+
+Examples of function $X$ probability distribution of $\tilde{\mathbb{P}}$
+$$
+\begin{align}
+X(HHH) &= 3 \\
+X(HHT) = X(HTH) = X(THH) &= 2 \\
+X(HTT) = X(THT) = X(TTH) &= 1 \\
+X(TTT) &= 0
+\end{align}
+$$
+$$
+\begin{aligned}
+\tilde{\mathbb{P}} \{w\in\Omega; X(w) = 0\} = \tilde{\mathbb{P}}\{TTT\}= \frac{1}{8} \\
+\tilde{\mathbb{P}} \{w\in\Omega; X(w) = 1\} = \tilde{\mathbb{P}}\{HTT,THT,TTH\}= \frac{3}{8} \\
+\tilde{\mathbb{P}} \{w\in\Omega; X(w) = 2\} = \tilde{\mathbb{P}}\{HHT,HTH,THH\}= \frac{3}{8} \\
+\tilde{\mathbb{P}} \{w\in\Omega; X(w) = 3\} = \tilde{\mathbb{P}}\{HHH\}= \frac{1}{8} \\
+\end{aligned}
+$$
+
+```chart
+    type: bar
+    layout: rows
+    beginAtZero: true
+    labels: [0, 1, 2, 3]
+    series:
+        - title: X Distribution Tilde P
+          data: [0.125, 0.375, 0.375, 0.125]
+        - title: Y Distribution Tilde P
+          data: [0.125, 0.375, 0.375, 0.125]
+```
+
+If we were to alter the probability space $\mathbb{P}$ such that $H$ has a $\frac{2}{3}$ and $T$ has a $\frac{1}{3}$. The distribution would be different for both $X$ and $Y$ on the in relation to the space $\mathbb{P}$. 
+
+
+```chart
+    type: bar
+    layout: rows
+    beginAtZero: true
+    labels: [0, 1, 2, 3]
+    series:
+        - title: X Distribution P
+          data: [0.03703703703, 0.22222222222, 0.44444444444, 0.29629629629]
+        - title: Y Distribution P
+          data: [0.29629629629, 0.44444444444, 0.22222222222, 0.03703703703]
+```
