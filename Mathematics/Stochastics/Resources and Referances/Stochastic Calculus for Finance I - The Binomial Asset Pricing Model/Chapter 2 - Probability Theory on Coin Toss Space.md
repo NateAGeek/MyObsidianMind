@@ -88,8 +88,18 @@ $$
           data: [0.125, 0.375, 0.375, 0.125]
 ```
 
+#### Utilizing different probability space rules
+
 If we were to alter the probability space $\mathbb{P}$ such that $H$ has a $\frac{2}{3}$ and $T$ has a $\frac{1}{3}$. The distribution would be different for both $X$ and $Y$ on the in relation to the space $\mathbb{P}$. 
 
+We need to calculate the Probability Space in relation to the $X$ function. For example we now need to treat each coin flip as an independent event with the new probability of happening.
+
+$$
+\begin{aligned}
+\mathbb{P}\{TTT\} = \mathbb{P}(T) * \mathbb{P}(T) * \mathbb{P}(T) = \frac{1}{3} * 3 &= \frac{1}{27} \\ 
+\mathbb{P}\{HTT,THT,TTH\} = \mathbb{P}(H) * \mathbb{P}(T) * \mathbb{P}(T) = (\frac{1}{3} * 2) * (\frac{1}{3}) &= \frac{1}{27} \\ 
+\end{aligned}
+$$
 
 ```chart
     type: bar
