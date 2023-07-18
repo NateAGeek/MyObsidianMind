@@ -96,10 +96,14 @@ We need to calculate the Probability Space in relation to the $X$ function. For 
 
 $$
 \begin{aligned}
-\mathbb{P}\{TTT\} = \mathbb{P}(T) * \mathbb{P}(T) * \mathbb{P}(T) = \frac{1}{3} * 3 &= \frac{1}{27} \\ 
-\mathbb{P}\{HTT,THT,TTH\} = \mathbb{P}(H) * \mathbb{P}(T) * \mathbb{P}(T) = (\frac{1}{3} * 2) * (\frac{1}{3}) &= \frac{1}{27} \\ 
+\mathbb{P}\{TTT\} = \mathbb{P}(T) * \mathbb{P}(T) * \mathbb{P}(T) = (\frac{1}{3}) ^ 3 &= \frac{1}{27} \\ 
+\mathbb{P}\{HTT,THT,TTH\} = \mathbb{P}(H) * \mathbb{P}(T) * \mathbb{P}(T) ... = ((\frac{1}{3} * \frac{1}{3}) * (\frac{2}{3}))^3 &= \frac{6}{27} \\ 
+\mathbb{P}\{HHT,HTH,THH\} = \mathbb{P}(H) * \mathbb{P}(H) * \mathbb{P}(T) ... = (\frac{1}{3} * (\frac{2}{3} * \frac{2}{3}))^3 &= \frac{12}{27} \\ 
+\mathbb{P}\{HHH\} = \mathbb{P}(H) * \mathbb{P}(H) * \mathbb{P}(H) = (\frac{2}{3})^3 &= \frac{8}{27} \\ 
 \end{aligned}
 $$
+
+This gives us a new distribution to work with down below.
 
 ```chart
     type: bar
@@ -112,3 +116,4 @@ $$
         - title: Y Distribution P
           data: [0.29629629629, 0.44444444444, 0.22222222222, 0.03703703703]
 ```
+
