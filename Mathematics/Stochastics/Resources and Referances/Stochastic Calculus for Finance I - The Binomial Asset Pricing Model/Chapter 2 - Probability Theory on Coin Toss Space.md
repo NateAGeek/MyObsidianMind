@@ -117,3 +117,9 @@ This gives us a new distribution to work with down below.
           data: [0.29629629629, 0.44444444444, 0.22222222222, 0.03703703703]
 ```
 
+### Definition 2.2.4
+**Expected Value**: is defined as the average expected value of a probability distribution as the trials reach infinity. We can define it as below:
+$$
+\mathbb{E}[X] = \sum_{w\in\Omega}X(w)\mathbb{P}(w)
+$$
+In the context where the coin is fair, and we have a $\frac{1}{2}$ heads and $\frac{1}{2}$ tails
