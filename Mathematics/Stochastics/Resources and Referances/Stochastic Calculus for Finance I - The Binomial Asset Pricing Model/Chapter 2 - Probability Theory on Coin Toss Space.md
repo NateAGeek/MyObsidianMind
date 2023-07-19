@@ -125,13 +125,36 @@ $$
 In the context where the coin is fair, and we have a $\frac{1}{2}$ heads and $\frac{1}{2}$ tails. We can now solve for the **Expected Value** of the probability space in relation to the function $X$
 
 $$
-\begin{aligned}
+\begin{align*}
     E[X] &= 3 * P(HHH) + 2 * [P(HHT) + P(HTH) + P(THH)] + 1 * [P(HTT) + P(THT) + P(TTH)] + 0 * P(TTT) \\
     E[X] &= 3 * (1/8) + 2 * [3 * (1/8)] + 1 * [3 * (1/8)] + 0 * (1/8) \\
     E[X] &= 3/8 + 6/8 + 3/8 \\
     E[X] &= 12/8 = 1.5 \\
-\end{aligned}
+\end{align*}
 $$
 This means on average if we were to continuously flip coins, we would get "1.5" heads.
 _Although it is not possible to get half a heads, it is on average going to be at least one head and half another_
+
+##### Expanding Expected Value to Get Variance
+Variance is the spread or how dispersed the values of X. We first find the **Expected Value** of the values X and then we calculate the difference of X to the **Expected Value**.
+
+_We square it to remove negative signs and give more weight to larger deviations._
+
+$$
+Var(X) = \mathbb{E}[(X-\mathbb{E}[X])^2]
+$$
+For the example of heads and tails, we already found the expected value to be $1.5$. We now need to solve for the differences of all the $X$ values.
+
+$$
+\begin{aligned}
+\text{Var}(X) &= E\left[(X - E[X])^2\right] \\
+&= 0 \cdot P(\text{TTT}) + (1 - 1.5)^2 \cdot [P(\text{HTT}) + P(\text{THT}) + P(\text{TTH})] + \\
+&\quad (2 - 1.5)^2 \cdot [P(\text{HHT}) + P(\text{HTH}) + P(\text{THH})] + (3 - 1.5)^2 \cdot P(\text{HHH}) \\
+&= 0 \cdot \left(\frac{1}{8}\right) + 0.25 \cdot [3 \cdot \left(\frac{3}{8}\right)] + 0.25 \cdot [3 \cdot \left(\frac{3}{8}\right)] + 2.25 \cdot \left(\frac{1}{8}\right) \\
+&= 0 + 0.28125 + 0.28125 + 0.28125 \\
+&= 0.84375
+\end{aligned}
+$$
+##### Standard Deviation
+Simply if we have the variance we can also easily solve for the square root to solve for the standard deviation. 
 
