@@ -158,3 +158,6 @@ $$
 ##### Standard Deviation
 Simply if we have the variance we can also easily solve for the square root to solve for the standard deviation. 
 
+$$
+E_1[S_2](H) = p * S_2(HH) + q * S_2(HT) = \frac{1}{2} * 16 + \frac{1}{2} * 4 = 8 + 2 = 10
+$$
