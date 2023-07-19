@@ -122,4 +122,16 @@ This gives us a new distribution to work with down below.
 $$
 \mathbb{E}[X] = \sum_{w\in\Omega}X(w)\mathbb{P}(w)
 $$
-In the context where the coin is fair, and we have a $\frac{1}{2}$ heads and $\frac{1}{2}$ tails
+In the context where the coin is fair, and we have a $\frac{1}{2}$ heads and $\frac{1}{2}$ tails. We can now solve for the **Expected Value** of the probability space in relation to the function $X$
+
+$$
+\begin{aligned}
+    E[X] &= 3 * P(HHH) + 2 * [P(HHT) + P(HTH) + P(THH)] + 1 * [P(HTT) + P(THT) + P(TTH)] + 0 * P(TTT) \\
+    E[X] &= 3 * (1/8) + 2 * [3 * (1/8)] + 1 * [3 * (1/8)] + 0 * (1/8) \\
+    E[X] &= 3/8 + 6/8 + 3/8 \\
+    E[X] &= 12/8 = 1.5 \\
+\end{aligned}
+$$
+This means on average if we were to continuously flip coins, we would get "1.5" heads.
+_Although it is not possible to get half a heads, it is on average going to be at least one head and half another_
+
