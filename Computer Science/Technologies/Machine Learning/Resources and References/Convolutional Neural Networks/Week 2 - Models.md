@@ -35,3 +35,4 @@ The pointwise convolution, creating point over the each layer. You then create h
 
 MobileNetV2 
 Uses a bypass and bottle neck to be more accurate while keeping the computation and memory cost low.
+
