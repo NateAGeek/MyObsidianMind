@@ -3,7 +3,7 @@
 ## Bullet Notes
 - [[Viruses]] are all around us, and are all over the place. We carry a lot of virus genetic material inside of us and all other live creatures
 - There are 10^30 of just [[Bacteriophages]] in the world's waters
-- The length of head to tail 
+- The length of head to tail 100 million light years
 - Wales are commonly are infected with [[Caliciviridae]], wales excrete the more than 10^13
 - [[Viruses]] help recycle biomaterial from cells and help other organisms grow and material to be reintroduced into the solution
 - Herpes Viruses: [[Herpes Simplex 1|HSV-1]], [[Herpes Simplex 2|HSV-2]], VZV, HCMV, EBV, HHV-6, HHV-7, HHV-8
