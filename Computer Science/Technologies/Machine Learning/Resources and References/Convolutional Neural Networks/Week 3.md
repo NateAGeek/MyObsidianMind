@@ -14,4 +14,5 @@ Landmarks are just points of data on a photo. Landmarks need to be consistent.
 You use a CovNet and sliding window to detect the image and find the item or object.
 
 **Sliding Window**
-They slow
+They slow since they do not scale
+
