@@ -14,5 +14,9 @@ Landmarks are just points of data on a photo. Landmarks need to be consistent.
 You use a CovNet and sliding window to detect the image and find the item or object.
 
 **Sliding Window**
-They slow since they do not scale
+They slow since they do not scale, but slides across to find the object
+
+#### Sliding Window Convolution Network Implementation 
+You do a series of reductions in regions and that somehow leads to the same effect as sliding window
+
 
