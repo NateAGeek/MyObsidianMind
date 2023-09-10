@@ -21,6 +21,7 @@ One way to measure if you model fits just right is typically when the model has 
 
 ## Regularization
 Regularization helps reduce both bias and variance in a model. Basically mirrors how choosing the right degree of a polynomial works with regular regression. However, this is used for machine learning models
+
 ![[../../../../../../NotebookAssets/Pasted image 20230224163428.png]]
 
 ## Baseline
