@@ -50,7 +50,7 @@ $$
 If we also add in the context of a European Call Option K at strike 5. We can determine if we simulated the option with money markets as a borrower. When K = 5, $(S_1(H) - K)^+ = 3$ or $(S_1(T) - K)^+ = 0$. So we were able to get the same return using money markets as if we were to hold a Call Option to expiration at time one, with a strike of 5. That means we can replicate the option strategy with money markets or use money markets to replicate the outcome of the option strategy.
 
 #### Potential Arbitrage Opportunity 
-In this context if the option was price at more or less than $1.20, then we would have a profit opportunity. Since base on the example we  As we could long or short the simulated trade with money markets and make the difference in profit without risking any money technically. This would be considered an arbitrage.
+In this context if the option was price at more or less than $1.20, then we would have a profit opportunity. Since base on the example as we could long or short the simulated trade with money markets and make the difference in profit without risking any money technically. This would be considered an arbitrage.
 
 ### Solving For a More General Derivative at $V_0$
 The goal for reverse engineering price of a derivative at time zero, is to determine its equivalent portfolio. This allows to determine if the derivative is miss priced and could lead to a risk free profit arbitrage. 
@@ -167,3 +167,35 @@ if X_0 == S_0:
 Utilizing what we know about binomial models. We can extend them to multiple periods of time. 
 ![[../../../../NotebookAssets/Pasted image 20230318115200.png]]
 Where the up and down factors are consistent. We develop a model with set degrees of price action over a series of possible outcomes. 
+
+### Quantifying the Outcomes
+To quantify the outcome probabilities we need to take the series of events and simplify them. For example we will take the process HH and TH
+$$
+\begin{align}
+    S_1(H) &= uS_0\\
+    S_2(HH) &= uS_1(H) = u^2S_0 \\
+    \\
+    S_1(T) &= dS_0 \\
+    S_2(TH) &= uS_1(T) = udS_0
+\end{align}
+$$
+These examples use the outcomes and the probabilities from past coin flips to quantify the output value.
+
+### Expanding Previous Single Binomial Model
+
+We can take the original model to determine the portfolio value of $X$. We can do this via recursively defining the portfolio of the binomial model. 
+
+$$
+\begin{align}
+X_{n+1} &= \Delta_nS_{n+1}+(1+r)(X_n-\Delta_nS_n)
+\end{align}
+$$
+The formulation leaves some unknowns that need to be solved for determining what $\Delta$ and that is dependent on the $V$ of the underlying derivative contract. 
+$$
+\begin{align}
+V_n(w_1w_2...w_n) &= \frac{1}{1+r} [\tilde{p}V_{n+1}(w_1w_2...w_nH) + \tilde{q}V_{n+1}(w_1w_2...w_nT)] \\
+\Delta_{n}(w_1w_2...w_n) &= \frac{V_{n+1}(w_1w_2...w_nH) - V_{n+1}(w_1w_2...w_nT)}{S_{n+1}(w_1w_2...w_nH) - S_{n+1}(w_1w_2...w_nT)}
+\end{align}
+$$
+
+We can further recursively solve for all the parameters to find a no-arbitrage solution.
