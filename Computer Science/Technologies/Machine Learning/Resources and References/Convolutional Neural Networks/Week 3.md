@@ -20,3 +20,13 @@ They slow since they do not scale, but slides across to find the object
 You do a series of reductions in regions and that somehow leads to the same effect as sliding window
 
 
+When sliding window you get semi offset bounding box
+
+### YOLO Algorithm 
+You use this algorithm to better create a bounding box. You take the midpoint of the object and the size. You then ignore neighboring cells. And focus on training the item in grid cell.
+
+Yolo paper is hard...
+
+### Intersection Over Union 
+Computes the size of the predicted bounding box is close the object is and then determine if the bounding box is accurate
+
