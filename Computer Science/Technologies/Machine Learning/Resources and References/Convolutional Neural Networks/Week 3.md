@@ -30,3 +30,10 @@ Yolo paper is hard...
 ### Intersection Over Union 
 Computes the size of the predicted bounding box is close the object is and then determine if the bounding box is accurate
 
+### Non-Max Suppression
+Basically reviews the noise in serial object detection. You basically look for the max probability of region covered, and ignore the others.
+
+Disregard low probability 
+Pick the highest probability 
+Discard any bounding box with the most overlap(IoU)
+
