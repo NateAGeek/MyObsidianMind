@@ -37,3 +37,6 @@ Disregard low probability
 Pick the highest probability 
 Discard any bounding box with the most overlap(IoU)
 
+### Anchor Box
+So we define anchor boxes, are shapes with midpoints. Then we see if the item overlaps to anchor box, and then we can classify them to a shape. Allows the learning algo to learn different objects that might overlap.
+
