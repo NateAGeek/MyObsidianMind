@@ -40,3 +40,12 @@ Discard any bounding box with the most overlap(IoU)
 ### Anchor Box
 So we define anchor boxes, are shapes with midpoints. Then we see if the item overlaps to anchor box, and then we can classify them to a shape. Allows the learning algo to learn different objects that might overlap.
 
+### Region Proposal
+Picks regions to determine what could be items and then does a convnet to determine what item is in them. They use some segmentation to then do classification. 
+
+#### Fast R-CNN
+it's hard to find the proposed region with a cnn and then segment and then classify
+
+### U-Net
+Segmentation for pixels in data. The objective is to take a series of inputs and compress then expand to a segmented region in the image to determine what it's segmented area is.
+
