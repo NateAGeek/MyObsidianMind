@@ -47,5 +47,9 @@ Picks regions to determine what could be items and then does a convnet to determ
 it's hard to find the proposed region with a cnn and then segment and then classify
 
 ### U-Net
-Segmentation for pixels in data. The objective is to take a series of inputs and compress then expand to a segmented region in the image to determine what it's segmented area is.
+Segmentation for pixels in data. The objective is to take a series of inputs and compress then expand to a segmented region in the image to determine what it's segmented area is. Uses skip connections to better segment data and mask it.
+
+### Transpose Conv
+
+We take a kernel and apply our output to the kernel. This leads us to expand our output from encoding to decoding.
 
