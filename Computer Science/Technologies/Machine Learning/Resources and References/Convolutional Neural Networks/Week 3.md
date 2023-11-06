@@ -54,3 +54,4 @@ Segmentation for pixels in data. The objective is to take a series of inputs and
 We take a kernel and apply our output to the kernel. This leads us to expand our output from encoding to decoding.
 
 
+TODO: Add better notes for Landmarks and also Transpose Conv!!
