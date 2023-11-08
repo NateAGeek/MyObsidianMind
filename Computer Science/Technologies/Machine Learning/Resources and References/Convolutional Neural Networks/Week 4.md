@@ -13,3 +13,10 @@ You take an Anchor and compare it to the positive image. Then take the anchor an
 ![[../../../../../NotebookAssets/Pasted image 20231106220317.png]]
 You want the anchor and positive and the anchor and negative to cancel out. You can add a margin to force the one side, negative, to be bigger to further push the output to cancel the if the negative images cancel.
 
+### Binary Prediction
+You can also take a the output of the two encodings of the and compare them and do one node that will output a classification, if it is the person or not.
+![[../../../../../NotebookAssets/Pasted image 20231107192911.png]]
+
+##### Database optimization
+You can also compute the encodings of $x^{(j)}$ and store them within a database. Then we just compare that encoding to the output of our face rec software.
+
