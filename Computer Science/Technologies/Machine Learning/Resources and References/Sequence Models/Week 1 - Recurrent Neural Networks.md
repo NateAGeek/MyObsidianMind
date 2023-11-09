@@ -1,0 +1,2 @@
+**One Hot** encoding is know as a vector with 1 single spot and the rest set to 0s.
+
