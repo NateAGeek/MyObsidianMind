@@ -103,8 +103,17 @@ The basic RNN has many localize influences and can't access data really far back
 #### Exploding Gradients 
 The lecture suggests to clip the gradients to prevent them form exploding out of the context
 
-
-
+## GRU
+A single RNN Unit diagram is as follows
+![[../../../../../NotebookAssets/Pasted image 20231116203541.png]]
+This is the same as the following formulas:
+$$
+\begin{align}
+a^{<t>} &= g(W_{a} [a^{<t-1>}, x^{<t>}] + b_a) \\
+\hat{y}^{<t>} &= g(W_{ya} a^{<t>} + b_y)
+\end{align}
+$$
+Where each of these units are then linked up feeding $a^{<t>}$. 
 Quiz Notes:
 Representation in the selection of layer, word, etc
 One to One and One to Many
