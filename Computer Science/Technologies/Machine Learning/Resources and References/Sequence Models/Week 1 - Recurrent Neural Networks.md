@@ -113,7 +113,11 @@ a^{<t>} &= g(W_{a} [a^{<t-1>}, x^{<t>}] + b_a) \\
 \hat{y}^{<t>} &= g(W_{ya} a^{<t>} + b_y)
 \end{align}
 $$
-Where each of these units are then linked up feeding $a^{<t>}$. 
+Where each of these cells are then linked up feeding $a^{<t>}$. 
+
+## LSTM
+![[../../../../../NotebookAssets/Pasted image 20231117220135.png]]
+
 Quiz Notes:
 Representation in the selection of layer, word, etc
 One to One and One to Many
