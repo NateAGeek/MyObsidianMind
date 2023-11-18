@@ -2,9 +2,14 @@
 # Notation
 
 ## Indexing Notation
-$x^{(i)<t>}$
-Where i = the index in the training set
-Where t = the index of the element in the sequence
+Superscript $[l]$ denotes an object associated with the $l^{th}$ layer. 
+Superscript $(i)$ denotes an object associated with the $i^{th}$ example. 
+Superscript $\langle t \rangle$ denotes an object at the $t^{th}$ time 
+step. 
+Subscript $i$ denotes the $i^{th}$ entry of a vector.
+
+**Example**:  
+$a^{(2)[3]<4>}_5$ denotes the activation of the 2nd training example (2), 3rd layer [3], 4th time step <4>, and 5th entry in the vector.
 
 $Tx^{(i)}$
 where i = the index of the train example. However, Tx is an array of how lengths of input sample. So this selects how long the input sequence is for the input sample.
