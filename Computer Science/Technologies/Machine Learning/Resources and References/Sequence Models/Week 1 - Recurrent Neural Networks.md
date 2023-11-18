@@ -106,7 +106,6 @@ The lecture suggests to clip the gradients to prevent them form exploding out of
 ## SimpleRNN
 A single RNN Cell diagram is as follows
 
-
 This is the same as the following formulas:
 $$
 \begin{align}
@@ -115,8 +114,9 @@ a^{<t>} &= g(W_{a} [a^{<t-1>}, x^{<t>}] + b_a) \\
 \end{align}
 $$
 Where each of these cells are then linked up feeding $a^{<t>}$. 
+![[../../../../../NotebookAssets/Pasted image 20231118133015.png]]
 
-
+The Cells can be any arbitrary length of the sequence. The $W_{aa}$, $W_{ax}$, and $W_{ay}$ are shared through the whole sequence of cells and feed back into each other via $a^{<t>}$. The activation of the previous result is passed into the next item in the sequence. 
 
 ## GRU
 
