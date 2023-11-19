@@ -125,6 +125,7 @@ The Cells can be any arbitrary length of the sequence. The $W_{aa}$, $W_{ax}$, a
 
 ## GRU
 
+![[../../../../../NotebookAssets/Pasted image 20231118184742.png]]
 
 ## LSTM
 ![[../../../../../NotebookAssets/Pasted image 20231117220135.png]]
