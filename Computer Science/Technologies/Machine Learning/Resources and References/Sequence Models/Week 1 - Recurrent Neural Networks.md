@@ -2,9 +2,14 @@
 # Notation
 
 ## Indexing Notation
-$x^{(i)<t>}$
-Where i = the index in the training set
-Where t = the index of the element in the sequence
+Superscript $[l]$ denotes an object associated with the $l^{th}$ layer. 
+Superscript $(i)$ denotes an object associated with the $i^{th}$ example. 
+Superscript $\langle t \rangle$ denotes an object at the $t^{th}$ time 
+step. 
+Subscript $i$ denotes the $i^{th}$ entry of a vector.
+
+**Example**:  
+$a^{(2)[3]<4>}_5$ denotes the activation of the 2nd training example (2), 3rd layer [3], 4th time step <4>, and 5th entry in the vector.
 
 $Tx^{(i)}$
 where i = the index of the train example. However, Tx is an array of how lengths of input sample. So this selects how long the input sequence is for the input sample.
@@ -116,10 +121,21 @@ $$
 Where each of these cells are then linked up feeding $a^{<t>}$. 
 ![[../../../../../NotebookAssets/Pasted image 20231118133015.png]]
 
-The Cells can be any arbitrary length of the sequence. The $W_{aa}$, $W_{ax}$, and $W_{ay}$ are shared through the whole sequence of cells and feed back into each other via $a^{<t>}$. The activation of the previous result is passed into the next item in the sequence. 
+The cells can be any arbitrary length of the sequence. The $W_{aa}$, $W_{ax}$, and $W_{ay}$ are shared through the whole sequence of cells and feed back into each other via $a^{<t>}$. The activation of the previous result is passed into the next item in the sequence. 
 
 ## GRU
 
+
+$$
+\begin{align}
+c^{<t>} &= a^{<t>} \\
+\tilde{c}^{<t>} &= tanh(W_{cx}x^{<t>} + W_{cc}c^{<t>} + b_c) \\
+\Gamma_u &= \sigma(W_{ux}x^{<t>} + W_{uc}c^{<t-1>} + b_u) \\
+c^{<t>} &= \Gamma_u * \tilde{c}^{<t>} + (1 - \Gamma_u) * c^{<t-1>}
+
+\end{align}
+$$
+Compared to the Simple RNN cells. We now introduce a new series of weight that is the update gate ($\Gamma_u$). This acts as a switch that learns base on the input and the previous word, if we should override the activation candidate ($\tilde{c}$) with the previous activation($c$). 
 
 ## LSTM
 ![[../../../../../NotebookAssets/Pasted image 20231117220135.png]]
