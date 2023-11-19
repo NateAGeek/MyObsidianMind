@@ -129,7 +129,7 @@ The cells can be any arbitrary length of the sequence. The $W_{aa}$, $W_{ax}$, a
 $$
 \begin{align}
 c^{<t>} &= a^{<t>} \\
-\tilde{c}^{<t>} &= tanh(W_{cx}x^{<t>} + W_{cc}c^{<t>} + b_c) \\
+\tilde{c}^{<t>} &= tanh(W_{cx}x^{<t>} + W_{cc}c^{<t-1>} + b_c) \\
 \Gamma_u &= \sigma(W_{ux}x^{<t>} + W_{uc}c^{<t-1>} + b_u) \\
 c^{<t>} &= \Gamma_u * \tilde{c}^{<t>} + (1 - \Gamma_u) * c^{<t-1>}
 
