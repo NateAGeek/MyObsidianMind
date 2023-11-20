@@ -135,10 +135,13 @@ c^{<t>} &= \Gamma_u * \tilde{c}^{<t>} + (1 - \Gamma_u) * c^{<t-1>}
 
 \end{align}
 $$
-Compared to the Simple RNN cells. We now introduce a new series of weight that is the update gate ($\Gamma_u$). This acts as a switch that learns base on the input and the previous word, if we should override the activation candidate ($\tilde{c}$) with the previous activation($c$). 
+Compared to the Simple RNN cells. We now introduce a new series of weight that is the update gate ($\Gamma_u$).
+This acts as a switch that learns base on the input and the previous word, if we should override the activation candidate ($\tilde{c}$) with the previous activation($c$). 
 
 ## LSTM
 ![[../../../../../NotebookAssets/Pasted image 20231117220135.png]]
+
+There are now
 
 Quiz Notes:
 Representation in the selection of layer, word, etc
