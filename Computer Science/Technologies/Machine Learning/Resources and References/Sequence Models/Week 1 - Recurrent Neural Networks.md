@@ -135,6 +135,8 @@ c^{<t>} &= \Gamma_u * \tilde{c}^{<t>} + (1 - \Gamma_u) * c^{<t-1>}
 
 \end{align}
 $$
+
+![[../../../../../NotebookAssets/Pasted image 20231120192137.png]]
 Compared to the Simple RNN cells. We now introduce a new series of weight that is the update gate ($\Gamma_u$).
 
 This acts as a switch that learns base on the input and the previous word, if we should override the activation candidate ($\tilde{c}$) with the previous activation($c$). 
