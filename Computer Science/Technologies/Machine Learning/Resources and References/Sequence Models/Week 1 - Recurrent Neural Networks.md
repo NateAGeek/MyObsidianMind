@@ -136,7 +136,12 @@ c^{<t>} &= \Gamma_u * \tilde{c}^{<t>} + (1 - \Gamma_u) * c^{<t-1>}
 \end{align}
 $$
 Compared to the Simple RNN cells. We now introduce a new series of weight that is the update gate ($\Gamma_u$).
+
 This acts as a switch that learns base on the input and the previous word, if we should override the activation candidate ($\tilde{c}$) with the previous activation($c$). 
+
+This gate if equal to 1 will force the input and previous activation through. However, in the gate is 0 then the current x value is ignored and the previous activation is passed though as the input. 
+
+This binary will not be always true and their can be some interpolation between the intensity. However, it is easier to imagine this as a gate.
 
 ## LSTM
 ![[../../../../../NotebookAssets/Pasted image 20231117220135.png]]
