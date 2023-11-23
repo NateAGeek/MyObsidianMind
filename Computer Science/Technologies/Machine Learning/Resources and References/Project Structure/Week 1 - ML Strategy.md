@@ -3,7 +3,7 @@
 ## Othogonaganal
 Is the idea of breaking down the controls for finer tuning. 
 
-### Chain of Assuptions on ML
+### Chain of Assumptions on ML
 - Works well on the training set
     - You can tune different degrees of for data
     - Optimizers
