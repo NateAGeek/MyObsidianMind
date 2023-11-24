@@ -148,7 +148,7 @@ This binary will not be always true and their can be some interpolation between 
 ## LSTM
 ![[../../../../../NotebookAssets/Pasted image 20231117220135.png]]
 
-There are now
+There are now 
 
 Quiz Notes:
 Representation in the selection of layer, word, etc
