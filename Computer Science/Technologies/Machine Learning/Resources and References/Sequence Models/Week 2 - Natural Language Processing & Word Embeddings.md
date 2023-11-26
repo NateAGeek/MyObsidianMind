@@ -21,3 +21,13 @@ This angle is represents the similarity of the words where 1 is very and -1 is n
 You will have a full matrix representation of all the words. The columns representing the words, as indexes. Then you will have the columns representing the learned embedding. If you take the one-hot representation of a word and multiply it by the full matrix of words, you will be left with the embedding of the selected one hot representation of the word. 
 ![[../../../../../NotebookAssets/Pasted image 20231125195507.png]]
 
+## Learning Word Embeddings
+Feeding the embeddings and giving a expected value, it will start to find the relation words. 
+
+You can use context and target pairs. Basically the context is the relation around the word and then find the relation to the target word. 
+![[../../../../../NotebookAssets/Pasted image 20231125204738.png]]
+
+## Word2Vec
+
+Creates a context to target pair. This will be an supervised model that will develop the embedding model. 
+
