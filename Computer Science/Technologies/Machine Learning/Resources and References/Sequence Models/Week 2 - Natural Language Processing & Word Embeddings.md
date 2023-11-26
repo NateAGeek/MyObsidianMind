@@ -34,6 +34,11 @@ Creates a context to target pair. This will be an supervised model that will dev
 #### Softmax Classification Model via Skip Gram
 There is now the ability given the context. You build a model that has a loss function. Basically as you train you try to bring the predicated embedding  closer to the target base on the input word. For example trying to get "orange", label/context, and "juice" as a targeted relation. You can establish this formulaically as a probability. 
 $$
-p(t|c) = \frac{e^{{O_t}^Te_c}}{\sum_{j=1}^{10,000}e^{{O_t}^Te_c}}
+p(t|c) = \frac{e^{{\theta_t}^Te_c}}{\sum_{j=1}^{10,000}e^{{\theta_t}^Te_c}}
 $$
-Basic cross loss is used. This 
+Basic cross loss is used. This is used to learn the relation between the words. However, this can cause computational pressure as we need to sum through all the vocabulary. 
+
+#### Hierarchal Softmax Classification
+You can optimize this by doing Hierarchal Softmax Classification. Where we break down the 10,000 words into buckets. These buckets can then be used to break down and binary search relations. It might not be even, as common words might be at the top.
+
+
