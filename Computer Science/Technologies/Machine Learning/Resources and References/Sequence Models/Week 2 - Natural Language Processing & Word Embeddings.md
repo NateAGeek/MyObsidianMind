@@ -57,4 +57,13 @@ P(y=1|c,t) = \sigma({\theta_t}^Te_c)
 $$
 We basically get the embedding word for the context, and train the weights based on the expected target, given a smaller distribution of the set with one positive and one negative.
 
+We can train the subset of K essentially. This will reduce the full iteration computation of the full vocabulary.
+
+To properly sample the negative labels we use a form of distribution. This prevents bad sampling from more common words like "the, a, of" etc from taking in predominate of the training (since those can be more frequent in context). They use a mixture of distribution that is not fully clear. But for now it is:
+$$
+P(w_i) = \frac{f(w_i)^{3/4}}{\sum_{j=1}^{10,000} f(w_j)^{3/4}}
+$$
+It is used in the paper and it seemed to work, but lacks empirical evidence why it works better.
+
+## GloVe Word Vectors
 
