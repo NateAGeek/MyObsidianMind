@@ -13,7 +13,7 @@ The relation aspects is you can compute the difference of word vectors relations
 
 You can find the angle of the relation of two words better by using the cosine similarity function. 
 $$
-sim(\vec{u}, \vec{v}) = \frac{u^Tv}{||u||_2||v||_2}
+{CosineSimilarity(u, v)} = \frac {u \cdot v} {||u||_2 ||v||_2} = cos(\theta)
 $$
 This angle is represents the similarity of the words where 1 is very and -1 is not at all. 
 
