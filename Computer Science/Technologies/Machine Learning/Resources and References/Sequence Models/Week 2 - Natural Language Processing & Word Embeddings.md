@@ -77,3 +77,20 @@ Where we train and minimize $\theta,b_i,b_j'$ and find the loss difference. The 
 _TODO: Figure out how to implement via the paper_
 
 ### Sentiment Classification
+
+Basically average the meanings of the words that are input, pass through a softmax model. But it is really basic and can miss the underlying ordering. "This movie lacks, good story, good script, and good actors". The sentence has many "goods" and the simple classification would fail to detect negative review.
+
+Pass through an RNN in order to get the context of the words and would allow you to have better and better accuracy.
+
+## Debiasing Word Embeddings
+Stereotypes can originate due to how historically words have been used. This can exist in datasets since it does underlying come from some text that could be historically or perspectively bias. If this is right or wrong is up for debate. But to keep a model that maybe does not assume but rather makes better widespread understandings we debias our embeddings.
+
+Basically you need to preform some degree algorithm that will position words in space more equal distance.
+
+We do this as stated:
+* Identify bias direction: Subtractive of he is to she and male to female
+* Neutralize: Projecting words and 
+* Equalize Pairs: We do some subtractive can remove the bias
+
+They did a classification of all the words, and found that most have a fairly straight forward general neutral structure within the words.
+
