@@ -66,4 +66,14 @@ $$
 It is used in the paper and it seemed to work, but lacks empirical evidence why it works better.
 
 ## GloVe Word Vectors
+So uses a formulation of learning weights. We take a function that allows us to determine the relation based on a square difference of the weight and log of the embedding. 
 
+$$
+minimize \sum_{i=1}^{10,000}\sum_{j=1}^{10,000} f(X_{ij})(\theta_j^Te_j + b_i+b_j'-logX_{ij})^2
+$$
+
+Where we train and minimize $\theta,b_i,b_j'$ and find the loss difference. The f function returns the distribution found to better focus the words to train. Also the learned vector for $\theta e$ might not be clear and could not create clear boundaries, noted from Andrew
+
+_TODO: Figure out how to implement via the paper_
+
+### Sentiment Classification
