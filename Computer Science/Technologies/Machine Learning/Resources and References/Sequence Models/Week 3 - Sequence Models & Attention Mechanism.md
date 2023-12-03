@@ -39,5 +39,30 @@ $$
 \frac{1}{T_y^\alpha} \sum_{t=1}^{T_y} \log P(y^{<t>} | x, y^{<1>}, \ldots, y^{<t-1>})
 \end{equation}
 $$
-Alpha is a param that you can fine too aswell
+Alpha is a param that you can fine toon as well
 
+## Error Analysis in Beam Search
+![[../../../../../NotebookAssets/Pasted image 20231203153254.png]]
+Basically we take our base case and make sure that we are choosing the correct output. If we are not then we can use the results from the Beam Search to deduce the reason we are not achieving our expected output and what would be the culprit.
+
+The cases are stated. But for textual review: 
+* if our probability of correct output > probability of prediction, then it is probably beam search failing.
+* if our probability of correct output <= probability of prediction, then it is RNN models fault.
+
+You could determine if Beam is at fault, and if so then you can expand the beam width.
+
+## Bleu Score
+Basically we give credit to words based on the max amount it appears in references. So, if there sentence has "the" twice, then the credit is capped at two. So if the length of the output is 7 we cap the credit of the Machine Output to 2/7. 
+
+#### Bigrams
+Bigrams are the sampling of pairs in the sentence, forward and backward. we then use the same idea for single words, but we count how many of the bigram words appear in the whole sentence.
+![[../../../../../NotebookAssets/Pasted image 20231203154529.png]]
+
+![[../../../../../NotebookAssets/Pasted image 20231203154729.png]]
+General formula for n-gram bigram.
+
+We then combine these together
+![[../../../../../NotebookAssets/Pasted image 20231203154830.png]]
+This gives us a final scoring translation for multiple referances.
+
+## Attention Model Intuition
