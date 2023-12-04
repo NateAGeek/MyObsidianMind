@@ -63,6 +63,6 @@ General formula for n-gram bigram.
 
 We then combine these together
 ![[../../../../../NotebookAssets/Pasted image 20231203154830.png]]
-This gives us a final scoring translation for multiple referances.
+This gives us a final scoring translation for multiple references.
 
 ## Attention Model Intuition
