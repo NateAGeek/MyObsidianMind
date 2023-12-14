@@ -143,16 +143,19 @@ This acts as a switch that learns base on the input and the previous word, if we
 
 This gate if equal to 1 will force the input and previous activation through. However, in the gate is 0 then the current x value is ignored and the previous activation is passed though as the input. 
 
-This binary will not be always true and their can be some interpolation between the intensity. However, it is easier to imagine this as a gate.
+This binary will not be always true and their can be some interpolation between the intensity. However, it is easier to imagine this as a gate with a hard boundary of 1 and 0.
 
 ## LSTM
 ![[../../../../../NotebookAssets/Pasted image 20231117220135.png]]
 
-There are now
+There are now forget gate compared to the GRU unit. There is also an output gate that controls the next activation that is passed to the next unit. 
 
-Quiz Notes:
-Representation in the selection of layer, word, etc
-One to One and One to Many
-Γu​ understanding, its size
-Review the GRU and LSTM dimensionality with formula
-Gradients and how they related to the models
+It is worth noting that there are two systems in parallel that can carry information to each unit. One that is more of a contestant ($c^{<t>}$) that uses the the previous values that have been passed across all the units. Then we now have an activation that is from the previous unit that influences the contestant. 
+
+_Peephole Connection_: is a variation that will add $c^{<t-1>}$ is dot mult in $\Gamma_o$.
+
+## Bidirectional RNN
+Basically you basically copy your network, but have the input go in reverse. This then means you take an activation function with a weight times the a of the forward network and a of the backwards network. 
+
+## Deep RNN
+Multiple layers of RNNs, and the outputs feed into the next layers. 
