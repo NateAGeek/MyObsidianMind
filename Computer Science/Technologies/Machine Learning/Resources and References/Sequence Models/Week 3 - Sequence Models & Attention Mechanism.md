@@ -66,3 +66,16 @@ We then combine these together
 This gives us a final scoring translation for multiple references.
 
 ## Attention Model Intuition
+The idea behind the attention context is to have an RRN that selectively has weights to the most important context to the sentence and statements. It breaks down the whole phrasing chunk by chunk to determine its relation to predictive output.
+
+On a more programatic level. The attentions are what defines the input to the next context. That will get fed into the leading RRN. These attentions per token in the sequence, are then learned and used to better predict sequence that is more accurate. 
+
+![[../../../../../NotebookAssets/Pasted image 20231214173756.png]]
+
+### Computing Attention
+![[../../../../../NotebookAssets/Pasted image 20231214174446.png]]
+It is a little hard to explain in words. This diagram shows that basically we learn the attention via a mini neural network. We use back propagation to learn the attention for each phrase. You also, want to make sure your attentions are equal to one to keep them within the normalization of items to pay attention to.
+
+## Speech Recognition
+
+You can convert sounds into spectrum grams to then process and determine transcript. 
