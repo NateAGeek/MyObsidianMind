@@ -45,6 +45,32 @@ BOOM, QED MFS!
 ## HIPPO Theory
 [40:25](https://youtu.be/8Q_tqwpTpVU?t=2425)
 ![](https://storage.googleapis.com/askify-screenshot/Ha2U8XK4TEg7sjGTotwOE6lw1jM2/extension_screenshots/screenshot_default_a5adb5e3-96ef-4219-a087-9da82a980e67.jpeg)
-
 [42:19](https://youtu.be/8Q_tqwpTpVU?t=2539)
 ![](https://storage.googleapis.com/askify-screenshot/Ha2U8XK4TEg7sjGTotwOE6lw1jM2/extension_screenshots/screenshot_default_0737f967-215b-4f35-988c-641252b08e3a.jpeg)sooooo... this matrix is good at carrying info from previous states forward, with more accurate data closer and less that is further.
+## Mamba Model
+SSM and S4 Models did not perform well on Copying and Selective Copying.
+Although Copying can be done by the SSM model, it does not work well for S4. This is because the SSM can just learn a basic form of a convolutional and transfer over the data copying it over.
+#### Induction Head
+in SSM and S4 they have trouble content aware reasoning, they can not look back and context and determine the next best fit.
+## Selective Scan
+So the B Matrix is no longer fixed, it is unique per token. 
+### [50:06](https://youtu.be/8Q_tqwpTpVU?t=3006)
+### ![](https://storage.googleapis.com/askify-screenshot/Ha2U8XK4TEg7sjGTotwOE6lw1jM2/extension_screenshots/screenshot_default_c3a95c15-68af-4721-9193-67ff32fd8919.jpeg)
+### Scan method
+You can basically use the previous state as a cache and sum onto it. 
+[53:21](https://youtu.be/8Q_tqwpTpVU?t=3201)
+![](https://storage.googleapis.com/askify-screenshot/Ha2U8XK4TEg7sjGTotwOE6lw1jM2/extension_screenshots/screenshot_default_83c29c3b-b20c-4e32-b0a5-fffc8ab053ba.jpeg)Basically that Prefix Sum Array problem.
+### Parallelized Scan
+[55:58](https://youtu.be/8Q_tqwpTpVU?t=3358)
+![](https://storage.googleapis.com/askify-screenshot/Ha2U8XK4TEg7sjGTotwOE6lw1jM2/extension_screenshots/screenshot_default_3a886dcc-2566-4956-9245-5f94a904a27f.jpeg)
+Basically because summing has the associative property. "Sweep up". We decrease the runtime fron O(N) to O(N/T)
+### They made some custom magic to make it faster
+Kernel fusion, scan, and some other tricks. They utilized formatting the input into a batch that can be stored in the SRAM of the GPU leading to greater speeds.
+**Kernel Fusion: **They basically fuse all the cuda kernel into one to prevent the gpu from moving data back and forth between fast and slow ram.
+
+**Recomputation: **Basically instead of saving the values of each weight, for back propagation, into ram They just recompute it bc it can be faster.
+
+## Model
+### Mamba Block
+[01:09:00](https://youtu.be/8Q_tqwpTpVU?t=4140)
+![](https://storage.googleapis.com/askify-screenshot/Ha2U8XK4TEg7sjGTotwOE6lw1jM2/extension_screenshots/screenshot_default_a97e03a0-0274-4d37-a7ca-af12b3a6bbe2.jpeg)

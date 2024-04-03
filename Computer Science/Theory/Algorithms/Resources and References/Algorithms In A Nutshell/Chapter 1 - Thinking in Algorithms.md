@@ -1,0 +1,2 @@
+## Overview
+The books chapter sets to introduce algorithms as a needed skill for understanding the computational world of efficient problem solving. They use the example of a Convex Hull problem. The reason is because it not easily identified as one of the more common problems that algorithms solve, sort or search, due to its geometric appearance and complex. However, the chapter uses this to introduce the methods of **Greedy** and **Divide and Conquer** 
