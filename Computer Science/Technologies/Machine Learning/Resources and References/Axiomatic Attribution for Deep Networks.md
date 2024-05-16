@@ -39,4 +39,10 @@ They basically interpolate between the baseline and the $x_i$ and sum the rate o
 $$
 \text{IntegratedGrad}_i (x) := (x_i - x_{0,i}) \times \int_{\alpha=0}^{1} \frac{\partial F(x_0 + \alpha \times (x - x_0))}{\partial x_i} \, d\alpha
 $$
+#### Path Methods
+The paper goes into details on the rate of interpolation of the $\alpha$ that they use a term $\gamma$ to represent the path function. Although the linear path function can give you good results. Changes in how the $\alpha$ shifts can lead to different interpretations on how the input attributes to the output. 
+$$
+\text{PathIntegratedGrad}_{\gamma, i} (x) := \int_{\alpha=0}^{1} \frac{\partial F(\gamma(\alpha))}{\partial \gamma_i(\alpha)} \cdot \frac{\partial \gamma_i(\alpha)}{\partial \alpha} \, d\alpha
+$$
+One thing to note, that a straight linear line leads to symmetric and the most common way to integrate gradients. So that is why it is common to use a basic `[0, 1]` linear function.
 
