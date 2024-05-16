@@ -25,7 +25,10 @@ They developed a new method that handles the two axioms, desires, for the extrac
 
 #### Axiom 1: Sensitivity
 Sensitivity, meaning that the input that influences the output is recognized and assigned a non-zero attribute to the output. 
-* Basic Gradient(Derivate): is not a valid solution. As some linear gradients could work, as the gradient is constant. However, Neural Networks use an activation function that changes the output, such as ReLU, to a non-linear function causes sensitivity violation. Since the gradient of ReLU does not directly show the influence of the input to the output. A ReLU function 
+
+#### Current Common Approches that Violate The Axiom
+* Basic Gradient(Derivate): is not a valid solution.Neural Networks use an activation function that changes the output, such as ReLU, to a non-linear function causes sensitivity violation. Since the gradient of ReLU does not directly show the influence of the input to the output receptively. This is due the function flattening out its derivative. A basic ReLU will lose the information on how much, rate, the input affects the output when x > 0. 
+* Back-propagation
 
 #### Axiom 2: Invariance
 Invariance, meaning that if two models take in the same input and produce the same output then their attributions of influence, of the inputs, should be mapped to the same. Note, these two models make take the same input and provide the same output but they may have different inner workings, like different number of hidden layers.
