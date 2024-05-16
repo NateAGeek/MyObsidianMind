@@ -21,17 +21,16 @@ A_F(x, x0)=(a_1, ... , a_n) ∈ R^n
 $$
 Where $a_i$ is the contribution of $x_i$ to the prediction of $F(x)$
 ### Axioms
-They developed a new method that handles the two axioms, desires, for the extraction of the features that influence the output. 
+They developed a new method that handles the two axioms, desires, for the extraction of the features that influence the output. They state their two required axioms to be valid are sensitivity and Invariance. The new method is called **integrated gradients**. They address the current issues 
 
+#### Current Common Approaches that Violate The Axiom
 #### Axiom 1: Sensitivity
 Sensitivity, meaning that the input that influences the output is recognized and assigned a non-zero attribute to the output. 
 
-#### Current Common Approches that Violate The Axiom
 * Basic Gradient(Derivate): is not a valid solution.Neural Networks use an activation function that changes the output, such as ReLU, to a non-linear function causes sensitivity violation. Since the gradient of ReLU does not directly show the influence of the input to the output receptively. This is due the function flattening out its derivative. A basic ReLU will lose the information on how much, rate, the input affects the output when x > 0. 
-* Back-propagation
+* Back-propagation: This also suffers the issue of the basic gradient. They will only back-propagate through ReLU nodes if the ReLU is activated. Then we have a similar issue to basic gradients.
 
-#### Axiom 2: Invariance
+#### Axiom 2: Implementation Invariance
 Invariance, meaning that if two models take in the same input and produce the same output then their attributions of influence, of the inputs, should be mapped to the same. Note, these two models make take the same input and provide the same output but they may have different inner workings, like different number of hidden layers.
 
-The new method is called **integrated gradients**.
 
