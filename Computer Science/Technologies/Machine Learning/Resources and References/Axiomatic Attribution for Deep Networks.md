@@ -35,6 +35,8 @@ Invariance, meaning that if two models take in the same input and produce the sa
  * They give some description about current methods use discrete gradients, incremental units of change not continuous, that violates the correct computation of invariance of the attributes. Since the chain rule of the layers is valid. Using discrete units causes invalidation of the Implementation Invariance
  * $$\frac{F(x_1) - F(x_0)}{g(x_1) - g(x_0)} \neq \frac{F(x_1) - F(x_0)}{h(x_1) - h(x_0)} \cdot \frac{h(x_1) - h(x_0)}{g(x_1) - g(x_0)}$$
 ## Our Method: Integrated Gradients
-
-
+They basically interpolate between the baseline and the $x_i$ and sum the rate of changes, gradients, to fully find how the input attributes to the output. They scale this via ($x_i - x_0$). Full formulation is as follows.
+$$
+\text{IntegratedGrad}_i (x) := (x_i - x_{0,i}) \times \int_{\alpha=0}^{1} \frac{\partial F(x_0 + \alpha \times (x - x_0))}{\partial x_i} \, d\alpha
+$$
 
