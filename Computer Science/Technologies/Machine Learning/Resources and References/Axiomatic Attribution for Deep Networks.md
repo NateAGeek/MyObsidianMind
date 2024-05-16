@@ -34,5 +34,7 @@ Sensitivity, meaning that the input that influences the output is recognized and
 Invariance, meaning that if two models take in the same input and produce the same output then their attributions of influence, of the inputs, should be mapped to the same. Note, these two models make take the same input and provide the same output but they may have different inner workings, like different number of hidden layers.
  * They give some description about current methods use discrete gradients, incremental units of change not continuous, that violates the correct computation of invariance of the attributes. Since the chain rule of the layers is valid. Using discrete units causes invalidation of the Implementation Invariance
  * $$\frac{F(x_1) - F(x_0)}{g(x_1) - g(x_0)} \neq \frac{F(x_1) - F(x_0)}{h(x_1) - h(x_0)} \cdot \frac{h(x_1) - h(x_0)}{g(x_1) - g(x_0)}$$
+## Our Method: Integrated Gradients
+
 
 
