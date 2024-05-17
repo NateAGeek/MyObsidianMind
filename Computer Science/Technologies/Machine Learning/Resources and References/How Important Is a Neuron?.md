@@ -14,3 +14,7 @@ They also introduce the total conductance, meaning how does all the inputs $x_i$
 $$
 \text{Cond}_y(x) ::= \sum_i (x_i - x_{0i}) \cdot \int_{\alpha=0}^1 \frac{\partial F(x_0 + \alpha(x - x_0))}{\partial y} \cdot \frac{\partial y}{\partial x_i} \, d\alpha
 $$
+### Evaluation of Conductance
+They bring up three current methods to compare conductance with, to drive a further evaluation. 
+
+* **Activation**: The activation is the measure of the result of the activation function, like ReLU, of the neuron of the output. 
