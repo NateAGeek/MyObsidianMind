@@ -17,4 +17,5 @@ $$
 ### Evaluation of Conductance
 They bring up three current methods to compare conductance with, to drive a further evaluation. 
 
-* **Activation**: The activation is the measure of the result of the activation function, like ReLU, of the neuron of the output. 
+* **Activation**: The activation is the measure of the result of the activation function, like ReLU, of the neuron of the output. There are some issues as the activation may not give the full insight into how the model is predicting the result, as the weights could alter the way the activation influences the output.
+* **Gradient Activation**: Although you can find the rate of change of the 
