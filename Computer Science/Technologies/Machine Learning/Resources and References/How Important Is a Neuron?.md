@@ -18,4 +18,7 @@ $$
 They bring up three current methods to compare conductance with, to drive a further evaluation. 
 
 * **Activation**: The activation is the measure of the result of the activation function, like ReLU, of the neuron of the output. There are some issues as the activation may not give the full insight into how the model is predicting the result, as the weights could alter the way the activation influences the output.
-* **Gradient Activation**: Although you can find the rate of change of the 
+* **Gradient Activation**: Although you can find the rate of change of the activation, aka the gradient times the activation value. If the gradient is too large, then it leads to overshooting or incorrect signs. $$
+y \times \frac{\partial F}{\partial y}
+$$
+* **Internal Influence**: This captures the changes from the baseline to the input value. $$\text{IntInf}_y(x) ::= \int_{\alpha=0}^1 \frac{\partial F(x_0 + \alpha \times (x - x_0))}{\partial y} \, d\alpha$$
