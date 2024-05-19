@@ -22,3 +22,5 @@ They bring up three current methods to compare conductance with, to drive a furt
 y \times \frac{\partial F}{\partial y}
 $$
 * **Internal Influence**: This captures the changes from the baseline to the input value. $$\text{IntInf}_y(x) ::= \int_{\alpha=0}^1 \frac{\partial F(x_0 + \alpha \times (x - x_0))}{\partial y} \, d\alpha$$
+### Property of Conductance
+It basically shares the axiom properties of the[[Axiomatic Attribution for Deep Networks| integrated gradients, sensitivity and invariance]]. Since it is a integrated gradient with just decomposing the neuron out with the chain rule. 
