@@ -20,4 +20,4 @@ The sections defines some areas of introspection of how data is composed in thes
 
 * **Decomposability**: The way features are independently understood within the neurons structures.
 * **Linearity**: how the features are representing directionally in dimensional spaces. 
-* 
+* **Privileged Basis**: 
