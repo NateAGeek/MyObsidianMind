@@ -13,3 +13,11 @@ They then also lead to how this interference can lead to an almost "eureka" mome
 * computation on performance of superposition is possible
 * Phase changes govern superposition of features
 * Superposition can organize features into geometric structures
+
+## Definitions and Motivations: Features, Directions, and Superposition
+
+The sections defines some areas of introspection of how data is composed in these neurons. They define goals of defining what makes the neurons encode data. 
+
+* **Decomposability**: The way features are independently understood within the neurons structures.
+* **Linearity**: how the features are representing directionally in dimensional spaces. 
+* 
