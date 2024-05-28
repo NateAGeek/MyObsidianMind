@@ -21,4 +21,6 @@ The sections defines some areas of introspection of how data is composed in thes
 * **Decomposability**: The way features are independently understood within the neurons structures.
 * **Linearity**: how the features are representing directionally in dimensional spaces. 
 * **Privileged Basis**: The dimensionality of the features take higher priority in the encoded neuron, aka the neuron has more priority of the feature compared to other neurons. Like how some layers in covnets detect edges to identify faces (feature).
-* **Superposition**: Are neurons that have multiple encoding of the 
+* **Superposition**: Are neurons that have multiple encoding of the features that compress relational encodings.
+
+## Empirical Phenomena
