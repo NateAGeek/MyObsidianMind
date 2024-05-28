@@ -25,4 +25,5 @@ The sections defines some areas of introspection of how data is composed in thes
 
 ## Empirical Phenomena
 They go over the current way "features" have been empirically discussed and discovered to encode information. Such as the following:
-* **Word Embeddings**: How word embeddings become vector relations over large trainings. Such as 
+* **Word Embeddings**: How word embeddings become vector relations over large trainings. The vector relations contain a degree of relation, such as V("king") - V("man") + V("woman") = V("queen")
+* **Latent Spaces**: 
