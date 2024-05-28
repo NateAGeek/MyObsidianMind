@@ -38,3 +38,9 @@ The papers defines some general definitions for what a feature could be in many 
 * **Neurons in Sufficiently Large Models**: Basically a neurons ability to compress features to their designated identifiable output. Like how CNNs can start making filters for edges.
 
 ## Features as Directions
+
+The section discusses how neurons use direction in multi-dimensional space to store features and pass them to following neurons. They use linear representations to fit and find the data. They give reasoning to these linear abilities as follows:
+* **Natural Outputs**: How most data tend to follows linear representations and feature extraction layer by layer. 
+* **Linearly Accessible**: How features are subsequently influence in a positive or negative feedback to other layer neurons.
+* **Statistical Efficiency**: Giving neurons vector like directions allows for more non-local generalization, and can provide efficiency in generalization. 
+They then lead to how people believe there might be a tight relation between dimension of features and the neuron encoding. However, that is not the case as they will demonstrate "superposition" of neurons encoding more features. 
