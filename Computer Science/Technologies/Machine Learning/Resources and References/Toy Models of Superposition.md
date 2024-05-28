@@ -1,3 +1,15 @@
 ## Overview
 The paper discusses the way some neurons in models pack unrelated concepts into a single neuron, kinda like a compression of multiple data sets into one node. They call this "polysemanticity" of neurons.
 
+### Introduction
+The paper discusses how models, toy models in their case, encode relatively overlapping data as more features are introduced. They use the concepts of superposition and the interference principles to encode more sparsely data into one neuron. Allowing for the neuron to contribute to compressing more relations than are linearly learned. 
+![[../../../../NotebookAssets/Pasted image 20240527223408.png]]
+
+They then also lead to how this interference can lead to an almost "eureka" moment and explain how models that jump in learning and grokking, where the model generalized after overfitting,
+
+**Key Results**
+* They do demonstrate superposition is real
+* Both monosemantic and polysemantic neurons can form
+* computation on performance of superposition is possible
+* Phase changes govern superposition of features
+* Superposition can organize features into geometric structures
