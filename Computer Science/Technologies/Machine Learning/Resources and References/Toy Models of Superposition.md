@@ -26,7 +26,8 @@ The sections defines some areas of introspection of how data is composed in thes
 ## Empirical Phenomena
 They go over the current way "features" have been empirically discussed and discovered to encode information. Such as the following:
 * **Word Embeddings**: How word embeddings become vector relations over large trainings. The vector relations contain a degree of relation, such as V("king") - V("man") + V("woman") = V("queen")
-* **Latent Spaces**: 
-* **Interpretable Neurons**: 
-* **Universality**:
-* **Polysemantic Neurons**:
+* **Latent Spaces**: It is the dimensional vector encoding of data within the neurological structure. 
+* **Interpretable Neurons**: Neurons that give specific activations that are Interpretable to the basis of humans. Such as RNN and CNNs giving clear activations for edges or contexts.
+* **Universality**: That multiple neurons can contain the same properties later in the network, as in stagnation of multiple points of identification.
+* **Polysemantic Neurons**: Are neurons that can respond and activate to different mixtures of inputs to affect and conclude different outputs. 
+## What are features?
