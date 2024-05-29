@@ -44,4 +44,4 @@ The section discusses how neurons use direction in multi-dimensional space to st
 * **Linearly Accessible**: How features are subsequently influence in a positive or negative feedback to other layer neurons.
 * **Statistical Efficiency**: Giving neurons vector like directions allows for more non-local generalization, and can provide efficiency in generalization. 
 They then lead to how people believe there might be a tight relation between dimension of features and the neuron encoding. However, that is not the case as they will demonstrate "superposition" of neurons encoding more features. 
-
+## Privileged vs Non-privileged Bases
