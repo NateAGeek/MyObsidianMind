@@ -45,3 +45,6 @@ The section discusses how neurons use direction in multi-dimensional space to st
 * **Statistical Efficiency**: Giving neurons vector like directions allows for more non-local generalization, and can provide efficiency in generalization. 
 They then lead to how people believe there might be a tight relation between dimension of features and the neuron encoding. However, that is not the case as they will demonstrate "superposition" of neurons encoding more features. 
 ## Privileged vs Non-privileged Bases
+Privileged and non-privileged both exist within models in this context. However, they do have different abilites.
+
+**Privileged**: Means that the features are aligned with 
