@@ -51,3 +51,19 @@ Privileged and non-privileged both exist within models in this context. However,
 
 **Non-privileged**: Means the directional relations in the activations are arbitrary, and any relational direction could be significant. 
 
+## The Superposition Hypothesis
+The hypothesis suggests that there are encodings in the neuron to allow the neuron to store different feature relations. 
+
+They way that this happens is when the representation of the vectors are almost orthogonal. This leads to the network to encode more features.
+
+Also, neurons tends to want to compress the data and relations, due to the loss functionality. Allowing the neuron to almost sense compression vectors. 
+
+Although there might be an assumed cost to compressing features into neurons, through "noise" or "interference" of directional relations. The benefit might out weight the cost, as highly sparse features, allowing them to encode more features in one form factor.
+
+## Summary: Of Hierarchy of Features Properties
+
+* **Decomposability**: Activations can be decomposed into features, meaning that activations of specific neurons can be observed to activate their encoded features.
+* **Linearity**: Each feature has a relational direction
+* Superposition vs Non-Superposition: Superposition exists if $W^TW$ is not invertible, if it is then it is in non-superposition.
+* **Basis-Aligned**: TODO: REVIEW WITH CHATGPT...
+## Demonstrating Superposition
