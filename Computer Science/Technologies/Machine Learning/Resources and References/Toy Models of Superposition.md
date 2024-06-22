@@ -68,4 +68,5 @@ Although there might be an assumed cost to compressing features into neurons, th
 * **Basis-Aligned**: TODO: REVIEW WITH CHATGPT...
 ## Demonstrating Superposition
 
-On a basic linear model we are 
+On a basic linear model we are storing principal components. However, when we add nonlinearity in our models, we then get different super positions.
+
