@@ -67,3 +67,5 @@ Although there might be an assumed cost to compressing features into neurons, th
 * Superposition vs Non-Superposition: Superposition exists if $W^TW$ is not invertible, if it is then it is in non-superposition.
 * **Basis-Aligned**: TODO: REVIEW WITH CHATGPT...
 ## Demonstrating Superposition
+
+On a basic linear model we are 
