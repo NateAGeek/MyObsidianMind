@@ -70,3 +70,22 @@ Although there might be an assumed cost to compressing features into neurons, th
 
 On a basic linear model we are storing principal components. However, when we add nonlinearity in our models, we then get different super positions.
 
+## Experiment Setup
+
+The paper makes the assertion that a larger model should be able to encode the relation of features to the output with large accuracy via a dense network. However, the experimet objectiblu should be able to down porject, and ultimatly encode the features in a reduced state, and thus create superpositions.
+![[../../../../NotebookAssets/Pasted image 20240701174259.png]]
+
+### The feature Vector ($X$)
+They create synthetic data for the features to learn. This is due to the idea that there is not a foundational most baseline of features that does not have some subjective reasoning. Ie, Visional model, curve fitting, Gabor filter, floppy ear detection... etc. 
+
+##### Feature Design
+* **Feature Sparsity**: in the "natural world" data seems to be sparsity related. Meaning the relation of data across multiple domains lack clear relation. Position of dogs may not be aligned perfectly in vision models. Language models may not always talk amount cats, so the relation of the data is quite far. 
+* **More Features than Neurons**: The number of neurons and features are not the same in most models, and more features are usually available than a neuron can really utilized (aka data is everywhere).
+* **Features vary in importances**: Not all features are relatively important as others. Some can reduce losses more than others and subsequently lead to an efficient the why that neurons learn. For example in the imageNet model, there is a stronger relation of dog species detection with floppy ears than others. 
+###### Fine Details of Synthetic Features
+The models defines a series of vectors $x_i$ each one has an associated degree of sparsity, $S_i$, and importances,$I_i$. The data Sparsity is uniformity distributed between $[0, 1]$.
+
+### The Model ($X -> X^\tect{'}$)
+They utilize two models in their expoeriments. One is a basic linear model and the other is a ReLU model. The objective of the models is to have a baseline of a model that does not exibit superposition. the linear models are know to not have superpositiolns, this is due to the strucute of the model lining up with the data directly. While a ReLu mode has the potential to represent complext or operations and fit data none linearlly. m,
+
+
