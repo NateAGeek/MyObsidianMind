@@ -18,6 +18,6 @@ In JavaScript and are immutable values are at the lowest level of the language. 
 ### Null
 `null` is the absence of an object. Not to be confused with `undefined` meaning the absence of value. `null` is more defined by the user to give better context of the lack of object value being returned.
 ### Undefined
-
+Indicates the absence of a value. 
 
 
