@@ -43,3 +43,26 @@ numbers.forEach((num) => { // num here is contextually to be type number. Since 
 ```
 
 ## Object Types
+Are structured types that have properties that describe the data. You can define them as `key: value` pairs or you can further describe them with typing `[key: string]: value_type`. There is also **optional** properties that can be defined via the "?". This is basically an alias for the expected key type and `undefined`.
+
+## Union Types
+You can also define types are union of one another, union is basically just a "or" validation of the type (so, `x: number | string` means x can be a number or a string).
+#### Working with Union Types
+It is useful to better type check possible types for input, however, it is also important to make sure you are calling appropriate methods.
+```typescript
+function printId(id: number | string) {
+    console.log(id.toUpperCase()); // This generates an error since number does not have toUpperCase method.
+}
+```
+A better way to write this is to do a type check of the is to utilize the `typeof` ability of JavaScript.
+```typescript
+function printId(id: number | string) {
+    if (typeof id === "string") { // Type-checker will now have id as a "string" in this block of code
+        console.log(id.toUpperCase());
+    } else { // This exahustive standpoint of the type will have to be a "number"
+        console.log(id);
+    }
+}
+```
+
+## Type Aliases
