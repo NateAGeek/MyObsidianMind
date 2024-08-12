@@ -39,3 +39,24 @@ console.log(add(2, 3)); // Returns 5 since number + number is valid for function
 console.log(add(2, "3")); // Has a compilation error
 ```
 
+_Note: TypeScript will down level the code to be the most compatible with ES3_
+
+### Strictness
+By default TypeScript will not check for potentially `null/undefined` values. There is a strict flag that when `true` will opt into stricter checking. 
+#### Strict Rules Enabled when True:
+- [`alwaysStrict`](https://www.typescriptlang.org/tsconfig/#alwaysStrict)
+- [`strictNullChecks`](https://www.typescriptlang.org/tsconfig/#strictNullChecks)
+- [`strictBindCallApply`](https://www.typescriptlang.org/tsconfig/#strictBindCallApply)
+- [`strictFunctionTypes`](https://www.typescriptlang.org/tsconfig/#strictFunctionTypes)
+- [`strictPropertyInitialization`](https://www.typescriptlang.org/tsconfig/#strictPropertyInitialization)
+- [`noImplicitAny`](https://www.typescriptlang.org/tsconfig/#noImplicitAny)
+- [`noImplicitThis`](https://www.typescriptlang.org/tsconfig/#noImplicitThis)
+- [`useUnknownInCatchVariab`](https://www.typescriptlang.org/tsconfig/#useUnknownInCatchVariables)
+
+The two that the handbook notes is `noImplicitAny` and `strictNullChecks`.
+#### noImplicitAny
+If the type-checker is not able to infer the types it will fallback to any. This basically is just switching to "JavaScript Style" of parsing the type. With this flag enable, anytime that any is inferred will cause an error on any type that is implicitly any.
+
+#### strictNullChecks
+Forces the type-checker to handle cases of `null/undefined` more explicit to to make sure we check for potential issues.
+
