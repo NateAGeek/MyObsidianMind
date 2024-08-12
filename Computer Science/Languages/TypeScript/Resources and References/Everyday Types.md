@@ -66,3 +66,92 @@ function printId(id: number | string) {
 ```
 
 ## Type Aliases
+TypeScript has the `type` keyword, used to assign aliases to types. This can be simple as directly mapping to a primitive type or aliasing to a complex object structure type. 
+```typescript
+type StringAlias = string;
+
+type ComplexType = {
+    hello: string;
+    world: string;
+    foo: StringAlias;
+};
+```
+## Interfaces
+Interfaces are another way to declare an object type, but only object types. 
+```typescript
+interface ComplexInterface {
+    hello: string;
+    world: string;
+}
+```
+
+## Interface vs. Type Alias
+Although they are basically all the same, the one key difference is a type alias can only be declared once and not extended. The idea is interfaces can be extended and redefined later with more properties. 
+```typescript
+interface Example {
+  title: string;
+}  
+interface Example {
+  temp: any
+}  
+const e: Example = {
+    title: "hello",
+    temp: "temp"
+}; // Both properties are valid and accepted
+```
+While type alias
+```typescript
+type Example = {
+  title: string;
+}  
+type Example = {
+  temp: any
+} // Will generate an error since we can not redefine the type or extend the type.
+```
+
+## Type Assertions
+Asserting the type is sometimes necessary when the return value of something is not clear. For example the `getElementById("cavas_node")` returns a `HTMLElement`, however, if we know the element should be a Canvas, we then have `HTMLCanvasElement` that we can assert via the `as` keyword. 
+```typescript
+const canvas: HTMLCanvasElement = document.getElementById("cavas_node") as HTMLCanvasElement;
+```
+
+#### Double Assertions
+Sometimes you might really need to take control of the asserting of a type. That means the type you have might have semi overlap in typing of another type you are trying to assert. 
+```typescript
+type A = {
+    a: number;
+    b: string;
+};
+
+type B = {
+    a: string;
+    someStr: string;
+};
+
+let a: A = {a: 1, b: "2"};
+let b: B = a as unknown as B; // We need to cast to unknown since property "a" overlaps
+```
+Casting to `unknown` is required since there can be overlap in the types of `A` and `B`. Although this is not good practice. It is an example of taking control of the type-checker, and forcing types that you may have better knowledge of. We need to cast it to `unknown` first because the `unknown` type means it can be any type (but not assignable). So we are casting it basically to anything and then casting it to type `B`. 
+
+## Literal Types
+`const` is the only keyword that will force the type to be literally the value.
+```typescript
+const hello = "world";
+// The type of hello is not string, but actually "world". 
+```
+You can explicitly state fixed types too that are of primitive. For example a function like so:
+```typescript
+function example(x: "one" | "two" | 3) {
+    // x now has to be a literal string of "one", "two", or 3
+    console.log(x);
+}
+console.log(example("one")) //Works
+console.log(example(4)) // Fails since for is not leterally "one", "two", or 3
+```
+To define Objects as literal, you need to provide the `as const` at the end. That will define all the properties as `const` and thus force them to be literal for the type.
+```typescript
+const req = { url: "https://example.com", method: "GET" } as const;
+handleRequest(req.url, req.method); // This now works because method is literal "GET".
+```
+
+
