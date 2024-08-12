@@ -154,4 +154,7 @@ const req = { url: "https://example.com", method: "GET" } as const;
 handleRequest(req.url, req.method); // This now works because method is literal "GET".
 ```
 
+## null and undefined
+`null` and `undefined` are two primitives in JavaScript that TypeScript has as types. However, depending on strict mode or `strictNullChecks` mode on. You will need to test for `null`.
 
+You can bypass this with the `!` **Non-null Assertion Operator** , this will tell the type-checker this can't be `undefined` or `null`. But this is an assumption, not a transpiled check. 
