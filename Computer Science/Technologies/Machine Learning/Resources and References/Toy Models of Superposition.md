@@ -88,4 +88,13 @@ The models defines a series of vectors $x_i$ each one has an associated degree o
 ### The Model ($X -> X^{'}$)
 They utilize two models in their experiments. One is a basic linear model and the other is a ReLU model. The objective of the models is to have a baseline of a model that does not exhibit superposition. the linear models are know to not have superpositions, this is due to the structure of the model lining up with the data directly. While a ReLu function has the potential to represent complex or operations and fit data none linearly. 
 
+We are given an input as $x$ in a higher dimensional space and we want to compress its features into lower dimensional space using a weighted matrix $W$ to a vector $h$
+
+However, to recover the original input vector $x$ we need to need to use the $W^T$ to inverse the $h$ relation. We add a bias to account for possible missing values as $b$.
+
+#### Differences in Recovery of Information Between Models
+
+**Linear Models**: The linear models is basically focusing on the Orthogonal components of the data. This is due to the nature of a linear model not able to learn non-linear relation, and thus will only have representation of prominent directions and features along the main axis. It is basically a PCA projection, capturing only the most prominent directions and features of the input data.
+
+**ReLU Model**: The ReLU activation function adds complexity in recovering the original $x$ vector due to the complexity in transformations due to non-linearity. This allows the $W$ to compress and capture features. This allows the neurons to better store complex relations and features, this results in more sparser and complex feature interactions that are harder to disentangle.
 
