@@ -86,6 +86,6 @@ They create synthetic data for the features to learn. This is due to the idea th
 The models defines a series of vectors $x_i$ each one has an associated degree of sparsity, $S_i$, and importances,$I_i$. The data Sparsity is uniformity distributed between $[0, 1]$.
 
 ### The Model ($X -> X^{'}$)
-They utilize two models in their experiments. One is a basic linear model and the other is a ReLU model. The objective of the models is to have a baseline of a model that does not exhibit superposition. the linear models are know to not have superpositions, this is due to the structure of the model lining up with the data directly. While a ReLu function has the potential to represent complex or operations and fit data none linearly. Since ReLU functions allow for the 
+They utilize two models in their experiments. One is a basic linear model and the other is a ReLU model. The objective of the models is to have a baseline of a model that does not exhibit superposition. the linear models are know to not have superpositions, this is due to the structure of the model lining up with the data directly. While a ReLu function has the potential to represent complex or operations and fit data none linearly. 
 
 
