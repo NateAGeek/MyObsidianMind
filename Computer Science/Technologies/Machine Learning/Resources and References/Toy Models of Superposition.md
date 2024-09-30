@@ -108,3 +108,6 @@ The first one is just the summation and relation of all W vectors and their meas
 The secondary measurement is to see how the $WW^T$ look on a matrix. This allows us to visually see what areas in the matrix is being encoded and entangle in super position. Allowing and showing how other neurons encode related data across features to better learn data. 
 
 ![[../../../../NotebookAssets/Pasted image 20240929195007.png]]
+
+## Mathematical Understanding
+To understand why linear models inability to learn features in a superposition compression like relu. The linear model basically does PCA. 
