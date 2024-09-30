@@ -98,3 +98,5 @@ However, to recover the original input vector $x$ we need to need to use the $W^
 
 **ReLU Model**: The ReLU activation function adds complexity in recovering the original $x$ vector due to the complexity in transformations due to non-linearity. This allows the $W$ to compress and capture features. This allows the neurons to better store complex relations and features, this results in more sparser and complex feature interactions that are harder to disentangle.
 
+## Basic Results
+They analyzed the results via the comparing a linear and relu model. The properties used 20 neurons and 5 features. The linear model learned direct relations of features, and there was no encoding of superpositions of the data. The 
