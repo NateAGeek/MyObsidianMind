@@ -105,4 +105,6 @@ Utilize two types of visualizations and mathematical relations for representing 
 
 The first one is just the summation and relation of all W vectors and their measurement of superposition. This is basically take the dot product of a feature matrix and seeing if there is any other feature overlap with the one being observed, $i$. They do this via a summation on all elements $i \neq j$: $(WW^T)_{ij}​=W_i​ W_j​$ . If it is 0 then the relation is only feature specific. However, if there is any number greater than zero, the encoding of other features is present since the dot product measurement is saying there is a non-orthogonal relation. 
 
-The secondary measurement is to see
+The secondary measurement is to see how the $WW^T$ look on a matrix. This allows us to visually see what areas in the matrix is being encoded and entangle in super position. Allowing and showing how other neurons encode related data across features to better learn data. 
+
+![[../../../../NotebookAssets/Pasted image 20240929195007.png]]
