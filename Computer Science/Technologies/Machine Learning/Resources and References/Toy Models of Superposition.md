@@ -99,4 +99,10 @@ However, to recover the original input vector $x$ we need to need to use the $W^
 **ReLU Model**: The ReLU activation function adds complexity in recovering the original $x$ vector due to the complexity in transformations due to non-linearity. This allows the $W$ to compress and capture features. This allows the neurons to better store complex relations and features, this results in more sparser and complex feature interactions that are harder to disentangle.
 
 ## Basic Results
-They analyzed the results via the comparing a linear and relu model. The properties used 20 neurons and 5 features. The linear model learned direct relations of features, and there was no encoding of superpositions of the data. The 
+They analyzed the results via the comparing a linear and ReLU model. The properties used 20 neurons and 5 features. The linear model learned direct relations of features, and there was no encoding of superpositions of the data.
+
+Utilize two types of visualizations and mathematical relations for representing $WW^T$ .
+
+The first one is just the summation and relation of all W vectors and their measurement of superposition. This is basically take the dot product of a feature matrix and seeing if there is any other feature overlap with the one being observed, $i$. They do this via a summation on all elements $i \neq j$: $(WW^T)_{ij}​=W_i​ W_j​$ . If it is 0 then the relation is only feature specific. However, if there is any number greater than zero, the encoding of other features is present since the dot product measurement is saying there is a non-orthogonal relation. 
+
+The secondary measurement is to see
