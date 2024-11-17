@@ -42,8 +42,11 @@ Artist were taking a adapted perspective of the new world post/during the indust
 #### The Bather
 Inspiring many artist of the time, and inspiring Pablo Picasso as he stated "(Cézanne) was my one and only master!". A lot of Paul's work tend to work with a controlled pallet and playing with relationships of figures and backgrounds. Maintaining a flat space but pronouncing figures. One of the ways Cézanne played with space was by pushing all the details to the foreground. Most traditional paintings depth would be influential of showing the whole scene, with high detailed backgrounds. However, in The Bather, the person if brought forward by disregarding the background.
 ![[../../../../NotebookAssets/Pasted image 20241117144001.png]]
-
+#### Still Life with Apples
+Although this starts to match some degree of faithfull realistic representation. The piece still breaks away from the natural aspects of perspective and depth. This was purposefully done to create a shifting tone and although the shapes and objects are real, they have slight abstractions to change the representation. 
+![[../../../../NotebookAssets/Pasted image 20241117173819.png]]
 ### Paul Gauguin
 #### Still life with Three Puppies
-Paul Gaugin broke away from the naturalistic depictions. He was introduced to illustrations from japan prints by friend and fellow Vincent van Gogh. 
+Paul Gaugin broke away from the naturalistic depictions, such as using dark blues as outlines or abstractions of perspective and objects. He was introduced to illustrations from japan prints by friend and fellow Vincent van Gogh that inspired stylistic paintings.
 ![[../../../../NotebookAssets/Pasted image 20241117152846.png]]
+### 
