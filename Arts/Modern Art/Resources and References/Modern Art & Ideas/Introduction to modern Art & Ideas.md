@@ -35,3 +35,4 @@ https://www.youtube.com/watch?v=2mfyQsiOzi0
 ## What is modern art?
 Modernism and modern art can be traced to the Industrial Revolution. Much of original art pre modern art were commissioned by wealthy patrons or institutions, primarily the church. However, with the Industrial Revolution technology started to promote new forms of art and expressionism of people. Artist started to share art base on their personal experiences. With Sigmund Freud's "The interpretation of Dreams" the idea of the subconscious mind, leading to artists to explore symbolism. Artist also started to explore more abstractions of color, materials, new techniques and mediums.
 
+## Painting modern life
