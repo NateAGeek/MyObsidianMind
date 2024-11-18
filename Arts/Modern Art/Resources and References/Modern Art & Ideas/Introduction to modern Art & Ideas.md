@@ -5,9 +5,6 @@ Some notable styles of expression and challenges of pre-modern art are:
 * Theoretical Inquiry
 * Collective Social Change
 * Experimenting with Materials
-
-## Artist Referenced
-
 ### Hector Guimard
 #### Entrance Gate to Paris Subway (Material)
 Towards the end of nineteenth century there was an emergence of [[../../Art Nouveau (New Art)|Art Nouveau (New Art)]]. The idea was to break away from historic and classical models, and find a way to use organic stylized sinuous curves, with an expression of dynamism and movement given naturally by the organic flow. You can see these styles in Hector Guimard's Metro Entrance for the Paris Subway. The organic and whipping curves with the heavy organic magnitude of the bulb, analogies to a flower bud ready to bloom (and maybe when it lights at night it is blooming....). 
@@ -26,7 +23,7 @@ The main characteristic of this art was its demonstration in new styles of print
 Paula was an artist that took many roles of creating new and stylized self portraits. Using difference from than typical realism. However, her works can be traced studying ancient sculpture and Egyptian Mummy portraits. Her art is characterized by psychological introspection and material and stylistic experimentation. She influence Henri Matisse and Pablo Picasso.
 ![[../../../../NotebookAssets/Pasted image 20241108121147.png]]
 ### Paul Strand, charles Sheeler
-### Manhatta (1921)
+#### Manhatta (1921)
 
 Considered to be the first American Avant-garde film. The advance in technology has allowed artist to capture video of the bustling nature of Manhattan. Inspired by Walt Whitman's "Mannahatta". if follows the early morning farry to the sunset view of a skyscraper. 
 ![[../../../../NotebookAssets/Pasted image 20241108172801.png]]
@@ -49,4 +46,16 @@ Although this starts to match some degree of faithfull realistic representation.
 #### Still life with Three Puppies
 Paul Gaugin broke away from the naturalistic depictions, such as using dark blues as outlines or abstractions of perspective and objects. He was introduced to illustrations from japan prints by friend and fellow Vincent van Gogh that inspired stylistic paintings.
 ![[../../../../NotebookAssets/Pasted image 20241117152846.png]]
-### 
+### Henri Matisse
+#### Landscape at Collioure
+Although the piece is unprimed and the raw canvas is exposed, with light sketchy strokes, it is a completed piece. Breaking away from the expectations, and meant to project a more instinctive spontaneous bold expression of a landscape. It is described as to project wildness and an emotional response to the changing world.
+![[../../../../NotebookAssets/Pasted image 20241117180100.png]]
+
+## Rise of the modern city
+Many western nations found peace at the turn of the 20th century. There was innovations in transpiration, ideas/technology, and immigration. Manufacturing started to become more wide spread and the access to goods and resources was becoming more accessible. Although this progress brought on positive advancements, people were still in fear machines would take over human beings. 
+## Modern landscapes
+Although landscape paintings were no new to the modern art era, the style was popular for modern artist. However, as most of the time, artist were breaking away from traditional styles and trying new approaches to representing landscapes. Such as color, texture, stylization, and realistic depictions(abstractions on nature). Modes of transportation and ease of transferring equipment, paint tubes letting paint be transportable and last longer, allowed artist to also explore more of urban world. 
+## Modern Portraits
+Portraits were also something that became influenced by the times, desire to express the inner most unapparent details of the subcutaneous or message of the subject. Artist would use stylized self identity with abstractions and color, almost escaping the traditional realism, and express a deeper emotion. 
+## Popular Culture
+In France during the 19th century the entertainment for the general public grew. The ability to drink, see shows, and socialize with high spirits, allowed artist more access to the public. Gaining traction of expressing themselves and the art with performers gave a new wave of interest in art.
