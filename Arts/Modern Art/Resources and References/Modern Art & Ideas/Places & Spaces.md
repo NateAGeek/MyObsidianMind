@@ -50,3 +50,7 @@ The couple over course of 40 years captured the change of the European and Ameri
 ### Three Gorges Dam Migration
 
 ![[../../../../NotebookAssets/Pasted image 20241119113841.png]]
+Basically there was a dam, that was in China to prevent flooding. It displaced people and this work depicts these struggles with a classical landscape Chinese painting. 
+
+## [[Louis I. Kahn]]
+### Sher-e-Bangla Nagar
