@@ -54,3 +54,10 @@ Basically there was a dam, that was in China to prevent flooding. It displaced p
 
 ## [[Louis I. Kahn]]
 ### Sher-e-Bangla Nagar
+![[../../../../NotebookAssets/Pasted image 20241202190035.png]]
+Was a building made for the Pakistani government in 1963. It was to use simple shapes and capture the light into the interior. Was meant to stand as a symbol of unity. 
+
+## [[Zarina]]
+### Home is a foreign Place
+![[../../../../NotebookAssets/Pasted image 20241202190639.png]]
+Were a series of blocks that depicted roads, walls, pieces of Zarina's home that she only described feeling, and not direct depictions. 
