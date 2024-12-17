@@ -55,4 +55,14 @@ As a refuge from Palestinian during the Labanses civil war, she was stuck in Lon
 ## [[Howardena Pindell]]
 ### Free, white, and 21
 ![[../../../../NotebookAssets/Pasted image 20241216175024.png]]
-Was a video series that was an expression of the types of oppression African Americans faces curing and pre the Civil Rights Act of 1964. 
+Was a video series that was an expression of the types of oppression African Americans faces curing and pre the Civil Rights Act of 1964. She created a video of herself in white face expressing the culture and race conflicts that faced the civil rights movement. 
+
+## [[On Kawara]]
+### I Got Up...
+![[../../../../NotebookAssets/Pasted image 20241216181445.png]]
+On Kawara did a interesting art piece. He created his art with getting two post cards every day and sent them out to his friends and people. They started with a simple "I got up" and then details about time and location. He did this for 11 years and it was a interesting glimpse into his day by day. 
+
+## [[Kara Walker]]
+### 40 Acres of Mules
+![[../../../../NotebookAssets/Pasted image 20241216181658.png]]
+Kara Walker made historical alligories that potraied the disservice and mistreatment of african americans during the blm movement. Although exagerated characters, it was an expression of the history that pleuges history. 
