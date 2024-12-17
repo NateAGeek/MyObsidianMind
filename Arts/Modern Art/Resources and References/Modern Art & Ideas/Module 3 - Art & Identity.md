@@ -54,3 +54,5 @@ As a refuge from Palestinian during the Labanses civil war, she was stuck in Lon
 
 ## [[Howardena Pindell]]
 ### Free, white, and 21
+![[../../../../NotebookAssets/Pasted image 20241216175024.png]]
+Was a video series that was an expression of the types of oppression African Americans faces curing and pre the Civil Rights Act of 1964. 
