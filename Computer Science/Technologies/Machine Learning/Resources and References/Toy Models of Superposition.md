@@ -111,3 +111,9 @@ The secondary measurement is to see how the $WW^T$ look on a matrix. This allows
 
 ## Mathematical Understanding
 To understand why linear models inability to learn features in a superposition compression like relu. The linear model basically does PCA. 
+
+The section creates the relation as to why the model will form "feature ebefits" and then "interferance". The interferance can be seen as the part of the loss function that tries to store data in an overllapping fashion, to compress and represent more relations than is avalible demensially.
+
+The feature benefit is the relatation of the model that is just trying to learn the relation of the input to the output.  
+
+The addition of ReLu version of the loss funciton, adds interferance in a negative ability. This allows the model to better learn complex relations. 
